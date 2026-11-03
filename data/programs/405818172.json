@@ -9,6 +9,8 @@
   "semesters": 6,
   "lp": 180,
   "startTerms": ["WiSe"],
+  "edition": null,
+  "expiring": false,
   "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/405818172",
   "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/bachelor/kognitiveinformatik/pdf",
   "scrapedAt": "2026-11-03",

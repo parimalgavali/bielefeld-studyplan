@@ -6,6 +6,7 @@ import {
   missingPflicht,
   resolveItem,
   semesterLabel,
+  semestersAfter,
   totalLp,
   warnings,
   type Plan,
@@ -38,6 +39,10 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
   const total = totalLp(program, plan);
   const missing = missingPflicht(program, plan);
   const warns = warnings(program, plan);
+  const late = rules?.validUntil ? semestersAfter(plan, rules.validUntil) : [];
+  const lastLabel = rules?.validUntil
+    ? semesterLabel({ startTerm: rules.validUntil.term, startYear: rules.validUntil.year }, 0)
+    : "";
   const areas = rules ? areaProgress(program, plan, rules) : null;
   const groups = !rules
     ? [...new Set(program.modules.map((m) => m.group[lang] || m.group.de))].map((g) => ({
@@ -134,12 +139,17 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
 
       <section>
         <h3 className="mb-2 text-xs uppercase tracking-wide text-neutral-500">
-          {tr(lang, "warningsTitle")} ({warns.length})
+          {tr(lang, "warningsTitle")} ({warns.length + late.length})
         </h3>
-        {warns.length === 0 ? (
+        {warns.length + late.length === 0 ? (
           <p className="text-neutral-500">{tr(lang, "none")}</p>
         ) : (
           <ul className="flex flex-col gap-1.5">
+            {late.map((i) => (
+              <li key={`late-${i}`} className="text-amber-300/90">
+                {i + 1}. {semesterLabel(plan, i)} {tr(lang, "afterValidity", { last: lastLabel })}
+              </li>
+            ))}
             {warns.map((w, i) => {
               const item = resolveItem(program, plan, w.key);
               const name = item ? item.name[lang] || item.name.de : w.key;

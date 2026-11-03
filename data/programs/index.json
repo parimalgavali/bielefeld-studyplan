@@ -8,7 +8,28 @@
     "variant": "",
     "degree": "Master of Science",
     "semesters": 4,
-    "lp": 120
+    "lp": 120,
+    "edition": {
+      "de": "FsB 2025",
+      "en": "FsB 2025"
+    },
+    "expiring": false
+  },
+  {
+    "id": "81435339",
+    "name": {
+      "de": "Naturwissenschaftliche Informatik",
+      "en": "Informatics for the Natural Sciences"
+    },
+    "variant": "",
+    "degree": "Master of Science",
+    "semesters": 4,
+    "lp": 120,
+    "edition": {
+      "de": "FsB 2016, auslaufend",
+      "en": "FsB 2016, expiring"
+    },
+    "expiring": true
   },
   {
     "id": "453996665",
@@ -19,7 +40,9 @@
     "variant": "1-Fach (fw)",
     "degree": "Bachelor of Science",
     "semesters": 6,
-    "lp": 180
+    "lp": 180,
+    "edition": null,
+    "expiring": false
   },
   {
     "id": "453998098",
@@ -30,7 +53,9 @@
     "variant": "Kernfach (fw)",
     "degree": "Bachelor of Science",
     "semesters": 6,
-    "lp": 120
+    "lp": 120,
+    "edition": null,
+    "expiring": false
   },
   {
     "id": "405818172",
@@ -41,7 +66,9 @@
     "variant": "1-Fach (fw)",
     "degree": "Bachelor of Science",
     "semesters": 6,
-    "lp": 180
+    "lp": 180,
+    "edition": null,
+    "expiring": false
   },
   {
     "id": "569518710",
@@ -52,7 +79,9 @@
     "variant": "",
     "degree": "Master of Science",
     "semesters": 4,
-    "lp": 120
+    "lp": 120,
+    "edition": null,
+    "expiring": false
   },
   {
     "id": "366747897",
@@ -63,7 +92,9 @@
     "variant": "",
     "degree": "Master of Science",
     "semesters": 4,
-    "lp": 120
+    "lp": 120,
+    "edition": null,
+    "expiring": false
   },
   {
     "id": "189447354",
@@ -74,6 +105,8 @@
     "variant": "",
     "degree": "Master of Science",
     "semesters": 4,
-    "lp": 120
+    "lp": 120,
+    "edition": null,
+    "expiring": false
   }
 ]

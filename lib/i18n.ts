@@ -38,6 +38,11 @@ const STRINGS = {
   share: { de: "Link teilen", en: "Share link" },
   copied: { de: "Link kopiert", en: "Link copied" },
   reset: { de: "Plan leeren", en: "Clear plan" },
+  theme: { de: "Hell/Dunkel umschalten", en: "Toggle light/dark" },
+  afterValidity: {
+    de: "liegt nach {last} – dann gilt diese FsB nicht mehr",
+    en: "is after {last} – this FsB no longer applies then",
+  },
   resetConfirm: { de: "Den ganzen Plan leeren?", en: "Clear the whole plan?" },
   details: { de: "Details", en: "Details" },
   close: { de: "Schließen", en: "Close" },

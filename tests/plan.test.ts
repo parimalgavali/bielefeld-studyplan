@@ -8,11 +8,12 @@ import {
   missingPflicht,
   prerequisiteCodes,
   semesterLabel,
+  semestersAfter,
   semesterTerm,
   totalLp,
   warnings,
 } from "../lib/plan";
-import { RULES } from "../lib/rules";
+import { areaCandidates, RULES } from "../lib/rules";
 import type { Module, Program } from "../lib/types";
 
 const mod = (code: string, lp: number, extra: Partial<Module> = {}): Module => ({
@@ -38,6 +39,8 @@ const program: Program = {
   variant: "",
   degree: "Master of Science",
   semesters: 4,
+  edition: null,
+  expiring: false,
   lp: 120,
   startTerms: ["WiSe", "SoSe"],
   ekvvUrl: "",
@@ -123,6 +126,26 @@ describe("NWI area rules", () => {
     const again = Object.fromEntries(areaProgress(program, p, RULES["462589642"]).map((a) => [a.id, a]));
     expect(again.vnat.planned).toBe(20);
     expect(again.grundlagen.planned).toBe(0);
+  });
+});
+
+describe("old NWI FsB (2016) rules", () => {
+  const old = RULES["81435339"];
+  it("maps pool modules, re-versioned codes and science prefixes to areas", () => {
+    expect(areaCandidates(old, "39-Inf-ML")).toEqual(["grundlagen"]);
+    expect(areaCandidates(old, "39-Inf-NN_ver2")).toEqual(["grundlagen"]);
+    expect(areaCandidates(old, "39-M-Inf-DL")).toEqual(["vinf"]);
+    expect(areaCandidates(old, "39-Inf-WR")).toEqual(["vmath"]);
+    expect(areaCandidates(old, "20-BM2_b")).toEqual(["vnat"]);
+    expect(areaCandidates(old, "39-M-Inf-P1_NWI")).toEqual(["pflicht"]);
+    expect(old.areas.reduce((s, a) => s + a.lp, 0)).toBe(120);
+  });
+
+  it("flags planned semesters after the last valid semester", () => {
+    let p = emptyPlan(program, 2026);
+    p = { ...p, semesters: [["a"], [], ["b"], ["c"]] };
+    // WiSe 26/27, SoSe 27, WiSe 27/28, SoSe 28
+    expect(semestersAfter(p, old.validUntil!)).toEqual([3]);
   });
 });
 

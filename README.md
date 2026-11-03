@@ -6,9 +6,11 @@ inspired by [UCI 4 Year Planner](https://github.com/calebvergene/uci4yearplan).
 - Pick your programme and start semester (WiSe/SoSe); drag modules from the eKVV module list into semesters.
 - Live checks: total LP vs. the programme target, missing Pflicht modules, modules placed in a semester
   they are not offered in (Turnus), and prerequisites from the module description that are not planned earlier.
-- M.Sc. Naturwissenschaftliche Informatik also checks every Wahlpflicht area from its FsB (01.04.2025).
+- Current focus: M.Sc. Naturwissenschaftliche Informatik in both FsB versions — 2025 (variante 462589642) and the expiring
+  2016 version (variante 81435339) — with every Wahlpflicht area from the respective FsB checked. Other programmes are
+  scraped but hidden in the picker (`LISTED` in `lib/programs.ts`) until their FsB rules are written.
 - Custom modules for anything not in the list (e.g. Individueller Ergänzungsbereich).
-- German / English, plan saved in your browser, share a plan as a link. No account, no server.
+- German / English, light / dark theme, plan saved in your browser, share a plan as a link. No account, no server.
 
 > Not affiliated with Bielefeld University. The Fächerspezifische Bestimmungen (FsB) of your programme are binding.
 

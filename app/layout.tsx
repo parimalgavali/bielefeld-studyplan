@@ -11,9 +11,15 @@ export const metadata: Metadata = {
     "Unofficial drag-and-drop semester planner for Bielefeld University degree programmes, using module data from the eKVV.",
 };
 
+// Runs before paint so the saved or system theme is applied without a flash.
+const THEME_SCRIPT = `try{var t=localStorage.getItem("bielefeld-studyplan:theme");if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.dataset.theme=t}catch(e){}`;
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="dark" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
     </html>
   );

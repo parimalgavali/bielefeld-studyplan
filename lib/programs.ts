@@ -1,7 +1,10 @@
 import index from "@/data/programs/index.json";
 import type { Program, ProgramSummary } from "./types";
 
-export const PROGRAMS = index as ProgramSummary[];
+/** Programmes shown in the picker. The others are scraped but hidden until their FsB rules are written. */
+const LISTED = ["462589642", "81435339"];
+
+export const PROGRAMS = (index as ProgramSummary[]).filter((p) => LISTED.includes(p.id));
 
 export async function loadProgram(id: string): Promise<Program> {
   const mod = await import(`@/data/programs/${id}.json`);

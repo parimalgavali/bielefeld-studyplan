@@ -28,6 +28,9 @@ export interface Program {
   semesters: number;
   lp: number;
   startTerms: SemesterType[];
+  /** FsB version label for programmes listed in several versions. */
+  edition: Text | null;
+  expiring: boolean;
   ekvvUrl: string;
   fsbUrl: string | null;
   scrapedAt: string;
@@ -41,4 +44,6 @@ export interface ProgramSummary {
   degree: string;
   semesters: number;
   lp: number;
+  edition: Text | null;
+  expiring: boolean;
 }

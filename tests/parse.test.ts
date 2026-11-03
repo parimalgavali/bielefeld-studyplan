@@ -22,11 +22,31 @@ describe("parseProgramOverview", () => {
     expect(p.fsbPath).toBe("/sinfo/publ/master-as/naturwissenschaftlicheinformatik/pdf");
   });
 
+  it("flags the old NWI FsB version as expiring", () => {
+    const old = parseProgramOverview(fixture("variante-81435339"));
+    expect(old.expiring).toBe(true);
+    expect(old.lp).toBe(120);
+    expect(old.semesters).toBe(4);
+    expect(old.fsbPath).toBe("/sinfo/publ/master-as/81435334/pdf");
+    expect(parseProgramOverview(fixture("variante-462589642")).expiring).toBe(false);
+  });
+
   it("reads the variant label of the Informatik Kernfach", () => {
     const p = parseProgramOverview(fixture("variante-453998098"));
     expect(p.name).toBe("Informatik");
     expect(p.variant).toBe("Kernfach (fw)");
     expect(p.semesters).toBe(6);
+  });
+});
+
+describe("parseModuleList (old NWI FsB)", () => {
+  it("includes the expiring modules section", () => {
+    const rows = parseModuleList(fixture("variante-81435339-m"));
+    expect(rows).toHaveLength(102);
+    expect(rows.filter((r) => r.binding === "Pflicht").map((r) => r.code)).toEqual([
+      "39-M-Inf-MA_NWI",
+      "39-M-Inf-P1_NWI",
+    ]);
   });
 });
 

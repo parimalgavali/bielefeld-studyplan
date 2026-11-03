@@ -23,6 +23,7 @@ export interface ProgramOverview {
   lp: number;
   startTerms: SemesterType[];
   fsbPath: string | null;
+  expiring: boolean;
 }
 
 function labelled(root: cheerio.Cheerio<never>, $: cheerio.CheerioAPI, label: string): string {
@@ -55,6 +56,7 @@ export function parseProgramOverview(html: string): ProgramOverview {
     lp: lpMatch ? parseInt(lpMatch[1], 10) : 0,
     startTerms: startTerms.length ? startTerms : ["WiSe"],
     fsbPath: fsb ? fsb.split(";")[0] : null,
+    expiring: root.find(".hinweis_alte_fsb").length > 0,
   };
 }
 

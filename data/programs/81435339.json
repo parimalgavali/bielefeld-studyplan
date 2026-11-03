@@ -1,0 +1,3067 @@
+{
+  "id": "81435339",
+  "name": {
+    "de": "Naturwissenschaftliche Informatik",
+    "en": "Informatics for the Natural Sciences"
+  },
+  "variant": "",
+  "degree": "Master of Science",
+  "semesters": 4,
+  "lp": 120,
+  "startTerms": ["WiSe"],
+  "edition": {
+    "de": "FsB 2016, auslaufend",
+    "en": "FsB 2016, expiring"
+  },
+  "expiring": true,
+  "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/81435339",
+  "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/81435334/pdf",
+  "scrapedAt": "2026-11-03",
+  "modules": [
+    {
+      "code": "39-M-Inf-MA_NWI",
+      "ekvvId": "27461554",
+      "name": {
+        "de": "Masterarbeit",
+        "en": "Master's Thesis"
+      },
+      "lp": 30,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Empfohlen für die Ausgabe der Masterarbeit ist der Abschluss der Module, die für die ersten 2 Semester vorgesehen sind.",
+        "en": "Empfohlen für die Ausgabe der Masterarbeit ist der Abschluss der Module, die für die ersten 2 Semester vorgesehen sind."
+      }
+    },
+    {
+      "code": "39-Inf-11",
+      "ekvvId": "61394907",
+      "name": {
+        "de": "Mensch-Maschine-Interaktion",
+        "en": "Human-Machine Interaction"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-FL_a",
+      "ekvvId": "420564257",
+      "name": {
+        "de": "Formale Logik",
+        "en": "Formal Logic"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD und 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD und 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-ML",
+      "ekvvId": "420564638",
+      "name": {
+        "de": "Grundlagen Maschinelles Lernen",
+        "en": "Introduction to Machine Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:Der erfolgreiche Abschluss der Module 39-Inf-1 Algorithmen und Datenstrukturen, 24-M-INF1 Mathematik für Informatik I und 24-M-INF2 Mathematik für Informatik IIODERder erfolgreiche Abschluss der Module 39-Inf-PP Prinzipien der Programmierung, 24-M-INF1_a Mathematik für Informatik I bzw. 24-M-INF1_a_ub und 24-M-INF2_a Mathematik für Informatik II.In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht.",
+        "en": "Vorausgesetzte Module:Der erfolgreiche Abschluss der Module 39-Inf-1 Algorithmen und Datenstrukturen, 24-M-INF1 Mathematik für Informatik I und 24-M-INF2 Mathematik für Informatik IIODERder erfolgreiche Abschluss der Module 39-Inf-PP Prinzipien der Programmierung, 24-M-INF1_a Mathematik für Informatik I bzw. 24-M-INF1_a_ub und 24-M-INF2_a Mathematik für Informatik II.In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht."
+      },
+      "recommendedKnowledge": {
+        "de": "39-Inf-13 Grundlagen künstlicher Kognition",
+        "en": "39-Inf-13 Grundlagen künstlicher Kognition"
+      }
+    },
+    {
+      "code": "39-Inf-SE_a",
+      "ekvvId": "70750995",
+      "name": {
+        "de": "Software Engineering",
+        "en": "Software Engineering"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr.-Ing. Sebastian Wrede",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-Inf-2_a oder 39-Inf-PP.",
+        "en": "Erfolgreicher Abschluss des Moduls 39-Inf-2_a oder 39-Inf-PP."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-13_b",
+      "ekvvId": "420742960",
+      "name": {
+        "de": "Grundlagen künstlicher Kognition",
+        "en": "Foundations of Artificial Cognition"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Das Modul baut auf Kenntnissen in Linearer Algebra und Analysis (entsprechend 24-M-INF1 bzw. 24-M-INF1_a bzw. 24-M-INF1_a_ub und 24-M-INF2 bzw. 24-M-INF2_a) und Programmierkenntnissen in Java (entsprechend 39-Inf-1 bzw. 39-Inf-PP) auf.Kenntnisse in Objektorientierte Programmierung (entsprechend 39-Inf-2_a bzw. 39-Inf-PP) werden empfohlen.",
+        "en": "Das Modul baut auf Kenntnissen in Linearer Algebra und Analysis (entsprechend 24-M-INF1 bzw. 24-M-INF1_a bzw. 24-M-INF1_a_ub und 24-M-INF2 bzw. 24-M-INF2_a) und Programmierkenntnissen in Java (entsprechend 39-Inf-1 bzw. 39-Inf-PP) auf.Kenntnisse in Objektorientierte Programmierung (entsprechend 39-Inf-2_a bzw. 39-Inf-PP) werden empfohlen."
+      }
+    },
+    {
+      "code": "39-Inf-NN",
+      "ekvvId": "695569730",
+      "name": {
+        "de": "Grundlagen Neuronaler Netze",
+        "en": "Introduction to Neural Networks"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-ML vermittelt werden. Der vorherige Abschluss dieses oder eines gleichwertigen Moduls wird daher dringend empfohlen.",
+        "en": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-ML vermittelt werden. Der vorherige Abschluss dieses oder eines gleichwertigen Moduls wird daher dringend empfohlen."
+      }
+    },
+    {
+      "code": "39-M-Inf-ASE",
+      "ekvvId": "44653409",
+      "name": {
+        "de": "Autonomous Systems Engineering",
+        "en": "Autonomous Systems Engineering"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ulrich Rückert",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundkenntnisse in Algorithmen und DatenstrukturenGrundkenntnisse der Programmierung in C, C++ oder Java",
+        "en": "Grundkenntnisse in Algorithmen und DatenstrukturenGrundkenntnisse der Programmierung in C, C++ oder Java"
+      }
+    },
+    {
+      "code": "39-M-Inf-S",
+      "ekvvId": "27461574",
+      "name": {
+        "de": "Sensorik",
+        "en": "Sensorics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ulrich Rückert",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, die beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können",
+        "en": "Kompetenzen, die beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können"
+      }
+    },
+    {
+      "code": "39-M-Inf-P1_NWI",
+      "ekvvId": "27461568",
+      "name": {
+        "de": "Projekt 1",
+        "en": "Project 1"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-10",
+      "ekvvId": "26787733",
+      "name": {
+        "de": "Datenbanken",
+        "en": "Database Systems"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 oder 39-Inf-3,Grundkenntnisse Mengentheorie, PHP Kenntnisse sind ebenfalls von Vorteil, aber keine Voraussetzung",
+        "en": "39-Inf-1 oder 39-Inf-3,Grundkenntnisse Mengentheorie, PHP Kenntnisse sind ebenfalls von Vorteil, aber keine Voraussetzung"
+      }
+    },
+    {
+      "code": "39-Inf-AIAI",
+      "ekvvId": "71804155",
+      "name": {
+        "de": "Ambient Intelligence and Auditory Interfaces",
+        "en": "Ambient Intelligence and Auditory Interfaces"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse in DataminingQuerbezüge zu: Mensch-Maschine Schnittstellen, Interaction Design",
+        "en": "Kenntnisse in DataminingQuerbezüge zu: Mensch-Maschine Schnittstellen, Interaction Design"
+      }
+    },
+    {
+      "code": "39-Inf-ASB",
+      "ekvvId": "26787740",
+      "name": {
+        "de": "Algorithmische Stochastik in der (Bio-)Informatik",
+        "en": "Algorithmic stochastics in (bio)informatics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Mathematik für Informatik I und II,24-M-VTB oder 24-M-VTNKnowledge as in the modules 24-M-INF1 Mathematik für Informatik I, 24-M-INF2 Mathematik für Informatik II, 24-M-VTB Vertiefung Mathematik für die Bioinformatik or 24-M-VTN Vertiefung Mathematik für die Naturwissenschaften",
+        "en": "Mathematik für Informatik I und II,24-M-VTB oder 24-M-VTNKnowledge as in the modules 24-M-INF1 Mathematik für Informatik I, 24-M-INF2 Mathematik für Informatik II, 24-M-VTB Vertiefung Mathematik für die Bioinformatik or 24-M-VTN Vertiefung Mathematik für die Naturwissenschaften"
+      }
+    },
+    {
+      "code": "39-Inf-DM",
+      "ekvvId": "26787742",
+      "name": {
+        "de": "Grundlagen Datamining",
+        "en": "Introduction to Data Mining"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Nützlich: Neuronale Netze und Lernen, Bildverarbeitung, Vertiefung MathematikQuerbezüge zu: Information Visualization, Sequenzanalyse, Mustererkennung bzw. Musterklassifikation",
+        "en": "Nützlich: Neuronale Netze und Lernen, Bildverarbeitung, Vertiefung MathematikQuerbezüge zu: Information Visualization, Sequenzanalyse, Mustererkennung bzw. Musterklassifikation"
+      }
+    },
+    {
+      "code": "39-Inf-EMS",
+      "ekvvId": "33005909",
+      "name": {
+        "de": "Entwurf mikroelektronischer Systeme",
+        "en": "Designing Microelectronic Systems"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Es wurden noch keine Modulverantwortlichen benannt",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können.",
+        "en": "Kenntnisse, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können."
+      }
+    },
+    {
+      "code": "39-Inf-FL",
+      "ekvvId": "94014044",
+      "name": {
+        "de": "Formal Logic",
+        "en": "Formal Logic"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Algorithmen und Datenstrukturen, Theoretische Informatik",
+        "en": "Algorithmen und Datenstrukturen, Theoretische Informatik"
+      }
+    },
+    {
+      "code": "39-Inf-KR",
+      "ekvvId": "54221362",
+      "name": {
+        "de": "Cognitive Computing / Kognitives Rechnen",
+        "en": "Cognitive Computing"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Das Modul baut auf grundlegenden Prinzipien kognitiver Systeme und intelligenter Agenten auf, wie sie beispielsweise in dem Modul 39-Inf-13 \"Grundlagen künstlicher Kognition\" erworben werden können.A recommended prerequisite for this module is basic knowledge of cognitive systems and knowledge representation and reasoning as can be acquired, for example, in the module \"Grundlagen Künstlicher Kognition\".",
+        "en": "Das Modul baut auf grundlegenden Prinzipien kognitiver Systeme und intelligenter Agenten auf, wie sie beispielsweise in dem Modul 39-Inf-13 \"Grundlagen künstlicher Kognition\" erworben werden können.A recommended prerequisite for this module is basic knowledge of cognitive systems and knowledge representation and reasoning as can be acquired, for example, in the module \"Grundlagen Künstlicher Kognition\"."
+      }
+    },
+    {
+      "code": "39-Inf-MR_a",
+      "ekvvId": "79251442",
+      "name": {
+        "de": "Mobile Roboter",
+        "en": "Mobile Robots"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Abschluss der Module \"Rechnerarchitektur\" und \"Betriebssysteme\" oder vergleichbare Programmierkenntnisse, Mathematik I und II, Vertiefung Mathematik",
+        "en": "Abschluss der Module \"Rechnerarchitektur\" und \"Betriebssysteme\" oder vergleichbare Programmierkenntnisse, Mathematik I und II, Vertiefung Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-ABI",
+      "ekvvId": "27461445",
+      "name": {
+        "de": "Angewandte Bioinformatik",
+        "en": "Applied Bioinformatics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Stefan Albaum Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AG",
+      "ekvvId": "27461510",
+      "name": {
+        "de": "Algorithmen in der Genomforschung",
+        "en": "Algorithms in Genome Research"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundkenntnisse in Algorithmen und Datenstrukturen, Sequenzanalyse und GenomforschungBasic knowledge in Algorithms and Data Structures, Sequence Analysis and Genome Research",
+        "en": "Grundkenntnisse in Algorithmen und Datenstrukturen, Sequenzanalyse und GenomforschungBasic knowledge in Algorithms and Data Structures, Sequence Analysis and Genome Research"
+      }
+    },
+    {
+      "code": "39-M-Inf-AMN",
+      "ekvvId": "27461515",
+      "name": {
+        "de": "Analyse Metabolischer Netzwerke",
+        "en": "Metabolic network analysis"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Genetik und BiochemieGrundkenntnisse Mathematik",
+        "en": "Kompetenzen, wie sie beispielweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Genetik und BiochemieGrundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-RDM",
+      "ekvvId": "79251504",
+      "name": {
+        "de": "Research Data Management",
+        "en": "Research Data Management"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-RPRS",
+      "ekvvId": "33005813",
+      "name": {
+        "de": "Rekonfigurierbare und parallele Rechnersysteme",
+        "en": "Reconfigurable and Parallel Computer Systems"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ulrich Rückert",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können.",
+        "en": "Kenntnisse, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können."
+      }
+    },
+    {
+      "code": "39-M-Inf-VHC_a",
+      "ekvvId": "61395045",
+      "name": {
+        "de": "Virtual Humans and Conversational Agents",
+        "en": "Virtual Humans and Conversational Agents"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-11 Mensch-Maschine-Interaktion erworben werden können",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-11 Mensch-Maschine-Interaktion erworben werden können"
+      }
+    },
+    {
+      "code": "39-M-Inf-VMNT",
+      "ekvvId": "27461581",
+      "name": {
+        "de": "Vertiefung Mathematik II für Naturwissenschaft und Technik",
+        "en": "Further mathematics II for science and technology"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise in den Modulen 24-M-INF1 Mathematik für Informatik I, 24-M-INF2 Mathematik für Informatik II, 24-M-VTB Vertiefung Mathematik für die Bioinformatik oder 24-M-VTN Vertiefung Mathematik für die Naturwissenschaften erworben werden könnenKnowledge as in the modules 24-M-INF1 Mathematik für Informatik I, 24-M-INF2 Mathematik für Informatik II, 24-M-VTB Vertiefung Mathematik für die Bioinformatik or 24-M-VTN Vertiefung Mathematik für die Naturwissenschaften",
+        "en": "Kompetenzen, wie sie beispielsweise in den Modulen 24-M-INF1 Mathematik für Informatik I, 24-M-INF2 Mathematik für Informatik II, 24-M-VTB Vertiefung Mathematik für die Bioinformatik oder 24-M-VTN Vertiefung Mathematik für die Naturwissenschaften erworben werden könnenKnowledge as in the modules 24-M-INF1 Mathematik für Informatik I, 24-M-INF2 Mathematik für Informatik II, 24-M-VTB Vertiefung Mathematik für die Bioinformatik or 24-M-VTN Vertiefung Mathematik für die Naturwissenschaften"
+      }
+    },
+    {
+      "code": "39-Inf-AB",
+      "ekvvId": "46525563",
+      "name": {
+        "de": "Algorithmen der Bioinformatik",
+        "en": "Algorithms in Bioinformatics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye Dr. Roland Wittler",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen",
+        "en": "Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen"
+      },
+      "recommendedKnowledge": {
+        "de": "Grundlegende Kenntnisse in Algorithmen und Datenstrukturen, Sequenzanalyse und Genomforschung.Basic knowledge of algorithms and data structures, sequence analysis and genome research.",
+        "en": "Grundlegende Kenntnisse in Algorithmen und Datenstrukturen, Sequenzanalyse und Genomforschung.Basic knowledge of algorithms and data structures, sequence analysis and genome research."
+      }
+    },
+    {
+      "code": "39-Inf-BDS",
+      "ekvvId": "308594662",
+      "name": {
+        "de": "Biomedical Data Science for Modern Healthcare Technology",
+        "en": "Biomedical Data Science for Modern Healthcare Technology"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Erforderlich sind grundlegende Kenntnisse in Algorithmen und Datenstrukturen und der Künstlichen Intelligenz. Weiterhin sind Kenntnisse des Machine Learning, der Analyse großer Datenmengen, des Sequenzierens, und grundlegende Kenntnisse der Statistik hilfreich.",
+        "en": "Erforderlich sind grundlegende Kenntnisse in Algorithmen und Datenstrukturen und der Künstlichen Intelligenz. Weiterhin sind Kenntnisse des Machine Learning, der Analyse großer Datenmengen, des Sequenzierens, und grundlegende Kenntnisse der Statistik hilfreich."
+      }
+    },
+    {
+      "code": "39-Inf-SAB_a",
+      "ekvvId": "61394968",
+      "name": {
+        "de": "Spezielle Algorithmen der Bioinformatik",
+        "en": "Special Algorithms in Bioinformatics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye Dr. Roland Wittler",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen",
+        "en": "Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen"
+      },
+      "recommendedKnowledge": {
+        "de": "Grundlegende Kenntnisse in Algorithmen und Datenstrukturen, Sequenzanalyse und Genomforschung.Basic knowledge of algorithms and data structures, sequence analysis and genome research",
+        "en": "Grundlegende Kenntnisse in Algorithmen und Datenstrukturen, Sequenzanalyse und Genomforschung.Basic knowledge of algorithms and data structures, sequence analysis and genome research"
+      }
+    },
+    {
+      "code": "39-VN",
+      "ekvvId": "52807404",
+      "name": {
+        "de": "Vertiefung Naturwissenschaften",
+        "en": "Advanced Natural Sciences"
+      },
+      "lp": 20,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-VN_5b",
+      "ekvvId": "176269198",
+      "name": {
+        "de": "Vertiefung Naturwissenschaften",
+        "en": "Advanced Natural Sciences"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-VN_10b",
+      "ekvvId": "176270842",
+      "name": {
+        "de": "Vertiefung Naturwissenschaften",
+        "en": "Advanced Natural Sciences"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-VN_10u",
+      "ekvvId": "176270441",
+      "name": {
+        "de": "Vertiefung Naturwissenschaften",
+        "en": "Advanced Natural Sciences"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-VN_15u",
+      "ekvvId": "176269920",
+      "name": {
+        "de": "Vertiefung Naturwissenschaften",
+        "en": "Advanced Natural Sciences"
+      },
+      "lp": 15,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-SNLP",
+      "ekvvId": "39160638",
+      "name": {
+        "de": "Statistical Natural Language Processing",
+        "en": "Statistical Natural Language Processing"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundkenntnisse in Algorithmen und DatenstrukturenGrundkenntnisse der Programmierung in C, C++ oder Java",
+        "en": "Grundkenntnisse in Algorithmen und DatenstrukturenGrundkenntnisse der Programmierung in C, C++ oder Java"
+      }
+    },
+    {
+      "code": "39-M-Inf-DL",
+      "ekvvId": "108247044",
+      "name": {
+        "de": "Deep Learning",
+        "en": "Deep Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Basil Ell Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Programmierkenntnisse (Python oder eine ähnliche Sprache), mathematische Grundlagen, Grundlagen des maschinellen Lernens (z. B. Neuronale Netze oder Einführung in das maschinelle Lernen)",
+        "en": "Programmierkenntnisse (Python oder eine ähnliche Sprache), mathematische Grundlagen, Grundlagen des maschinellen Lernens (z. B. Neuronale Netze oder Einführung in das maschinelle Lernen)"
+      }
+    },
+    {
+      "code": "39-M-Inf-PDV",
+      "ekvvId": "27461565",
+      "name": {
+        "de": "Parallele Datenverarbeitung",
+        "en": "Parallel data processing"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, die beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik",
+        "en": "Kompetenzen, die beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-SW",
+      "ekvvId": "27461591",
+      "name": {
+        "de": "Semantic Web",
+        "en": "Semantic Web"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise in den Modulen 36-Inf-1 Algorithmen und Datenstrukturen und 39-Inf-6 Grundlagen Theoretischer Informatik (insb. Logik) erworben werden könnenGrundkenntnisse Mathematik",
+        "en": "Kompetenzen, wie sie beispielsweise in den Modulen 36-Inf-1 Algorithmen und Datenstrukturen und 39-Inf-6 Grundlagen Theoretischer Informatik (insb. Logik) erworben werden könnenGrundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-VBD",
+      "ekvvId": "27461594",
+      "name": {
+        "de": "Visualisierungsansätze für Biodaten",
+        "en": "Visualisation Approaches to Biodata"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Die Teilnehmer sollten Programmierkenntnisse/-erfahrung besitzen. Teilnahme an den Vorlesungen zu 39-Inf-IV Information Visualization oder zu 39-Inf-CG Grundlagen der Computergrafik sind hilfreich aber nicht notwendig.",
+        "en": "Die Teilnehmer sollten Programmierkenntnisse/-erfahrung besitzen. Teilnahme an den Vorlesungen zu 39-Inf-IV Information Visualization oder zu 39-Inf-CG Grundlagen der Computergrafik sind hilfreich aber nicht notwendig."
+      }
+    },
+    {
+      "code": "39-M-Inf-VKI",
+      "ekvvId": "27461599",
+      "name": {
+        "de": "Vertiefung Künstliche Intelligenz",
+        "en": "Advanced Artificial Intelligence"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Das Modul baut auf grundlegende Programmierkenntnisse auf, wie sie beispielsweise in dem Modul Künstlichen Intelligenz (Modul 39-Inf-KI Künstliche Intelligenz) erworben werden können (grundlegende Programmierkenntnisse sowie Beherrschung einfacher Logikkalküle).A recommended prerequisite for this module is knowledge of knowledge representation and reasoning as can be acquired, for example, in the module \"Artificial Intelligence\".",
+        "en": "Das Modul baut auf grundlegende Programmierkenntnisse auf, wie sie beispielsweise in dem Modul Künstlichen Intelligenz (Modul 39-Inf-KI Künstliche Intelligenz) erworben werden können (grundlegende Programmierkenntnisse sowie Beherrschung einfacher Logikkalküle).A recommended prerequisite for this module is knowledge of knowledge representation and reasoning as can be acquired, for example, in the module \"Artificial Intelligence\"."
+      }
+    },
+    {
+      "code": "39-Inf-13_b_ver1",
+      "ekvvId": "70750944",
+      "name": {
+        "de": "Grundlagen künstlicher Kognition",
+        "en": "Foundations of Artificial Cognition"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Das Modul baut auf Kenntnissen in Linearer Algebra und Analysis (entsprechend 24-M-Inf1 und 24-M-Inf2) und Programmierkenntnissen in Java (entsprechend 39-Inf-1) auf.Kenntnisse in Objektorientierte Programmierung (entsprechend 39-Inf-2) werden empfohlen.",
+        "en": "Das Modul baut auf Kenntnissen in Linearer Algebra und Analysis (entsprechend 24-M-Inf1 und 24-M-Inf2) und Programmierkenntnissen in Java (entsprechend 39-Inf-1) auf.Kenntnisse in Objektorientierte Programmierung (entsprechend 39-Inf-2) werden empfohlen."
+      }
+    },
+    {
+      "code": "39-Inf-AKS",
+      "ekvvId": "26787782",
+      "name": {
+        "de": "Anwendungen Kognitiver Systeme",
+        "en": "Applications of Cognitive Systems"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundkenntnisse in Algorithmen und Datenstrukturen oder vergleichbare Kenntnisse, Mathematik",
+        "en": "Grundkenntnisse in Algorithmen und Datenstrukturen oder vergleichbare Kenntnisse, Mathematik"
+      }
+    },
+    {
+      "code": "39-Inf-AR",
+      "ekvvId": "26796014",
+      "name": {
+        "de": "Angewandte Robotik",
+        "en": "Applied Robotics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-MR \"Mobile Roboter\" oder 39-Inf-RM \"Robotermanipulatoren\" vermittelt werden. Der vorherige Abschluss zumindest eines dieser Module wird daher dringend empfohlen.",
+        "en": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-MR \"Mobile Roboter\" oder 39-Inf-RM \"Robotermanipulatoren\" vermittelt werden. Der vorherige Abschluss zumindest eines dieser Module wird daher dringend empfohlen."
+      }
+    },
+    {
+      "code": "39-Inf-CV",
+      "ekvvId": "26787785",
+      "name": {
+        "de": "Computer Vision",
+        "en": "Computer Vision"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Vorkenntnisse in den Bereichen Bildverarbeitung und Musterklassifikation/Neuronale Netze werden empfohlen",
+        "en": "Vorkenntnisse in den Bereichen Bildverarbeitung und Musterklassifikation/Neuronale Netze werden empfohlen"
+      }
+    },
+    {
+      "code": "39-Inf-DB2",
+      "ekvvId": "26787774",
+      "name": {
+        "de": "Datenbanken II",
+        "en": "Advanced Database Systems"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse aus Datenbanken I (oder vergleichbare Kenntnisse aus anderen Vorlesungen)Knowledge in Databases I (or comparable knowledges from other lectures)",
+        "en": "Kenntnisse aus Datenbanken I (oder vergleichbare Kenntnisse aus anderen Vorlesungen)Knowledge in Databases I (or comparable knowledges from other lectures)"
+      }
+    },
+    {
+      "code": "39-Inf-IV",
+      "ekvvId": "26787778",
+      "name": {
+        "de": "Information Visualization",
+        "en": "Information Visualization"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 Algorithmen und DatenstrukturenGrundkenntnisse Mathematik",
+        "en": "39-Inf-1 Algorithmen und DatenstrukturenGrundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-Inf-KRY",
+      "ekvvId": "94014089",
+      "name": {
+        "de": "Kryptographie",
+        "en": "Cryptography"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Dirk Frettlöh",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:24-M-INF1: Mathematik für Informatik I24-M-INF2: Mathematik für Informatik II",
+        "en": "Vorausgesetzte Module:24-M-INF1: Mathematik für Informatik I24-M-INF2: Mathematik für Informatik II"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-NN_ver1",
+      "ekvvId": "26787752",
+      "name": {
+        "de": "Grundlagen Neuronaler Netze",
+        "en": "Introduction to Neural Networks"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-1 und 24-M-INF2 vermittelt werden. Der vorherige Abschluss dieser oder gleichwertiger Module wird daher dringend empfohlen.",
+        "en": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-1 und 24-M-INF2 vermittelt werden. Der vorherige Abschluss dieser oder gleichwertiger Module wird daher dringend empfohlen."
+      }
+    },
+    {
+      "code": "39-Inf-NN_ver2",
+      "ekvvId": "420746250",
+      "name": {
+        "de": "Grundlagen Neuronaler Netze",
+        "en": "Introduction to Neural Networks"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-1 und 24-M-INF2 (bzw. 39-Inf-PP und 24-M-INF2_a) vermittelt werden. Der vorherige Abschluss dieser oder gleichwertiger Module wird daher dringend empfohlen.",
+        "en": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-1 und 24-M-INF2 (bzw. 39-Inf-PP und 24-M-INF2_a) vermittelt werden. Der vorherige Abschluss dieser oder gleichwertiger Module wird daher dringend empfohlen."
+      }
+    },
+    {
+      "code": "39-M-Inf-ADS",
+      "ekvvId": "210149228",
+      "name": {
+        "de": "Auditory Data Science",
+        "en": "Auditory Data Science"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Nützlich aber nicht zwingend: Kenntnisse in Data MiningQuerbezüge zu: Introduction to Sound Synthesis, Ambient Interfaces",
+        "en": "Nützlich aber nicht zwingend: Kenntnisse in Data MiningQuerbezüge zu: Introduction to Sound Synthesis, Ambient Interfaces"
+      }
+    },
+    {
+      "code": "39-M-Inf-ISB",
+      "ekvvId": "306712783",
+      "name": {
+        "de": "Informationssysteme in der molekularen Bioinformatik",
+        "en": "Biomedical information systems"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-MB",
+      "ekvvId": "27461555",
+      "name": {
+        "de": "Mathematische Biologie",
+        "en": "Mathematical Biology"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1 Mathematik für Informatik I24-M-INF2 Mathematik für Informatik II24-M-VTB Vertiefung Mathematik für die Bioinformatik oder24-M-VTN Vertiefung Mathematik für die NaturwissenschaftenKnowledge as in the modules24-M-INF1 Mathematik für Informatik I24-M-INF2 Mathematik für Informatik II24-M-VTB Vertiefung Mathematik für die Bioinformatik or24-M-VTN Vertiefung Mathematik für die Naturwissenschaften",
+        "en": "24-M-INF1 Mathematik für Informatik I24-M-INF2 Mathematik für Informatik II24-M-VTB Vertiefung Mathematik für die Bioinformatik oder24-M-VTN Vertiefung Mathematik für die NaturwissenschaftenKnowledge as in the modules24-M-INF1 Mathematik für Informatik I24-M-INF2 Mathematik für Informatik II24-M-VTB Vertiefung Mathematik für die Bioinformatik or24-M-VTN Vertiefung Mathematik für die Naturwissenschaften"
+      }
+    },
+    {
+      "code": "39-M-Inf-MBP",
+      "ekvvId": "308601970",
+      "name": {
+        "de": "Multimodal Behavior Processing",
+        "en": "Multimodal Behavior Processing"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-NN Grundlagen Neuronaler Netze, im Modul 39-Inf-13 Grundlagen künstlicher Kognition oder im Modul 39-Inf-ML erworben werden können.",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-NN Grundlagen Neuronaler Netze, im Modul 39-Inf-13 Grundlagen künstlicher Kognition oder im Modul 39-Inf-ML erworben werden können."
+      }
+    },
+    {
+      "code": "39-M-Inf-TMKD",
+      "ekvvId": "44160967",
+      "name": {
+        "de": "Text Mining and Knowledge Discovery",
+        "en": "Text Mining and Knowledge Discovery"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Basic knowledge about data structures and algorithmsProgramming skills in some higher programming language (Java, C++, etc.)Grundkenntnisse in Algorithmen und DatenstrukturenGrundkenntnisse der Programmierung in C, C++ oder Java",
+        "en": "Basic knowledge about data structures and algorithmsProgramming skills in some higher programming language (Java, C++, etc.)Grundkenntnisse in Algorithmen und DatenstrukturenGrundkenntnisse der Programmierung in C, C++ oder Java"
+      }
+    },
+    {
+      "code": "39-M-Inf-ABDA",
+      "ekvvId": "308598306",
+      "name": {
+        "de": "Advanced Big Data Analytics / Big Data Machine Learning",
+        "en": "Advanced Big Data Analytics / Big Data Machine Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Eine Teilnahme an der Vorlesung Big Data Analytics ist hilfreich. Desweiteren sind grundlegende Kenntnisse in Algorithmen und Datenstrukturen und der Künstlichen Intelligenz für das Verständnis der besprochenen Techniken nötig.Participation in the lecture ‘Big Data Analytics’ is helpful. Basic knowledge of algorithms, data structures and artificial intelligence is required.",
+        "en": "Eine Teilnahme an der Vorlesung Big Data Analytics ist hilfreich. Desweiteren sind grundlegende Kenntnisse in Algorithmen und Datenstrukturen und der Künstlichen Intelligenz für das Verständnis der besprochenen Techniken nötig.Participation in the lecture ‘Big Data Analytics’ is helpful. Basic knowledge of algorithms, data structures and artificial intelligence is required."
+      }
+    },
+    {
+      "code": "39-M-Inf-ABDA_a",
+      "ekvvId": "411904104",
+      "name": {
+        "de": "Advanced Big Data Analytics / Big Data Machine Learning",
+        "en": "Advanced Big Data Analytics / Big Data Machine Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Eine Teilnahme an der Vorlesung Big Data Analytics ist hilfreich. Desweiteren sind grundlegende Kenntnisse in Algorithmen und Datenstrukturen und der Künstlichen Intelligenz für das Verständnis der besprochenen Techniken nötig.",
+        "en": "Eine Teilnahme an der Vorlesung Big Data Analytics ist hilfreich. Desweiteren sind grundlegende Kenntnisse in Algorithmen und Datenstrukturen und der Künstlichen Intelligenz für das Verständnis der besprochenen Techniken nötig."
+      }
+    },
+    {
+      "code": "39-M-Inf-VNN",
+      "ekvvId": "27461584",
+      "name": {
+        "de": "Vertiefung Neuronale Netze",
+        "en": "Advanced Neural Networks"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Auslaufend",
+        "en": "Being phased out"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": {
+        "de": "Kompetenzen, wie sie im Modul 39-Inf-NN Grundlagen Neuronaler Netze erworben werden können.",
+        "en": "Kompetenzen, wie sie im Modul 39-Inf-NN Grundlagen Neuronaler Netze erworben werden können."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-BMI",
+      "ekvvId": "26787673",
+      "name": {
+        "de": "Brain-Machine Interfaces",
+        "en": "Brain-Machine Interfaces"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-BV",
+      "ekvvId": "26787675",
+      "name": {
+        "de": "Bildverarbeitung",
+        "en": "Image Processing"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Abschluss des Moduls \"Musterklassifikation\" hilfreich",
+        "en": "Abschluss des Moduls \"Musterklassifikation\" hilfreich"
+      }
+    },
+    {
+      "code": "39-Inf-CG",
+      "ekvvId": "26787676",
+      "name": {
+        "de": "Grundlagen der Computergrafik",
+        "en": "Basics of Computer Graphics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Mario Botsch",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse in C++Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 24-M-Inf1 Mathematik für Informatik I und 24-M-Inf2 Mathematik für Informatik II vermittelt werden. Der vorherige Abschluss dieser oder gleichwertiger Module wird daher dringend empfohlen.",
+        "en": "Kenntnisse in C++Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 24-M-Inf1 Mathematik für Informatik I und 24-M-Inf2 Mathematik für Informatik II vermittelt werden. Der vorherige Abschluss dieser oder gleichwertiger Module wird daher dringend empfohlen."
+      }
+    },
+    {
+      "code": "39-Inf-DKI",
+      "ekvvId": "26787678",
+      "name": {
+        "de": "Digitale Kommunikation und Internetdienste",
+        "en": "Digital Communication and Internet Services"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 - Algorithmen und Datenstrukturen39-Inf-3 - Entwicklung und Gestaltung Internet-basierter Anwendungen24-M-INF1 - Mathematik für Informatik I",
+        "en": "39-Inf-1 - Algorithmen und Datenstrukturen39-Inf-3 - Entwicklung und Gestaltung Internet-basierter Anwendungen24-M-INF1 - Mathematik für Informatik I"
+      }
+    },
+    {
+      "code": "39-Inf-IR",
+      "ekvvId": "26787746",
+      "name": {
+        "de": "Information Retrieval",
+        "en": "Information Retrieval"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Algorithmen und Datenstrukturen, Grundkenntnisse Mathematik, Einführung in die Datenbanken und ModellierungAlgorithms and datastructure, fundamentals in mathematics, introduction to databases and modelling",
+        "en": "Algorithmen und Datenstrukturen, Grundkenntnisse Mathematik, Einführung in die Datenbanken und ModellierungAlgorithms and datastructure, fundamentals in mathematics, introduction to databases and modelling"
+      }
+    },
+    {
+      "code": "39-Inf-IZV",
+      "ekvvId": "26799540",
+      "name": {
+        "de": "Interdisziplinäre ZellVisualisierung",
+        "en": "Interdisciplinary Cell Visualisation"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-MK",
+      "ekvvId": "26787751",
+      "name": {
+        "de": "Musterklassifikation",
+        "en": "Pattern Classification"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-ML_ver1",
+      "ekvvId": "26787799",
+      "name": {
+        "de": "Grundlagen Maschinelles Lernen",
+        "en": "Introduction to Machine Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": {
+        "de": "In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht.Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen24-M-INF1: Mathematik für Informatik I24-M-INF2: Mathematik für Informatik II",
+        "en": "In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht.Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen24-M-INF1: Mathematik für Informatik I24-M-INF2: Mathematik für Informatik II"
+      },
+      "recommendedKnowledge": {
+        "de": "39-Inf-13 Grundlagen künstlicher Kognition",
+        "en": "39-Inf-13 Grundlagen künstlicher Kognition"
+      }
+    },
+    {
+      "code": "39-Inf-NE1",
+      "ekvvId": "33005916",
+      "name": {
+        "de": "Neuromorphic Engineering 1",
+        "en": "Neuromorphic Engineering 1"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Elisabetta Chicca",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundlegende mathematische Kenntnisse",
+        "en": "Grundlegende mathematische Kenntnisse"
+      }
+    },
+    {
+      "code": "39-Inf-NP",
+      "ekvvId": "61394962",
+      "name": {
+        "de": "Netzwerkprogrammierung",
+        "en": "Network Programming"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Sczyrba",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-Inf-5: Techniken der Projektentwicklung oder 39-Inf-2_a : Objektorientierte Programmierung",
+        "en": "Vorausgesetzte Module:39-Inf-5: Techniken der Projektentwicklung oder 39-Inf-2_a : Objektorientierte Programmierung"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-RT_a",
+      "ekvvId": "79251497",
+      "name": {
+        "de": "Regelungstechnik",
+        "en": "Control Theory"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Mathematik I und II, Vertiefung Mathematik",
+        "en": "Mathematik I und II, Vertiefung Mathematik"
+      }
+    },
+    {
+      "code": "39-Inf-VHM",
+      "ekvvId": "26796157",
+      "name": {
+        "de": "Vision in Human and Machine",
+        "en": "Vision in Human and Machine"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Heiko Wersing",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundkenntnisse in Mathematik: Mehrdimensionale AnalysisBasic required knowledge in mathematics: Multidimensional analysis",
+        "en": "Grundkenntnisse in Mathematik: Mehrdimensionale AnalysisBasic required knowledge in mathematics: Multidimensional analysis"
+      }
+    },
+    {
+      "code": "39-Inf-VR",
+      "ekvvId": "26787771",
+      "name": {
+        "de": "Virtuelle Realität",
+        "en": "Virtual Reality"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Es wurden noch keine Modulverantwortlichen benannt",
+      "prerequisites": {
+        "de": "39-Inf-1 oder 39-Inf-3",
+        "en": "39-Inf-1 oder 39-Inf-3"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AIS",
+      "ekvvId": "27461511",
+      "name": {
+        "de": "Architektur intelligenter Systeme",
+        "en": "Architecture of Intelligent Systems"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse der englischen Sprache zum Verständnis der Literatur sowie Programmierkenntnisse in Java, C++ oder Python für das Programmierprojekt.",
+        "en": "Kenntnisse der englischen Sprache zum Verständnis der Literatur sowie Programmierkenntnisse in Java, C++ oder Python für das Programmierprojekt."
+      }
+    },
+    {
+      "code": "39-M-Inf-FA",
+      "ekvvId": "78862062",
+      "name": {
+        "de": "Fortgeschrittene Algorithmik",
+        "en": "Advanced Algorithmics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 Algorithmen und Datenstrukturen und 39-Inf-6 Grundlagen theoretischer Informatik",
+        "en": "39-Inf-1 Algorithmen und Datenstrukturen und 39-Inf-6 Grundlagen theoretischer Informatik"
+      }
+    },
+    {
+      "code": "39-M-Inf-GMP",
+      "ekvvId": "27461502",
+      "name": {
+        "de": "Geometrische Modellierung mit Polygonnetzen",
+        "en": "Geometric Modeling Based on Polygonal Meshes"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Mario Botsch",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Das Modul baut auf Grundkenntnissen in linearer Algebra und Analysis auf.Komeptenzen, wie sie beispielsweise im Modul \"Wissenschaftliches Rechnen\" (39-Inf-WR) erworben werden können sind hilfreich, aber nicht notwendig.Kompetenzen, wie sie im Modul 39-Inf-CG erworben werden können, sind für den erfolgreichen Abschluss dieses Moduls notwendig.Das Bearbeiten der praktischen Übungsaufgaben erfolgt in C++.",
+        "en": "Das Modul baut auf Grundkenntnissen in linearer Algebra und Analysis auf.Komeptenzen, wie sie beispielsweise im Modul \"Wissenschaftliches Rechnen\" (39-Inf-WR) erworben werden können sind hilfreich, aber nicht notwendig.Kompetenzen, wie sie im Modul 39-Inf-CG erworben werden können, sind für den erfolgreichen Abschluss dieses Moduls notwendig.Das Bearbeiten der praktischen Übungsaufgaben erfolgt in C++."
+      }
+    },
+    {
+      "code": "39-M-Inf-IT_S",
+      "ekvvId": "27461529",
+      "name": {
+        "de": "Spezialmodul Technik I/II: IT-Unterstützung im Sport",
+        "en": "Special Module Technology I/II – IT Support in Sport"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ulrich Rückert",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Mathematische und physikalische Grundkenntnisse",
+        "en": "Mathematische und physikalische Grundkenntnisse"
+      }
+    },
+    {
+      "code": "39-M-Inf-LEA",
+      "ekvvId": "27461536",
+      "name": {
+        "de": "Intelligente Antriebssysteme",
+        "en": "Intelligent Drive Systems"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. habil. Klaus Hofer",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundlagen der Elektrotechnik und Mechanik",
+        "en": "Grundlagen der Elektrotechnik und Mechanik"
+      }
+    },
+    {
+      "code": "39-M-Inf-PS",
+      "ekvvId": "27461543",
+      "name": {
+        "de": "Programmiersprachen",
+        "en": "Programming Languages"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Robert Giegerich (emer.)",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Vorkenntnisse in Programmiersprachen und theoretischer Informatik",
+        "en": "Vorkenntnisse in Programmiersprachen und theoretischer Informatik"
+      }
+    },
+    {
+      "code": "39-M-Inf-ADA",
+      "ekvvId": "55514774",
+      "name": {
+        "de": "Advanced Data Analysis",
+        "en": "Advanced Data Analysis"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundkenntnisse in Algorithmen und Datenstrukturen oder vergleichbare Kenntnisse, Mathematik, Grundlagen des maschinellen Lernens oder der Mustererkennung",
+        "en": "Grundkenntnisse in Algorithmen und Datenstrukturen oder vergleichbare Kenntnisse, Mathematik, Grundlagen des maschinellen Lernens oder der Mustererkennung"
+      }
+    },
+    {
+      "code": "39-M-Inf-KR",
+      "ekvvId": "27461552",
+      "name": {
+        "de": "Kognitive Robotik",
+        "en": "Cognitive Robotics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Neuronale Netze und LernenBildverarbeitungVertiefung Mathematik",
+        "en": "Neuronale Netze und LernenBildverarbeitungVertiefung Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-K",
+      "ekvvId": "27461548",
+      "name": {
+        "de": "Kognitronik",
+        "en": "Cognitronics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ulrich Rückert",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können"
+      }
+    },
+    {
+      "code": "39-M-Inf-MI",
+      "ekvvId": "27461558",
+      "name": {
+        "de": "Manuelle Intelligenz",
+        "en": "Manual Intelligence"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Neuronale Netze und LernenBildverarbeitungVertiefung Mathematik",
+        "en": "Neuronale Netze und LernenBildverarbeitungVertiefung Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-SSV",
+      "ekvvId": "27461578",
+      "name": {
+        "de": "Sprachsignalverarbeitung",
+        "en": "Speech Signal Processing"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Britta Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-MK Musterklassifikation erworben werden können",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-MK Musterklassifikation erworben werden können"
+      }
+    },
+    {
+      "code": "39-M-Inf-VML",
+      "ekvvId": "27461580",
+      "name": {
+        "de": "Vertiefung Maschinelles Lernen",
+        "en": "Advanced Machine Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Komeptenzen, wie sie beispielsweise im Modul 39-Inf-NN Grundlagen Neuronaler Netze erworben werden können",
+        "en": "Komeptenzen, wie sie beispielsweise im Modul 39-Inf-NN Grundlagen Neuronaler Netze erworben werden können"
+      }
+    },
+    {
+      "code": "39-Inf-12",
+      "ekvvId": "420563603",
+      "name": {
+        "de": "Sequenzanalyse",
+        "en": "Sequence Analysis"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-Inf-1: Algorithmen und Datenstrukturen oder 39-Inf-PP Prinzipien der Programmierung",
+        "en": "Erfolgreicher Abschluss des Moduls 39-Inf-1: Algorithmen und Datenstrukturen oder 39-Inf-PP Prinzipien der Programmierung"
+      },
+      "recommendedKnowledge": {
+        "de": "39-Inf-AD Grundlagen der Algorithmen und Datenstrukturen",
+        "en": "39-Inf-AD Grundlagen der Algorithmen und Datenstrukturen"
+      }
+    },
+    {
+      "code": "39-Inf-12_ver1",
+      "ekvvId": "26787662",
+      "name": {
+        "de": "Sequenzanalyse",
+        "en": "Sequence Analysis"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen",
+        "en": "Vorausgesetzte Module:39-Inf-1: Algorithmen und Datenstrukturen"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-AAE",
+      "ekvvId": "78862034",
+      "name": {
+        "de": "Analysebasiertes Algorithm Engineering",
+        "en": "Analysis Driven Engineering of Algorithms"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 Algorithmen und Datenstrukturen und 39-Inf-EAA Entwurf und Analyse von Algorithmen",
+        "en": "39-Inf-1 Algorithmen und Datenstrukturen und 39-Inf-EAA Entwurf und Analyse von Algorithmen"
+      }
+    },
+    {
+      "code": "39-Inf-AGAE",
+      "ekvvId": "120531607",
+      "name": {
+        "de": "Analysegetriebenes Algorithm Engineering",
+        "en": "Analysis-driven Algorithm Engineering"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 Algorithmen und Datenstrukturen und39-Inf-EAA Entwurf und Analyse von Algorithmen",
+        "en": "39-Inf-1 Algorithmen und Datenstrukturen und39-Inf-EAA Entwurf und Analyse von Algorithmen"
+      }
+    },
+    {
+      "code": "39-Inf-ART",
+      "ekvvId": "26796015",
+      "name": {
+        "de": "Angewandte Regelungstechnik",
+        "en": "Applied Control Theory"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-Inf-RT: Regelungstechnik oder 39-Inf-RT_a: Regelungstechnik",
+        "en": "Vorausgesetzte Module:39-Inf-RT: Regelungstechnik oder 39-Inf-RT_a: Regelungstechnik"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-EAA",
+      "ekvvId": "78862048",
+      "name": {
+        "de": "Entwurf und Analyse von Algorithmen",
+        "en": "Design and Analysis of Algorithms"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 Algorithmen und Datenstrukturen und 24-M-INF1 Mathematik für Informatik 1",
+        "en": "39-Inf-1 Algorithmen und Datenstrukturen und 24-M-INF1 Mathematik für Informatik 1"
+      }
+    },
+    {
+      "code": "39-Inf-RM",
+      "ekvvId": "26796062",
+      "name": {
+        "de": "Robotermanipulatoren",
+        "en": "Robot Manipulators"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Robert Haschke",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Mathematik I und II, Vertiefung Mathematik",
+        "en": "Mathematik I und II, Vertiefung Mathematik"
+      }
+    },
+    {
+      "code": "39-Inf-RT2_a",
+      "ekvvId": "79251449",
+      "name": {
+        "de": "Regelungstechnik 2",
+        "en": "Control Theory 2"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-Inf-RT: Regelungstechnik oder 39-Inf-RT_a: Regelungstechnik",
+        "en": "Vorausgesetzte Module:39-Inf-RT: Regelungstechnik oder 39-Inf-RT_a: Regelungstechnik"
+      },
+      "recommendedKnowledge": {
+        "de": "Mathematik I und II, Vertiefung Mathematik",
+        "en": "Mathematik I und II, Vertiefung Mathematik"
+      }
+    },
+    {
+      "code": "39-Inf-WR",
+      "ekvvId": "26787790",
+      "name": {
+        "de": "Wissenschaftliches Rechnen",
+        "en": "Scientific Computing"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Mario Botsch",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Das Modul baut auf mathematischen Kenntnissen auf, wie sie in den Modulen 24-M-INF1 und 24-M-INF2 vermittelt werden. Das Bearbeiten der praktischen Übungsaufgaben erfolgt in C++.",
+        "en": "Das Modul baut auf mathematischen Kenntnissen auf, wie sie in den Modulen 24-M-INF1 und 24-M-INF2 vermittelt werden. Das Bearbeiten der praktischen Übungsaufgaben erfolgt in C++."
+      }
+    },
+    {
+      "code": "39-M-Inf-BM",
+      "ekvvId": "27461518",
+      "name": {
+        "de": "Biomechatronik",
+        "en": "Biomechatronics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Axel Schneider",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-CA",
+      "ekvvId": "27461519",
+      "name": {
+        "de": "Computer Animation",
+        "en": "Computer Animation"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Mario Botsch",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Das Modul baut auf Grundkenntnissen in linearer Algebra und Analysis auf.Kompetenten, wie sie im Modul \"Wissenschaftliches Rechnen\" (39-Inf-WR) erworben werden können sind hilfreich, aber nicht notwendig.Kompetenzen, wie sie im Modul 39-Inf-CG Grundlagen der Computergrafik erworben werden können, sind für den erfolgreichen Abschluss dieses Moduls notwendig.Das Bearbeiten der praktischen Übungsaufgaben erfolgt in C++.",
+        "en": "Das Modul baut auf Grundkenntnissen in linearer Algebra und Analysis auf.Kompetenten, wie sie im Modul \"Wissenschaftliches Rechnen\" (39-Inf-WR) erworben werden können sind hilfreich, aber nicht notwendig.Kompetenzen, wie sie im Modul 39-Inf-CG Grundlagen der Computergrafik erworben werden können, sind für den erfolgreichen Abschluss dieses Moduls notwendig.Das Bearbeiten der praktischen Übungsaufgaben erfolgt in C++."
+      }
+    },
+    {
+      "code": "39-M-Inf-CS",
+      "ekvvId": "27461522",
+      "name": {
+        "de": "Computational Semantics",
+        "en": "Computational Semantics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Folgende Vorkenntnisse sind hilfreich (aber nicht zwingend notwendig):Grundkenntnisse in Prädikatenlogik und LambdakalkülGrundkenntnisse ProgrammierungBasic knowledge in first-order logic and lambda calculus as well as background in programming will prove helpful but are not mandatory.",
+        "en": "Folgende Vorkenntnisse sind hilfreich (aber nicht zwingend notwendig):Grundkenntnisse in Prädikatenlogik und LambdakalkülGrundkenntnisse ProgrammierungBasic knowledge in first-order logic and lambda calculus as well as background in programming will prove helpful but are not mandatory."
+      }
+    },
+    {
+      "code": "39-M-Inf-ES",
+      "ekvvId": "27461501",
+      "name": {
+        "de": "Eingebettete Systeme",
+        "en": "Embedded Systems"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ulrich Rückert",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-14 Digitalelektronik erworben werden können"
+      }
+    },
+    {
+      "code": "39-M-Inf-IMD",
+      "ekvvId": "27461505",
+      "name": {
+        "de": "Informatische Methoden für die Datenanalyse in der Metagenomik und -transkriptomik",
+        "en": "Computational Methods for Data Analysis in Metagenomics and Metatranscriptomics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Komptenzen, wie sie beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik",
+        "en": "Komptenzen, wie sie beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-ISB_ver1",
+      "ekvvId": "27461526",
+      "name": {
+        "de": "Informationssysteme in der molekularen Bioinformatik",
+        "en": "Biomedical information systems"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-1 Algorithmen und Datenstrukturen erworben werden könnenGrundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-KR_P",
+      "ekvvId": "27461535",
+      "name": {
+        "de": "Kognitive Robotik in der Praxis",
+        "en": "Cognitive Robotics in Practice"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-M-Inf-KR: Kognitive Robotik",
+        "en": "Vorausgesetzte Module:39-M-Inf-KR: Kognitive Robotik"
+      },
+      "recommendedKnowledge": {
+        "de": "Neuronale Netze und LernenBildverarbeitungVertiefung Mathematik",
+        "en": "Neuronale Netze und LernenBildverarbeitungVertiefung Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-MWV",
+      "ekvvId": "27461562",
+      "name": {
+        "de": "Medizinische Wissensverarbeitung",
+        "en": "Medical knowledge engineering"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, die beispielsweise in dem Modul 39-Inf-1 Algorithmen und Datenstrukturen oder alternativ39-MBT-6 Einführung in die Bioinformatik erworben werden können.Grundkenntnisse Mathematik",
+        "en": "Kompetenzen, die beispielsweise in dem Modul 39-Inf-1 Algorithmen und Datenstrukturen oder alternativ39-MBT-6 Einführung in die Bioinformatik erworben werden können.Grundkenntnisse Mathematik"
+      }
+    },
+    {
+      "code": "39-M-Inf-NE2",
+      "ekvvId": "33005918",
+      "name": {
+        "de": "Neuromorphic Engineering 2",
+        "en": "Neuromorphic Engineering 2"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Elisabetta Chicca",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:39-Inf-NE1: Neuromorphic Engineering 1",
+        "en": "Vorausgesetzte Module:39-Inf-NE1: Neuromorphic Engineering 1"
+      },
+      "recommendedKnowledge": {
+        "de": "Grundlegende mathematische Kenntnisse",
+        "en": "Grundlegende mathematische Kenntnisse"
+      }
+    },
+    {
+      "code": "39-M-Inf-RNA",
+      "ekvvId": "27461571",
+      "name": {
+        "de": "Bioinformatik der RNA",
+        "en": "RNA Bioinformatics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-12 Sequenzanalyse erworben werden können",
+        "en": "Kompetenzen, wie sie beispielsweise im Modul 39-Inf-12 Sequenzanalyse erworben werden können"
+      }
+    },
+    {
+      "code": "39-M-Inf-VDM",
+      "ekvvId": "27461595",
+      "name": {
+        "de": "Vertiefung Datamining",
+        "en": "Advanced Data Mining"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kompetenzen, die beispielsweise in den Modulen 39-Inf-NN Grundlagen Neuronaler Netze und 39-Inf-10 Datenbanken erworben werden können.Kompetenzen, wie sie im Modul 39-Inf-DM Grundlagen Dataming erworben werden können, sind für einen erfolgreichen Abschluss dieses Moduls notwendig.",
+        "en": "Kompetenzen, die beispielsweise in den Modulen 39-Inf-NN Grundlagen Neuronaler Netze und 39-Inf-10 Datenbanken erworben werden können.Kompetenzen, wie sie im Modul 39-Inf-DM Grundlagen Dataming erworben werden können, sind für einen erfolgreichen Abschluss dieses Moduls notwendig."
+      }
+    },
+    {
+      "code": "39-M-Inf-MIKE",
+      "ekvvId": "36794179",
+      "name": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularized Individual Addition"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularisierter individueller Kompetenz-Erwerb (MiKE)"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Daniel Merkle Prof. Dr. Jens Stoye",
+      "prerequisites": {
+        "de": "Einschreibung in einen Masterstudiengang der Informatik (M.Sc. Intelligente Interaktive Systeme, M.Sc. Bioinformatik und Genomforschung oder M.Sc. Naturwissenschaftliche Informatik)",
+        "en": "Einschreibung in einen Masterstudiengang der Informatik (M.Sc. Intelligente Interaktive Systeme, M.Sc. Bioinformatik und Genomforschung oder M.Sc. Naturwissenschaftliche Informatik)"
+      },
+      "recommendedKnowledge": null
+    }
+  ]
+}

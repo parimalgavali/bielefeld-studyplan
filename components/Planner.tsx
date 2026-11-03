@@ -40,6 +40,7 @@ import Sidebar from "./Sidebar";
 
 const STORAGE_KEY = "bielefeld-studyplan:v1";
 const LANG_KEY = "bielefeld-studyplan:lang";
+const THEME_KEY = "bielefeld-studyplan:theme";
 const DEFAULT_PROGRAM = "462589642";
 
 function currentStartYear(): number {
@@ -64,6 +65,7 @@ export default function Planner() {
   const [tab, setTab] = useState<"modules" | "progress">("modules");
   const [dragKey, setDragKey] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
+  const [theme, setTheme] = useState<"light" | "dark">("dark");
 
   useEffect(() => {
     const stored = loadStored();
@@ -84,6 +86,7 @@ export default function Planner() {
           ? "de"
           : "en",
     );
+    setTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
     setPlans(stored);
     setProgramId(active);
   }, []);
@@ -159,6 +162,13 @@ export default function Planner() {
     }
   };
 
+  const toggleTheme = () => {
+    const next = theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem(THEME_KEY, next);
+    setTheme(next);
+  };
+
   const share = async () => {
     const url = `${window.location.origin}${window.location.pathname}#plan=${encodePlan(plan)}`;
     try {
@@ -185,12 +195,13 @@ export default function Planner() {
             aria-label={tr(lang, "program")}
             value={program.id}
             onChange={(e) => setProgramId(e.target.value)}
-            className={`${select} max-w-[26rem]`}
+            className={`${select} max-w-[32rem]`}
           >
             {PROGRAMS.map((p) => (
               <option key={p.id} value={p.id}>
                 {degreeShort(p.degree)} {p.name[lang] || p.name.de}
                 {p.variant ? ` – ${p.variant}` : ""}
+                {p.edition ? ` · ${p.edition[lang]}` : ""}
               </option>
             ))}
           </select>
@@ -252,6 +263,15 @@ export default function Planner() {
             </button>
             <button
               type="button"
+              onClick={toggleTheme}
+              className="rounded-md border border-neutral-800 px-2.5 py-1.5 text-xs text-neutral-300 hover:bg-neutral-900"
+              aria-label={tr(lang, "theme")}
+              title={tr(lang, "theme")}
+            >
+              {theme === "dark" ? "☀" : "☾"}
+            </button>
+            <button
+              type="button"
               onClick={() => setLang(lang === "de" ? "en" : "de")}
               className="rounded-md border border-neutral-800 px-2.5 py-1.5 text-xs text-neutral-300 hover:bg-neutral-900"
               aria-label="Sprache / language"
@@ -263,6 +283,7 @@ export default function Planner() {
 
         <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
           <main className="min-h-0 flex-1 overflow-y-auto p-4 lg:p-6">
+            {rules?.notice && <p className="mb-3 text-xs text-amber-300/90">{rules.notice[lang]}</p>}
             <div className="grid gap-3 sm:grid-cols-2">
               {plan.semesters.map((keys, i) => (
                 <SemesterCard
@@ -284,14 +305,7 @@ export default function Planner() {
                         lang={lang}
                         dragId={`plan:${key}`}
                         warning={warnByKey.get(key)}
-                        badge={
-                          area
-                            ? rules?.areas
-                                .find((a) => a.id === area)
-                                ?.name[lang].split(" ")
-                                .at(-1)
-                            : undefined
-                        }
+                        badge={area ? rules?.areas.find((a) => a.id === area)?.short?.[lang] : undefined}
                         onOpen={() => setOpenKey(key)}
                         onRemove={() => update((p) => removeFromPlan(p, key))}
                       />

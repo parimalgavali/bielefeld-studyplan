@@ -9,6 +9,11 @@
   "semesters": 4,
   "lp": 120,
   "startTerms": ["WiSe", "SoSe"],
+  "edition": {
+    "de": "FsB 2025",
+    "en": "FsB 2025"
+  },
+  "expiring": false,
   "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/462589642",
   "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/naturwissenschaftlicheinformatik/pdf",
   "scrapedAt": "2026-11-03",
