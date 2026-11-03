@@ -68,11 +68,13 @@ export default function ModuleDialog(props: Props) {
       ref={ref}
       onClose={onClose}
       onClick={(e) => e.target === ref.current && ref.current?.close()}
-      className="m-auto w-[min(32rem,calc(100%-2rem))] rounded-xl border border-neutral-800 bg-neutral-950 p-0 text-neutral-200 backdrop:bg-black/70"
+      className="m-auto w-[min(34rem,calc(100%-2rem))] rounded-2xl border border-neutral-800 bg-neutral-950 p-0 text-neutral-200 shadow-2xl shadow-black/30 backdrop:bg-black/50 backdrop:backdrop-blur-sm"
     >
-      <div className="p-5">
+      <div className="p-6">
         <div className="mb-1 font-mono text-xs text-neutral-500">{item.code || tr(lang, "customTitle")}</div>
-        <h2 className="mb-4 text-lg font-medium text-neutral-50">{item.name[lang] || item.name.de}</h2>
+        <h2 className="mb-5 text-xl font-semibold tracking-tight text-neutral-50">
+          {item.name[lang] || item.name.de}
+        </h2>
         <dl className="mb-5 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
           {rows
             .filter(([, v]) => v)
@@ -157,7 +159,7 @@ export default function ModuleDialog(props: Props) {
           <button
             type="button"
             onClick={() => ref.current?.close()}
-            className="rounded-md border border-neutral-800 px-3 py-1.5 hover:bg-neutral-900"
+            className="rounded-md bg-brand-500 px-3.5 py-1.5 font-medium text-white hover:bg-brand-600"
           >
             {tr(lang, "close")}
           </button>

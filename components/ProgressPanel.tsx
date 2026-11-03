@@ -26,9 +26,9 @@ function Bar({ value, max, cap }: { value: number; max: number; cap?: boolean })
   const pct = max ? Math.min(100, (value / max) * 100) : 0;
   const over = cap && value > max;
   return (
-    <div className="h-1.5 overflow-hidden rounded-full bg-neutral-800">
+    <div className="h-2 overflow-hidden rounded-full bg-neutral-800">
       <div
-        className={`h-full rounded-full ${over ? "bg-amber-400" : value >= max ? "bg-emerald-400" : "bg-neutral-300"}`}
+        className={`h-full rounded-full ${over ? "bg-amber-400" : value >= max ? "bg-emerald-400" : "bg-brand-500"}`}
         style={{ width: `${pct}%` }}
       />
     </div>
@@ -69,7 +69,9 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
 
       {areas && rules && (
         <section>
-          <h3 className="mb-3 text-xs uppercase tracking-wide text-neutral-500">{tr(lang, "areas")}</h3>
+          <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-neutral-500">
+            {tr(lang, "areas")}
+          </h3>
           <ul className="flex flex-col gap-3">
             {areas.map((a) => (
               <li key={a.id}>
@@ -101,7 +103,9 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
 
       {groups.length > 1 && (
         <section>
-          <h3 className="mb-3 text-xs uppercase tracking-wide text-neutral-500">{tr(lang, "groups")}</h3>
+          <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-neutral-500">
+            {tr(lang, "groups")}
+          </h3>
           <ul className="flex flex-col gap-1">
             {groups.map(({ g, lp }) => (
               <li key={g} className="flex justify-between gap-3">
@@ -114,7 +118,7 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
       )}
 
       <section>
-        <h3 className="mb-2 text-xs uppercase tracking-wide text-neutral-500">
+        <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-neutral-500">
           {tr(lang, "missingPflicht")} ({missing.length})
         </h3>
         {missing.length === 0 ? (
@@ -138,7 +142,7 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
       </section>
 
       <section>
-        <h3 className="mb-2 text-xs uppercase tracking-wide text-neutral-500">
+        <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-neutral-500">
           {tr(lang, "warningsTitle")} ({warns.length + late.length})
         </h3>
         {warns.length + late.length === 0 ? (

@@ -31,11 +31,11 @@ export default function ModuleChip(props: Props) {
       ref={setNodeRef}
       {...attributes}
       {...listeners}
-      className={`group cursor-grab touch-none rounded-md border px-2.5 py-1.5 text-sm transition-colors active:cursor-grabbing ${
+      className={`group cursor-grab touch-none rounded-lg border px-2.5 py-2 text-sm transition active:cursor-grabbing ${
         warning
           ? "border-amber-500/40 bg-amber-500/5"
-          : "border-neutral-800 bg-neutral-900 hover:border-neutral-700"
-      } ${isDragging ? "opacity-30" : ""} ${muted ? "opacity-50" : ""}`}
+          : "border-neutral-800 bg-neutral-900 hover:border-neutral-700 hover:shadow-sm hover:shadow-black/5"
+      } ${item.module?.binding === "Pflicht" ? "border-l-[3px] border-l-brand-500" : ""} ${isDragging ? "opacity-30" : ""} ${muted ? "opacity-50" : ""}`}
       title={warning}
     >
       <div className="flex items-center gap-2">
@@ -45,15 +45,18 @@ export default function ModuleChip(props: Props) {
           onPointerDown={(e) => e.stopPropagation()}
           className="min-w-0 flex-1 text-left"
         >
-          <div className="truncate text-neutral-100">{item.name[lang] || item.name.de}</div>
+          <div className="truncate font-medium text-neutral-100">{item.name[lang] || item.name.de}</div>
           <div className="flex items-center gap-2 text-xs text-neutral-500">
             {item.code && <span className="font-mono">{item.code}</span>}
-            {item.module?.binding === "Pflicht" && <span className="text-sky-400/80">●</span>}
             {warning && <span className="truncate text-amber-400/90">{warning}</span>}
           </div>
         </button>
-        {badge && <span className="rounded bg-neutral-800 px-1.5 text-xs text-neutral-400">{badge}</span>}
-        <span className="shrink-0 tabular-nums text-xs text-neutral-400">{item.lp} LP</span>
+        {badge && (
+          <span className="rounded-md bg-brand-500/10 px-1.5 py-0.5 text-[11px] font-medium text-brand-400">
+            {badge}
+          </span>
+        )}
+        <span className="shrink-0 text-xs font-semibold tabular-nums text-neutral-300">{item.lp} LP</span>
         {onRemove && (
           <button
             type="button"
