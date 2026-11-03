@@ -47,3 +47,26 @@ export interface ProgramSummary {
   edition: Text | null;
   expiring: boolean;
 }
+
+export interface Course {
+  /** eKVV Veranstaltung id (`kvv_publ/publ/vd?id=`). */
+  id: string;
+  nr: string;
+  title: string;
+  type: string;
+  lecturers: string;
+  times: string;
+}
+
+/** Courses of one module element, e.g. "Datenbanken (Vorlesung)". */
+export interface CourseGroup {
+  element: string;
+  courses: Course[];
+}
+
+/** Courses per module eKVV id, then per term key such as "WiSe 2024" (the year the semester starts). */
+export interface CourseData {
+  scrapedAt: string;
+  terms: string[];
+  modules: Record<string, Record<string, CourseGroup[]>>;
+}

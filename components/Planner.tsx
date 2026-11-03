@@ -12,8 +12,10 @@ import {
   type DragStartEvent,
 } from "@dnd-kit/core";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { findCourse, loadCourses, moduleTerms, termLabel } from "@/lib/courses";
 import { tr } from "@/lib/i18n";
 import {
+  addCourse,
   addToSemester,
   assignAreas,
   CUSTOM_PREFIX,
@@ -22,16 +24,18 @@ import {
   encodePlan,
   findModule,
   profileGroups,
+  removeCourse,
   removeFromPlan,
   resolveItem,
   semesterLabel,
   semesterLp,
   warnings,
   type Plan,
+  type PlannedCourse,
 } from "@/lib/plan";
 import { degreeShort, loadProgram, PROGRAMS } from "@/lib/programs";
 import { areaChoices, RULES } from "@/lib/rules";
-import type { Lang, Program, SemesterType } from "@/lib/types";
+import type { CourseData, Lang, Program, SemesterType } from "@/lib/types";
 import ModuleChip from "./ModuleChip";
 import ModuleDialog from "./ModuleDialog";
 import ProgressPanel from "./ProgressPanel";
@@ -66,6 +70,11 @@ export default function Planner() {
   const [dragKey, setDragKey] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [theme, setTheme] = useState<"light" | "dark">("dark");
+  const [courses, setCourses] = useState<CourseData | null>(null);
+
+  useEffect(() => {
+    loadCourses().then(setCourses);
+  }, []);
 
   useEffect(() => {
     const stored = loadStored();
@@ -143,6 +152,7 @@ export default function Planner() {
   const warnByKey = new Map<string, string>();
   for (const w of warnings(program, plan)) {
     if (w.kind === "turnus") warnByKey.set(w.key, tr(lang, "turnusWarning", { term: w.offered }));
+    if (w.kind === "course-term") warnByKey.set(w.key, tr(lang, "courseTermWarning", { term: w.offered }));
     if (w.kind === "prerequisite")
       warnByKey.set(w.key, tr(lang, "prereqWarning", { codes: w.missing.join(", ") }));
   }
@@ -154,11 +164,14 @@ export default function Planner() {
   const onDragEnd = (e: DragEndEvent) => {
     setDragKey(null);
     const key = e.active.data.current?.key as string | undefined;
+    const course = e.active.data.current?.course as PlannedCourse | undefined;
     const over = e.over?.id;
     if (!key || !over) return;
-    if (over === "sidebar") update((p) => removeFromPlan(p, key));
-    else if (typeof over === "string" && over.startsWith("semester-")) {
-      update((p) => addToSemester(p, key, Number(over.slice("semester-".length))));
+    if (over === "sidebar") {
+      if (!course) update((p) => removeFromPlan(p, key));
+    } else if (typeof over === "string" && over.startsWith("semester-")) {
+      const index = Number(over.slice("semester-".length));
+      update((p) => (course ? addCourse(p, key, course, index) : addToSemester(p, key, index)));
     }
   };
 
@@ -308,6 +321,14 @@ export default function Planner() {
                         badge={area ? rules?.areas.find((a) => a.id === area)?.short?.[lang] : undefined}
                         onOpen={() => setOpenKey(key)}
                         onRemove={() => update((p) => removeFromPlan(p, key))}
+                        courses={(plan.courses?.[key] ?? []).map((c) => {
+                          const found = findCourse(courses, item.module?.ekvvId, c.term, c.id);
+                          return {
+                            id: `${c.term}:${c.id}`,
+                            label: `${found ? `${found.type} · ${found.title}` : c.id} (${termLabel(c.term)})`,
+                            onRemove: () => update((p) => removeCourse(p, key, c)),
+                          };
+                        })}
                       />
                     );
                   })}
@@ -388,6 +409,7 @@ export default function Planner() {
                   program={program}
                   plan={plan}
                   lang={lang}
+                  courses={courses}
                   onOpen={setOpenKey}
                   onAddCustom={(name, lp) =>
                     update((p) => ({
@@ -434,6 +456,8 @@ export default function Planner() {
           plannedIndex={findModule(plan, openItem.key)}
           rules={rules}
           areaOptions={rules ? areaChoices(rules, openItem.code) : []}
+          courses={courses && openItem.module ? moduleTerms(courses, openItem.module.ekvvId) : null}
+          firstTerm={courses?.terms[0] ?? null}
           onClose={() => setOpenKey(null)}
           onAdd={(i) => update((p) => addToSemester(p, openItem.key, i))}
           onRemove={() => update((p) => removeFromPlan(p, openItem.key))}

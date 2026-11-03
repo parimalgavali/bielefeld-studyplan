@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, writeFileSync } from "node:fs";
 import {
   EKVV_BASE,
   parseModule,
@@ -7,42 +7,13 @@ import {
   parseTurnus,
 } from "../lib/ekvv/parse";
 import type { Module, Program, ProgramSummary } from "../lib/types";
+import { fetchHtml } from "./http";
 import { PROGRAM_IDS, PROGRAMS } from "./programs";
 
-const USER_AGENT =
-  "bielefeld-studyplan/0.1 (+https://github.com/parimalgavali/bielefeld-studyplan; unofficial student project)";
-const DELAY_MS = 1500;
-const CACHE_DIR = ".cache/ekvv";
-
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
-/** Polite fetch: one request at a time, backs off on 429, caches pages on disk for re-runs. */
 async function get(path: string, lang: "de" | "en" = "de"): Promise<string> {
   const sep = path.includes("?") ? "&" : "?";
   const url = `${EKVV_BASE}${path}${lang === "en" ? `${sep}lang=EN` : ""}`;
-  const cacheFile = `${CACHE_DIR}/${url.slice(EKVV_BASE.length).replace(/[^A-Za-z0-9]+/g, "_")}.html`;
-  if (process.env.EKVV_CACHE !== "0" && existsSync(cacheFile)) return readFileSync(cacheFile, "utf-8");
-  for (let attempt = 1; ; attempt++) {
-    await sleep(DELAY_MS);
-    const res = await fetch(url, {
-      headers: { "User-Agent": USER_AGENT },
-      signal: AbortSignal.timeout(30_000),
-    }).catch(
-      (err: Error) =>
-        ({ ok: false, status: err.name, headers: new Headers(), text: async () => "" }) as const,
-    );
-    if (res.ok) {
-      const html = await res.text();
-      mkdirSync(CACHE_DIR, { recursive: true });
-      writeFileSync(cacheFile, html);
-      return html;
-    }
-    if (attempt >= 6) throw new Error(`${res.status} for ${url}`);
-    const retryAfter = Number(res.headers.get("retry-after")) || 0;
-    const wait = Math.max(retryAfter * 1000, (res.status === 429 ? 60_000 : 5_000) * attempt);
-    console.warn(`  ${res.status} for ${url}, retrying in ${wait / 1000}s`);
-    await sleep(wait);
-  }
+  return (await fetchHtml(url, { cacheKey: url.slice(EKVV_BASE.length) })).html;
 }
 
 const moduleCache = new Map<string, ReturnType<typeof parseModule>>();

@@ -1,7 +1,8 @@
 import * as cheerio from "cheerio";
-import type { Binding, SemesterType, Turnus } from "../types";
+import type { Binding, Course, CourseGroup, SemesterType, Turnus } from "../types";
 
 export const EKVV_BASE = "https://ekvv.uni-bielefeld.de/sinfo/publ/";
+export const KVV_BASE = "https://ekvv.uni-bielefeld.de/kvv_publ/publ/";
 
 const clean = (s: string) =>
   s
@@ -138,4 +139,69 @@ export function parseModule(html: string): ModuleDetail {
     prerequisites: optional("modul_vorraussetzungen"),
     recommendedKnowledge: optional("modul_vorkenntnisse"),
   };
+}
+
+/** "WiSe 2024/2025" -> "WiSe 2024", "SoSe 2025" -> "SoSe 2025". */
+export function termKey(label: string): string | null {
+  const m = clean(label).match(/^(WiSe|SoSe) (\d{4})/);
+  return m ? `${m[1]} ${m[2]}` : null;
+}
+
+export interface SemesterOption {
+  key: string;
+  semId: string;
+}
+
+/** Semesters on eKVV's `Semester_Auswahl.jsp`, newest first. */
+export function parseSemesterList(html: string): SemesterOption[] {
+  const $ = cheerio.load(html);
+  const out: SemesterOption[] = [];
+  $('a[href*="semester_AuswahlAct"]').each((_, el) => {
+    const key = termKey($(el).text());
+    const semId = $(el)
+      .attr("href")
+      ?.match(/sem_id=(\d+)/)?.[1];
+    if (key && semId && !out.some((s) => s.key === key)) out.push({ key, semId });
+  });
+  return out;
+}
+
+export interface ModuleCourses {
+  /** Semester the page shows (eKVV keeps it in the session). */
+  term: string | null;
+  groups: CourseGroup[];
+}
+
+/** Courses on `kvv_publ/publ/ModulDetail.jsp?id=<module>` for the selected semester; exams are skipped. */
+export function parseModuleCourses(html: string): ModuleCourses {
+  const { $, root } = main(html);
+  const term = termKey(root.find('a[href*="semester_AuswahlAct"] u').first().text());
+  const groups: CourseGroup[] = [];
+  root.find("h2.element").each((_, h) => {
+    const siblings = $(h).nextUntil("h2, h4");
+    const rows = siblings.filter("table.vn").find("tbody tr").add(siblings.find("table.vn tbody tr"));
+    const courses: Course[] = [];
+    rows.each((_, tr) => {
+      const type = clean($(tr).find("td.art").text());
+      const id = $(tr)
+        .find("td.thema a")
+        .first()
+        .attr("href")
+        ?.match(/[?&]id=(\d+)/)?.[1];
+      if (!type || type === "Kl" || !id || courses.some((c) => c.id === id)) return;
+      const zeit = $(tr).find("td.zeit").clone();
+      zeit.find("em").remove();
+      zeit.find("br").replaceWith("\n");
+      courses.push({
+        id,
+        nr: clean($(tr).find("td.belegnr").text()),
+        title: clean($(tr).find("td.thema a").first().text()),
+        type,
+        lecturers: clean($(tr).find("td.doz").text()),
+        times: zeit.text().split("\n").map(clean).filter(Boolean).join("; "),
+      });
+    });
+    if (courses.length) groups.push({ element: clean($(h).text()), courses });
+  });
+  return { term, groups };
 }

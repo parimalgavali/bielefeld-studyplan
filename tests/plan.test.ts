@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  addCourse,
   addToSemester,
   areaProgress,
   decodePlan,
@@ -7,6 +8,8 @@ import {
   encodePlan,
   missingPflicht,
   prerequisiteCodes,
+  removeCourse,
+  removeFromPlan,
   semesterLabel,
   semestersAfter,
   semesterTerm,
@@ -159,5 +162,37 @@ describe("share link", () => {
     p = { ...p, custom: [{ id: "a", name: "Übung Ökologie", lp: 3 }] };
     expect(decodePlan(encodePlan(p))).toEqual(p);
     expect(decodePlan("not-valid")).toBeNull();
+  });
+
+  it("round-trips picked courses and reads old links without them", () => {
+    let p = emptyPlan(program, 2025);
+    p = addCourse(p, "39-M-Inf-TA", { term: "WiSe 2025", id: "123" }, 0);
+    expect(decodePlan(encodePlan(p))).toEqual(p);
+    const old: Partial<typeof p> = emptyPlan(program, 2025);
+    delete old.courses;
+    expect(decodePlan(encodePlan(old as typeof p))?.courses).toEqual({});
+  });
+});
+
+describe("courses", () => {
+  it("places the parent module once and counts its LP once", () => {
+    let p = emptyPlan(program, 2025);
+    p = addCourse(p, "39-M-Inf-TA", { term: "WiSe 2025", id: "1" }, 0);
+    p = addCourse(p, "39-M-Inf-TA", { term: "WiSe 2025", id: "2" }, 0);
+    p = addCourse(p, "39-M-Inf-TA", { term: "WiSe 2025", id: "2" }, 0);
+    expect(p.semesters[0]).toEqual(["39-M-Inf-TA"]);
+    expect(p.courses?.["39-M-Inf-TA"]).toHaveLength(2);
+    expect(totalLp(program, p)).toBe(5);
+    p = removeCourse(p, "39-M-Inf-TA", { term: "WiSe 2025", id: "1" });
+    expect(p.courses?.["39-M-Inf-TA"]).toEqual([{ term: "WiSe 2025", id: "2" }]);
+    expect(removeFromPlan(p, "39-M-Inf-TA").courses?.["39-M-Inf-TA"]).toBeUndefined();
+  });
+
+  it("warns when a course's term differs from the semester", () => {
+    let p = emptyPlan(program, 2025);
+    p = addCourse(p, "39-M-Inf-TA", { term: "WiSe 2025", id: "1" }, 1);
+    expect(warnings(program, p)).toContainEqual(
+      expect.objectContaining({ kind: "course-term", semester: 1, offered: "WiSe" }),
+    );
   });
 });
