@@ -247,3 +247,9 @@ export function areaCandidates(rules: ProgramRules, code: string): string[] {
     .map((a) => a.id);
   return [...exact, ...prefix];
 }
+
+/** Areas a user may pick for a module; all elective areas when the FsB pools don't name it. */
+export function areaChoices(rules: ProgramRules, code: string): string[] {
+  const candidates = code ? areaCandidates(rules, code) : [];
+  return candidates.length ? candidates : rules.areas.filter((a) => a.id !== "pflicht").map((a) => a.id);
+}
