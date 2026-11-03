@@ -13,7 +13,7 @@ import {
   totalLp,
   warnings,
 } from "../lib/plan";
-import { areaCandidates, RULES } from "../lib/rules";
+import { areaCandidates, areaChoices, RULES } from "../lib/rules";
 import type { Module, Program } from "../lib/types";
 
 const mod = (code: string, lp: number, extra: Partial<Module> = {}): Module => ({
@@ -138,6 +138,9 @@ describe("old NWI FsB (2016) rules", () => {
     expect(areaCandidates(old, "39-Inf-WR")).toEqual(["vmath"]);
     expect(areaCandidates(old, "20-BM2_b")).toEqual(["vnat"]);
     expect(areaCandidates(old, "39-M-Inf-P1_NWI")).toEqual(["pflicht"]);
+    expect(areaCandidates(old, "39-Inf-BDS")).toEqual([]);
+    expect(areaChoices(old, "39-Inf-BDS")).toEqual(["grundlagen", "vinf", "vnat", "vmath", "ierg"]);
+    expect(areaChoices(old, "39-Inf-ML")).toEqual(["grundlagen"]);
     expect(old.areas.reduce((s, a) => s + a.lp, 0)).toBe(120);
   });
 

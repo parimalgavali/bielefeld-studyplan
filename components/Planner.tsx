@@ -30,7 +30,7 @@ import {
   type Plan,
 } from "@/lib/plan";
 import { degreeShort, loadProgram, PROGRAMS } from "@/lib/programs";
-import { areaCandidates, RULES } from "@/lib/rules";
+import { areaChoices, RULES } from "@/lib/rules";
 import type { Lang, Program, SemesterType } from "@/lib/types";
 import ModuleChip from "./ModuleChip";
 import ModuleDialog from "./ModuleDialog";
@@ -433,9 +433,7 @@ export default function Planner() {
           lang={lang}
           plannedIndex={findModule(plan, openItem.key)}
           rules={rules}
-          areaOptions={
-            rules ? (openItem.code ? areaCandidates(rules, openItem.code) : rules.areas.map((a) => a.id)) : []
-          }
+          areaOptions={rules ? areaChoices(rules, openItem.code) : []}
           onClose={() => setOpenKey(null)}
           onAdd={(i) => update((p) => addToSemester(p, openItem.key, i))}
           onRemove={() => update((p) => removeFromPlan(p, openItem.key))}
