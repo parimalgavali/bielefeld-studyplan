@@ -6,7 +6,7 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bielefeld Study Planner – plan your semesters at Uni Bielefeld",
+  title: "Kompass – study planner for Uni Bielefeld",
   description:
     "Unofficial drag-and-drop semester planner for Bielefeld University degree programmes, using module data from the eKVV.",
 };

@@ -1,4 +1,4 @@
-# Bielefeld Study Planner
+# Kompass – study planner for Uni Bielefeld
 
 Unofficial drag-and-drop semester planner for degree programmes at Universität Bielefeld,
 inspired by [UCI 4 Year Planner](https://github.com/calebvergene/uci4yearplan).

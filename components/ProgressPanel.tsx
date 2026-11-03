@@ -1,5 +1,6 @@
 "use client";
 
+import { areaTone } from "@/lib/areaTone";
 import { tr } from "@/lib/i18n";
 import {
   areaProgress,
@@ -22,13 +23,13 @@ interface Props {
   onOpen: (key: string) => void;
 }
 
-function Bar({ value, max, cap }: { value: number; max: number; cap?: boolean }) {
+function Bar({ value, max, cap, tone }: { value: number; max: number; cap?: boolean; tone?: string }) {
   const pct = max ? Math.min(100, (value / max) * 100) : 0;
   const over = cap && value > max;
   return (
     <div className="h-2 overflow-hidden rounded-full bg-neutral-800">
       <div
-        className={`h-full rounded-full ${over ? "bg-amber-400" : value >= max ? "bg-emerald-400" : "bg-brand-500"}`}
+        className={`h-full rounded-full ${over ? "bg-amber-400" : tone ? tone : value >= max ? "bg-emerald-400" : "bg-brand-500"}`}
         style={{ width: `${pct}%` }}
       />
     </div>
@@ -76,13 +77,19 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
             {areas.map((a) => (
               <li key={a.id}>
                 <div className="mb-1 flex justify-between gap-3">
-                  <span className="text-neutral-300">{a.name[lang]}</span>
+                  <span className="flex items-center gap-2 text-neutral-300">
+                    <span aria-hidden className={`size-2 shrink-0 rounded-full ${areaTone(a.id).dot}`} />
+                    {a.name[lang]}
+                    {!a.max && a.planned >= a.required && (
+                      <span className="text-xs font-medium text-emerald-400">✓</span>
+                    )}
+                  </span>
                   <span className="shrink-0 tabular-nums text-neutral-400">
                     {a.planned} / {a.max ? `${tr(lang, "upTo")} ` : ""}
                     {a.required}
                   </span>
                 </div>
-                <Bar value={a.planned} max={a.required} cap={a.max} />
+                <Bar value={a.planned} max={a.required} cap={a.max} tone={areaTone(a.id).bar} />
                 {a.note && <p className="mt-1 text-xs text-neutral-500">{a.note[lang]}</p>}
               </li>
             ))}
