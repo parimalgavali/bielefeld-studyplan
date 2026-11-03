@@ -156,9 +156,11 @@ export default function ProgressPanel({ program, plan, rules, lang, onOpen }: Pr
               const text =
                 w.kind === "turnus"
                   ? tr(lang, "turnusWarning", { term: w.offered })
-                  : w.kind === "prerequisite"
-                    ? tr(lang, "prereqWarning", { codes: w.missing.join(", ") })
-                    : "";
+                  : w.kind === "course-term"
+                    ? tr(lang, "courseTermWarning", { term: w.offered })
+                    : w.kind === "prerequisite"
+                      ? tr(lang, "prereqWarning", { codes: w.missing.join(", ") })
+                      : "";
               return (
                 <li key={i}>
                   <button

@@ -15,6 +15,14 @@ export interface Plan {
   custom: CustomModule[];
   areaOverrides: Record<string, string>;
   profile: string | null;
+  /** Courses picked per planned module key. */
+  courses?: Record<string, PlannedCourse[]>;
+}
+
+export interface PlannedCourse {
+  /** Term key such as "WiSe 2024". */
+  term: string;
+  id: string;
 }
 
 export interface PlanItem {
@@ -36,6 +44,7 @@ export function emptyPlan(program: Program, startYear: number, startTerm?: Semes
     custom: [],
     areaOverrides: {},
     profile: null,
+    courses: {},
   };
 }
 
@@ -83,7 +92,22 @@ export function addToSemester(plan: Plan, key: string, index: number): Plan {
 }
 
 export function removeFromPlan(plan: Plan, key: string): Plan {
-  return { ...plan, semesters: plan.semesters.map((s) => s.filter((k) => k !== key)) };
+  const courses = { ...plan.courses };
+  delete courses[key];
+  return { ...plan, semesters: plan.semesters.map((s) => s.filter((k) => k !== key)), courses };
+}
+
+/** Puts the course's module into the semester (moving it if planned elsewhere) and remembers the course. */
+export function addCourse(plan: Plan, key: string, course: PlannedCourse, index: number): Plan {
+  const next = addToSemester(plan, key, index);
+  const list = plan.courses?.[key] ?? [];
+  if (list.some((c) => c.id === course.id && c.term === course.term)) return next;
+  return { ...next, courses: { ...plan.courses, [key]: [...list, course] } };
+}
+
+export function removeCourse(plan: Plan, key: string, course: PlannedCourse): Plan {
+  const list = (plan.courses?.[key] ?? []).filter((c) => !(c.id === course.id && c.term === course.term));
+  return { ...plan, courses: { ...plan.courses, [key]: list } };
 }
 
 export function semesterLp(program: Program, plan: Plan, index: number): number {
@@ -165,7 +189,8 @@ export function areaProgress(program: Program, plan: Plan, rules: ProgramRules):
 export type Warning =
   | { kind: "turnus"; key: string; semester: number; offered: SemesterType }
   | { kind: "prerequisite"; key: string; semester: number; missing: string[] }
-  | { kind: "duplicate-area"; key: string };
+  | { kind: "duplicate-area"; key: string }
+  | { kind: "course-term"; key: string; semester: number; offered: SemesterType };
 
 const CODE_RE = /\b\d{2}-[A-Za-z0-9_.()/-]+/g;
 
@@ -186,6 +211,9 @@ export function warnings(program: Program, plan: Plan): Warning[] {
   plan.semesters.forEach((sem, i) => {
     const term = semesterTerm(plan, i);
     for (const key of sem) {
+      const other = (plan.courses?.[key] ?? []).find((c) => !c.term.startsWith(term));
+      if (other)
+        out.push({ kind: "course-term", key, semester: i, offered: term === "WiSe" ? "SoSe" : "WiSe" });
       const m = resolveItem(program, plan, key)?.module;
       if (!m) continue;
       if ((m.turnus === "WiSe" || m.turnus === "SoSe") && m.turnus !== term) {
@@ -237,6 +265,7 @@ export function decodePlan(encoded: string): Plan | null {
       custom: plan.custom ?? [],
       areaOverrides: plan.areaOverrides ?? {},
       profile: plan.profile ?? null,
+      courses: plan.courses ?? {},
     };
   } catch {
     return null;

@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "scrape": "tsx scripts/scrape-ekvv.ts",
+    "scrape:courses": "tsx scripts/scrape-courses.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",

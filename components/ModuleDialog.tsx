@@ -4,7 +4,8 @@ import { useEffect, useRef } from "react";
 import { tr } from "@/lib/i18n";
 import { semesterLabel, type Plan, type PlanItem } from "@/lib/plan";
 import type { ProgramRules } from "@/lib/rules";
-import type { Lang } from "@/lib/types";
+import type { CourseGroup, Lang } from "@/lib/types";
+import CourseList from "./CourseList";
 
 interface Props {
   item: PlanItem;
@@ -18,6 +19,8 @@ interface Props {
   onRemove: () => void;
   onArea: (area: string | null) => void;
   onDeleteCustom?: () => void;
+  courses: [string, CourseGroup[]][] | null;
+  firstTerm: string | null;
 }
 
 export default function ModuleDialog(props: Props) {
@@ -33,6 +36,8 @@ export default function ModuleDialog(props: Props) {
     onRemove,
     onArea,
     onDeleteCustom,
+    courses,
+    firstTerm,
   } = props;
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -95,6 +100,13 @@ export default function ModuleDialog(props: Props) {
               ))}
             </select>
           </label>
+        )}
+
+        {courses && (
+          <section className="max-h-64 overflow-y-auto rounded-md border border-neutral-800 p-2">
+            <h3 className="mb-1 text-sm font-medium text-neutral-200">{tr(lang, "courses")}</h3>
+            <CourseList moduleKey={item.key} terms={courses} firstTerm={firstTerm} lang={lang} />
+          </section>
         )}
 
         <div className="flex flex-wrap items-center gap-2 text-sm">

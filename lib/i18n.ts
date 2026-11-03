@@ -76,6 +76,19 @@ const STRINGS = {
   loading: { de: "Lädt…", en: "Loading…" },
   everySemester: { de: "jedes Semester", en: "every semester" },
   irregular: { de: "unregelmäßig", en: "irregular" },
+  courses: { de: "Lehrveranstaltungen", en: "Courses" },
+  showCourses: { de: "Lehrveranstaltungen anzeigen", en: "Show courses" },
+  noCourses: { de: "Im eKVV keine Veranstaltungen seit {from}.", en: "No courses in the eKVV since {from}." },
+  dragCourse: {
+    de: "Ziehe eine Veranstaltung in ein Semester – das Modul kommt mit.",
+    en: "Drag a course into a semester – its module comes along.",
+  },
+  dialogCourses: {
+    de: "Zum Einplanen in der Modulliste aufklappen und ziehen.",
+    en: "To plan one, expand the module in the list and drag it.",
+  },
+  parallel: { de: "+{n} Gruppen", en: "+{n} groups" },
+  courseTermWarning: { de: "Veranstaltung aus dem {term}", en: "course is from a {term}" },
 } as const;
 
 export type StringKey = keyof typeof STRINGS;

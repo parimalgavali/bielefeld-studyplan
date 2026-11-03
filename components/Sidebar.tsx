@@ -4,21 +4,25 @@ import { useDroppable } from "@dnd-kit/core";
 import { useMemo, useState } from "react";
 import { tr } from "@/lib/i18n";
 import { CUSTOM_PREFIX, findModule, inactiveGroups, resolveItem, type Plan } from "@/lib/plan";
-import type { Lang, Program } from "@/lib/types";
+import { moduleTerms } from "@/lib/courses";
+import type { CourseData, Lang, Program } from "@/lib/types";
+import CourseList from "./CourseList";
 import ModuleChip from "./ModuleChip";
 
 interface Props {
   program: Program;
   plan: Plan;
   lang: Lang;
+  courses: CourseData | null;
   onOpen: (key: string) => void;
   onAddCustom: (name: string, lp: number) => void;
 }
 
 type Filter = "all" | "Pflicht" | "Wahlpflicht";
 
-export default function Sidebar({ program, plan, lang, onOpen, onAddCustom }: Props) {
+export default function Sidebar({ program, plan, lang, courses, onOpen, onAddCustom }: Props) {
   const [query, setQuery] = useState("");
+  const [expanded, setExpanded] = useState<string | null>(null);
   const [filter, setFilter] = useState<Filter>("all");
   const [group, setGroup] = useState("");
   const [customName, setCustomName] = useState("");
@@ -93,15 +97,29 @@ export default function Sidebar({ program, plan, lang, onOpen, onAddCustom }: Pr
           const item = resolveItem(program, plan, m.code)!;
           const at = findModule(plan, m.code);
           return (
-            <ModuleChip
-              key={m.code}
-              item={item}
-              lang={lang}
-              dragId={`side:${m.code}`}
-              muted={at >= 0}
-              badge={at >= 0 ? `S${at + 1}` : undefined}
-              onOpen={() => onOpen(m.code)}
-            />
+            <div key={m.code} className="flex flex-col gap-1">
+              <ModuleChip
+                item={item}
+                lang={lang}
+                dragId={`side:${m.code}`}
+                muted={at >= 0}
+                badge={at >= 0 ? `S${at + 1}` : undefined}
+                onOpen={() => onOpen(m.code)}
+                expanded={expanded === m.code}
+                onToggle={courses ? () => setExpanded(expanded === m.code ? null : m.code) : undefined}
+              />
+              {courses && expanded === m.code && (
+                <div className="ml-2 border-l border-neutral-800 pl-2">
+                  <CourseList
+                    moduleKey={m.code}
+                    terms={moduleTerms(courses, m.ekvvId)}
+                    firstTerm={courses.terms[0] ?? null}
+                    lang={lang}
+                    draggable
+                  />
+                </div>
+              )}
+            </div>
           );
         })}
 
