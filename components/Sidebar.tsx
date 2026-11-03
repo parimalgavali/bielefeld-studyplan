@@ -90,7 +90,7 @@ export default function Sidebar({ program, plan, lang, courses, onOpen, onAddCus
         )}
       </div>
 
-      <div className="-mr-2 flex min-h-0 flex-1 flex-col gap-1.5 overflow-y-auto pr-2">
+      <div className="flex min-h-0 flex-1 flex-col gap-1.5 overflow-y-auto lg:-mr-2 lg:pr-2">
         {modules.map((m) => {
           if (seen.has(m.code)) return null;
           seen.add(m.code);

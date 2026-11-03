@@ -21,7 +21,7 @@ export default function SemesterCard({ index, label, lp, emptyText, children, is
     <section
       ref={setNodeRef}
       aria-label={`${index + 1}. ${label}`}
-      className={`flex min-h-44 flex-col rounded-xl border bg-neutral-950 p-3.5 shadow-sm shadow-black/5 transition ${
+      className={`flex min-h-44 min-w-0 flex-col rounded-xl border bg-neutral-950 p-3.5 shadow-sm shadow-black/5 transition ${
         isOver ? "border-brand-500 ring-4 ring-brand-500/15" : "border-neutral-800"
       }`}
     >
