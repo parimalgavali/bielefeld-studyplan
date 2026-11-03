@@ -14,8 +14,10 @@ import {
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { findCourse, loadCourses, moduleTerms, termLabel } from "@/lib/courses";
 import { tr } from "@/lib/i18n";
+import { areaTone } from "@/lib/areaTone";
 import {
   addCourse,
+  areaProgress,
   addToSemester,
   assignAreas,
   CUSTOM_PREFIX,
@@ -166,6 +168,13 @@ export default function Planner() {
       warnByKey.set(w.key, tr(lang, "prereqWarning", { codes: w.missing.join(", ") }));
   }
   const areaOf = rules ? assignAreas(program, plan, rules) : {};
+  const doneAreas = new Set(
+    rules
+      ? areaProgress(program, plan, rules)
+          .filter((a) => !a.max && a.planned >= a.required)
+          .map((a) => a.id)
+      : [],
+  );
   const profiles = profileGroups(program);
   const openItem = openKey ? resolveItem(program, plan, openKey) : null;
 
@@ -217,13 +226,13 @@ export default function Planner() {
                 aria-hidden
                 className="grid size-9 place-items-center rounded-lg bg-brand-500 text-base font-bold text-white"
               >
-                B
+                K
               </span>
               <div>
                 <h1 className="text-base font-semibold tracking-tight text-neutral-50">
                   {tr(lang, "title")}
                 </h1>
-                <p className="hidden text-xs text-neutral-500 xl:block">{tr(lang, "tagline")}</p>
+                <p className="text-xs text-neutral-500">{tr(lang, "subtitle")}</p>
               </div>
             </div>
             <select
@@ -427,6 +436,8 @@ export default function Planner() {
                         dragId={`plan:${key}`}
                         warning={warnByKey.get(key)}
                         badge={area ? rules?.areas.find((a) => a.id === area)?.short?.[lang] : undefined}
+                        badgeTone={area ? areaTone(area).badge : undefined}
+                        badgeDone={!!area && doneAreas.has(area)}
                         onOpen={() => setOpenKey(key)}
                         onRemove={() => update((p) => removeFromPlan(p, key))}
                         courses={(plan.courses?.[key] ?? []).map((c) => {

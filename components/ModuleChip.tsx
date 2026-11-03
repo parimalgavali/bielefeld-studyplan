@@ -11,6 +11,10 @@ interface Props {
   warning?: string;
   muted?: boolean;
   badge?: string;
+  /** Badge colour classes; defaults to the accent. */
+  badgeTone?: string;
+  /** Shows a check in the badge, e.g. when the module's area is complete. */
+  badgeDone?: boolean;
   onOpen: () => void;
   onRemove?: () => void;
   /** Sidebar: show/hide the module's courses. */
@@ -21,7 +25,21 @@ interface Props {
 }
 
 export default function ModuleChip(props: Props) {
-  const { item, lang, dragId, warning, muted, badge, onOpen, onRemove, expanded, onToggle, courses } = props;
+  const {
+    item,
+    lang,
+    dragId,
+    warning,
+    muted,
+    badge,
+    badgeTone,
+    badgeDone,
+    onOpen,
+    onRemove,
+    expanded,
+    onToggle,
+    courses,
+  } = props;
   const { attributes, listeners, setNodeRef, isDragging } = useDraggable({
     id: dragId,
     data: { key: item.key },
@@ -52,7 +70,10 @@ export default function ModuleChip(props: Props) {
           </div>
         </button>
         {badge && (
-          <span className="shrink-0 rounded-md bg-brand-500/10 px-1.5 py-0.5 text-[11px] font-medium text-brand-400">
+          <span
+            className={`shrink-0 rounded-md px-1.5 py-0.5 text-[11px] font-medium ${badgeTone ?? "bg-brand-500/10 text-brand-400"}`}
+          >
+            {badgeDone && <span aria-hidden>✓ </span>}
             {badge}
           </span>
         )}

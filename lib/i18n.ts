@@ -1,11 +1,8 @@
 import type { Lang } from "./types";
 
 const STRINGS = {
-  title: { de: "Bielefeld Studienplaner", en: "Bielefeld Study Planner" },
-  tagline: {
-    de: "Plane dein Studium an der Uni Bielefeld Semester für Semester.",
-    en: "Plan your degree at Bielefeld University, semester by semester.",
-  },
+  title: { de: "Kompass", en: "Kompass" },
+  subtitle: { de: "Studienplaner · Uni Bielefeld", en: "Study planner · Uni Bielefeld" },
   program: { de: "Studiengang", en: "Programme" },
   start: { de: "Studienbeginn", en: "Start" },
   semester: { de: "Semester", en: "Semester" },
