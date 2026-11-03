@@ -1,0 +1,1625 @@
+{
+  "id": "569518710",
+  "name": {
+    "de": "Data Science",
+    "en": "Data Science"
+  },
+  "variant": "",
+  "degree": "Master of Science",
+  "semesters": 4,
+  "lp": 120,
+  "startTerms": ["WiSe"],
+  "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/569518710",
+  "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/datascience/pdf",
+  "scrapedAt": "2026-11-03",
+  "modules": [
+    {
+      "code": "24-M-FStat",
+      "ekvvId": "108246983",
+      "name": {
+        "de": "Foundations of Statistics",
+        "en": "Foundations of Statistics"
+      },
+      "lp": 7,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Prof. Dr. Friedrich Götze",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-AOpt",
+      "ekvvId": "108247085",
+      "name": {
+        "de": "Applied Optimisation",
+        "en": "Applied Optimisation"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Basil Ell",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-SW-StaFo",
+      "ekvvId": "47135013",
+      "name": {
+        "de": "Forschung in der Statistik",
+        "en": "Topics in Contemporary Statistics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Dietmar Bauer",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-SW-StiP",
+      "ekvvId": "47135043",
+      "name": {
+        "de": "Statistik in der Praxis",
+        "en": "Statistics in Practice"
+      },
+      "lp": 7,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Dietmar Bauer",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-ELSI",
+      "ekvvId": "108247040",
+      "name": {
+        "de": "Ethical, Legal and Social Impacts",
+        "en": "Ethical, Legal and Social Impacts"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-Thesis",
+      "ekvvId": "108247036",
+      "name": {
+        "de": "Master's Thesis",
+        "en": "Master's Thesis"
+      },
+      "lp": 30,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-ML",
+      "ekvvId": "420564638",
+      "name": {
+        "de": "Grundlagen Maschinelles Lernen",
+        "en": "Introduction to Machine Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:Der erfolgreiche Abschluss der Module 39-Inf-1 Algorithmen und Datenstrukturen, 24-M-INF1 Mathematik für Informatik I und 24-M-INF2 Mathematik für Informatik IIODERder erfolgreiche Abschluss der Module 39-Inf-PP Prinzipien der Programmierung, 24-M-INF1_a Mathematik für Informatik I bzw. 24-M-INF1_a_ub und 24-M-INF2_a Mathematik für Informatik II.In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht.",
+        "en": "Vorausgesetzte Module:Der erfolgreiche Abschluss der Module 39-Inf-1 Algorithmen und Datenstrukturen, 24-M-INF1 Mathematik für Informatik I und 24-M-INF2 Mathematik für Informatik IIODERder erfolgreiche Abschluss der Module 39-Inf-PP Prinzipien der Programmierung, 24-M-INF1_a Mathematik für Informatik I bzw. 24-M-INF1_a_ub und 24-M-INF2_a Mathematik für Informatik II.In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht."
+      },
+      "recommendedKnowledge": {
+        "de": "39-Inf-13 Grundlagen künstlicher Kognition",
+        "en": "39-Inf-13 Grundlagen künstlicher Kognition"
+      }
+    },
+    {
+      "code": "39-Inf-Pro",
+      "ekvvId": "108247089",
+      "name": {
+        "de": "Programming",
+        "en": "Programming"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Basil Ell",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-BDA",
+      "ekvvId": "414570609",
+      "name": {
+        "de": "Big Data Analytics",
+        "en": "Big Data Analytics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Wissen über Datenbanken kann hilfreich sein.",
+        "en": "Wissen über Datenbanken kann hilfreich sein."
+      }
+    },
+    {
+      "code": "31-M-ASM1",
+      "ekvvId": "108246958",
+      "name": {
+        "de": "Advanced Statistical Methods I",
+        "en": "Advanced Statistical Methods I"
+      },
+      "lp": 8,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-INT1",
+      "ekvvId": "114344335",
+      "name": {
+        "de": "International Courses in Data Science 1",
+        "en": "International Courses in Data Science 1"
+      },
+      "lp": 8,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-KIDL",
+      "ekvvId": "708303398",
+      "name": {
+        "de": "Fortgeschrittene Künstliche Intelligenz & Deep Learning (Basis)",
+        "en": "Advanced Artificial Intelligence & Deep Learning (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-KIDL-x",
+      "ekvvId": "708304891",
+      "name": {
+        "de": "Fortgeschrittene Künstliche Intelligenz & Deep Learning (Schwerpunkt)",
+        "en": "Advanced Artificial Intelligence & Deep Learning (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-MLDM",
+      "ekvvId": "708298628",
+      "name": {
+        "de": "Fortgeschrittenes Maschinelles Lernen und Data Mining (Basis)",
+        "en": "Advanced Machine Learning and Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-MLDM-x",
+      "ekvvId": "708301982",
+      "name": {
+        "de": "Fortgeschrittenes Maschinelles Lernen und Data Mining (Schwerpunkt)",
+        "en": "Advanced Machine Learning and Data Mining (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-ASM2",
+      "ekvvId": "108246963",
+      "name": {
+        "de": "Advanced Statistical Methods II",
+        "en": "Advanced Statistical Methods II"
+      },
+      "lp": 8,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-INT2",
+      "ekvvId": "114344343",
+      "name": {
+        "de": "International Courses in Data Science 2",
+        "en": "International Courses in Data Science 2"
+      },
+      "lp": 8,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-NN",
+      "ekvvId": "695569730",
+      "name": {
+        "de": "Grundlagen Neuronaler Netze",
+        "en": "Introduction to Neural Networks"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-ML vermittelt werden. Der vorherige Abschluss dieses oder eines gleichwertigen Moduls wird daher dringend empfohlen.",
+        "en": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-ML vermittelt werden. Der vorherige Abschluss dieses oder eines gleichwertigen Moduls wird daher dringend empfohlen."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT",
+      "ekvvId": "420724116",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Basis)",
+        "en": "Cognitive Interaction Technology (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS",
+      "ekvvId": "420724449",
+      "name": {
+        "de": "Data Science (Basis)",
+        "en": "Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS-x",
+      "ekvvId": "420581012",
+      "name": {
+        "de": "Data Science (Schwerpunkt)",
+        "en": "Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS",
+      "ekvvId": "420724998",
+      "name": {
+        "de": "Informationssysteme (Basis)",
+        "en": "Information Systems (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI",
+      "ekvvId": "420725220",
+      "name": {
+        "de": "Künstliche Intelligenz (Basis)",
+        "en": "Artificial Intelligence (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC",
+      "ekvvId": "420725334",
+      "name": {
+        "de": "Media Computing (Basis)",
+        "en": "Media Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-DS",
+      "ekvvId": "708406489",
+      "name": {
+        "de": "Fortgeschrittene Data Science (Basis)",
+        "en": "Advanced Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-DS-x",
+      "ekvvId": "708409895",
+      "name": {
+        "de": "Fortgeschrittene Data Science (Schwerpunkt)",
+        "en": "Advanced Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT1",
+      "ekvvId": "114344350",
+      "name": {
+        "de": "International Courses in Data Science 1",
+        "en": "International Courses in Data Science 1"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT2",
+      "ekvvId": "114344355",
+      "name": {
+        "de": "International Courses in Data Science 2",
+        "en": "International Courses in Data Science 2"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT3",
+      "ekvvId": "114344360",
+      "name": {
+        "de": "International Courses in Data Science 3",
+        "en": "International Courses in Data Science 3"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT4",
+      "ekvvId": "114344365",
+      "name": {
+        "de": "International Courses in Data Science 4",
+        "en": "International Courses in Data Science 4"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT5",
+      "ekvvId": "114344370",
+      "name": {
+        "de": "International Courses in Data Science 5",
+        "en": "International Courses in Data Science 5"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT6",
+      "ekvvId": "114344375",
+      "name": {
+        "de": "International Courses in Data Science 6",
+        "en": "International Courses in Data Science 6"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 1",
+        "en": "Profile Variante 1"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-ISDA",
+      "ekvvId": "108246971",
+      "name": {
+        "de": "Introduction to Statistical Data Analysis",
+        "en": "Introduction to Statistical Data Analysis"
+      },
+      "lp": 8,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Dietmar Bauer Prof. Dr. Roland Langrock",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-Ectr1",
+      "ekvvId": "27461360",
+      "name": {
+        "de": "Econometrics 1",
+        "en": "Econometrics 1"
+      },
+      "lp": 7,
+      "recommendedSemesters": [2],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Dietmar Bauer",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-ASM1",
+      "ekvvId": "108246958",
+      "name": {
+        "de": "Advanced Statistical Methods I",
+        "en": "Advanced Statistical Methods I"
+      },
+      "lp": 8,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-INT1",
+      "ekvvId": "114344335",
+      "name": {
+        "de": "International Courses in Data Science 1",
+        "en": "International Courses in Data Science 1"
+      },
+      "lp": 8,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-KIDL",
+      "ekvvId": "708303398",
+      "name": {
+        "de": "Fortgeschrittene Künstliche Intelligenz & Deep Learning (Basis)",
+        "en": "Advanced Artificial Intelligence & Deep Learning (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-KIDL-x",
+      "ekvvId": "708304891",
+      "name": {
+        "de": "Fortgeschrittene Künstliche Intelligenz & Deep Learning (Schwerpunkt)",
+        "en": "Advanced Artificial Intelligence & Deep Learning (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-MLDM",
+      "ekvvId": "708298628",
+      "name": {
+        "de": "Fortgeschrittenes Maschinelles Lernen und Data Mining (Basis)",
+        "en": "Advanced Machine Learning and Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-MLDM-x",
+      "ekvvId": "708301982",
+      "name": {
+        "de": "Fortgeschrittenes Maschinelles Lernen und Data Mining (Schwerpunkt)",
+        "en": "Advanced Machine Learning and Data Mining (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-ASM2",
+      "ekvvId": "108246963",
+      "name": {
+        "de": "Advanced Statistical Methods II",
+        "en": "Advanced Statistical Methods II"
+      },
+      "lp": 8,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "31-M-INT2",
+      "ekvvId": "114344343",
+      "name": {
+        "de": "International Courses in Data Science 2",
+        "en": "International Courses in Data Science 2"
+      },
+      "lp": 8,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Wirtschaftswissenschaften",
+        "en": "Fakultät für Wirtschaftswissenschaften"
+      },
+      "responsible": "Prof. Dr. Roland Langrock",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-NN",
+      "ekvvId": "695569730",
+      "name": {
+        "de": "Grundlagen Neuronaler Netze",
+        "en": "Introduction to Neural Networks"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-ML vermittelt werden. Der vorherige Abschluss dieses oder eines gleichwertigen Moduls wird daher dringend empfohlen.",
+        "en": "Dieses Modul baut auf entsprechenden Kompetenzen auf, die in den Modulen 39-Inf-ML vermittelt werden. Der vorherige Abschluss dieses oder eines gleichwertigen Moduls wird daher dringend empfohlen."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT",
+      "ekvvId": "420724116",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Basis)",
+        "en": "Cognitive Interaction Technology (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS",
+      "ekvvId": "420724449",
+      "name": {
+        "de": "Data Science (Basis)",
+        "en": "Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS-x",
+      "ekvvId": "420581012",
+      "name": {
+        "de": "Data Science (Schwerpunkt)",
+        "en": "Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS",
+      "ekvvId": "420724998",
+      "name": {
+        "de": "Informationssysteme (Basis)",
+        "en": "Information Systems (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI",
+      "ekvvId": "420725220",
+      "name": {
+        "de": "Künstliche Intelligenz (Basis)",
+        "en": "Artificial Intelligence (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC",
+      "ekvvId": "420725334",
+      "name": {
+        "de": "Media Computing (Basis)",
+        "en": "Media Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-DS",
+      "ekvvId": "708406489",
+      "name": {
+        "de": "Fortgeschrittene Data Science (Basis)",
+        "en": "Advanced Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-DS-x",
+      "ekvvId": "708409895",
+      "name": {
+        "de": "Fortgeschrittene Data Science (Schwerpunkt)",
+        "en": "Advanced Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Christoph Düsing",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT1",
+      "ekvvId": "114344350",
+      "name": {
+        "de": "International Courses in Data Science 1",
+        "en": "International Courses in Data Science 1"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT2",
+      "ekvvId": "114344355",
+      "name": {
+        "de": "International Courses in Data Science 2",
+        "en": "International Courses in Data Science 2"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT3",
+      "ekvvId": "114344360",
+      "name": {
+        "de": "International Courses in Data Science 3",
+        "en": "International Courses in Data Science 3"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT4",
+      "ekvvId": "114344365",
+      "name": {
+        "de": "International Courses in Data Science 4",
+        "en": "International Courses in Data Science 4"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT5",
+      "ekvvId": "114344370",
+      "name": {
+        "de": "International Courses in Data Science 5",
+        "en": "International Courses in Data Science 5"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-INT6",
+      "ekvvId": "114344375",
+      "name": {
+        "de": "International Courses in Data Science 6",
+        "en": "International Courses in Data Science 6"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Profil Variante 2",
+        "en": "Profile Variante 2"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Dr. Basil Ell",
+      "prerequisites": {
+        "de": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch.",
+        "en": "Voraussetzung für die Teilnahme an diesem Modul ist ein Auslandsaufenthalt an einer ausländischen Hochschule. Für die Leistungen, die im Rahmen eines Auslandsstudiums erbracht werden, ist eine vorherige Abstimmung zwischen der Studierenden bzw. dem Studierenden und den am Austausch beteiligten Hochschulen durch ein \"Learning Agreement for Studies\" obligatorisch."
+      },
+      "recommendedKnowledge": null
+    }
+  ]
+}

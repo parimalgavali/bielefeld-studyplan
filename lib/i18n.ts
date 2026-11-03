@@ -1,0 +1,83 @@
+import type { Lang } from "./types";
+
+const STRINGS = {
+  title: { de: "Bielefeld Studienplaner", en: "Bielefeld Study Planner" },
+  tagline: {
+    de: "Plane dein Studium an der Uni Bielefeld Semester für Semester.",
+    en: "Plan your degree at Bielefeld University, semester by semester.",
+  },
+  program: { de: "Studiengang", en: "Programme" },
+  start: { de: "Studienbeginn", en: "Start" },
+  semester: { de: "Semester", en: "Semester" },
+  addSemester: { de: "Semester hinzufügen", en: "Add semester" },
+  removeSemester: { de: "Letztes Semester entfernen", en: "Remove last semester" },
+  dropHere: { de: "Module hierher ziehen", en: "Drag modules here" },
+  modules: { de: "Module", en: "Modules" },
+  progress: { de: "Fortschritt", en: "Progress" },
+  search: { de: "Kürzel oder Name suchen…", en: "Search code or name…" },
+  all: { de: "Alle", en: "All" },
+  pflicht: { de: "Pflicht", en: "Compulsory" },
+  wahlpflicht: { de: "Wahlpflicht", en: "Elective" },
+  allGroups: { de: "Alle Bereiche", en: "All areas" },
+  noGroup: { de: "Module des Studiengangs", en: "Programme modules" },
+  total: { de: "Leistungspunkte gesamt", en: "Total credits (LP)" },
+  missingPflicht: { de: "Fehlende Pflichtmodule", en: "Missing compulsory modules" },
+  none: { de: "Keine", en: "None" },
+  warningsTitle: { de: "Hinweise", en: "Warnings" },
+  turnusWarning: { de: "wird nur im {term} angeboten", en: "is only offered in {term}" },
+  prereqWarning: {
+    de: "braucht vorher: {codes}",
+    en: "needs first: {codes}",
+  },
+  areas: { de: "Wahlpflichtbereiche", en: "Elective areas" },
+  areasSource: { de: "Quelle", en: "Source" },
+  upTo: { de: "bis zu", en: "up to" },
+  groups: { de: "LP nach Bereich (eKVV)", en: "LP by area (eKVV)" },
+  profile: { de: "Profil", en: "Profile" },
+  chooseProfile: { de: "Profil wählen", en: "Choose profile" },
+  share: { de: "Link teilen", en: "Share link" },
+  copied: { de: "Link kopiert", en: "Link copied" },
+  reset: { de: "Plan leeren", en: "Clear plan" },
+  resetConfirm: { de: "Den ganzen Plan leeren?", en: "Clear the whole plan?" },
+  details: { de: "Details", en: "Details" },
+  close: { de: "Schließen", en: "Close" },
+  addTo: { de: "Zu Semester hinzufügen", en: "Add to semester" },
+  removeFromPlan: { de: "Aus dem Plan entfernen", en: "Remove from plan" },
+  plannedIn: { de: "Geplant in Semester {n}", en: "Planned in semester {n}" },
+  lp: { de: "LP", en: "LP" },
+  turnus: { de: "Turnus", en: "Offered" },
+  recommended: { de: "Empfohlen ab Semester", en: "Recommended from semester" },
+  faculty: { de: "Fakultät", en: "Faculty" },
+  responsible: { de: "Modulverantwortlich", en: "Responsible" },
+  prerequisites: { de: "Notwendige Voraussetzungen", en: "Necessary requirements" },
+  knowledge: { de: "Empfohlene Vorkenntnisse", en: "Recommended knowledge" },
+  openEkvv: { de: "Im eKVV öffnen", en: "Open in eKVV" },
+  area: { de: "Bereich", en: "Area" },
+  autoArea: { de: "automatisch", en: "automatic" },
+  customTitle: { de: "Eigenes Modul", en: "Custom module" },
+  customHint: {
+    de: "Für Module, die nicht in der Liste stehen (z. B. Individueller Ergänzungsbereich).",
+    en: "For modules not in the list (e.g. individual supplementary area).",
+  },
+  customName: { de: "Name", en: "Name" },
+  add: { de: "Hinzufügen", en: "Add" },
+  delete: { de: "Löschen", en: "Delete" },
+  disclaimer: {
+    de: "Inoffizielles Projekt, nicht von der Universität Bielefeld. Daten aus dem eKVV (Stand {date}). Verbindlich sind die Fächerspezifischen Bestimmungen deines Studiengangs.",
+    en: "Unofficial project, not affiliated with Bielefeld University. Data from the eKVV ({date}). Your programme's Fächerspezifische Bestimmungen (FsB) are what counts.",
+  },
+  fsb: { de: "FsB (PDF)", en: "FsB (PDF)" },
+  ekvv: { de: "eKVV-Modulliste", en: "eKVV module list" },
+  loading: { de: "Lädt…", en: "Loading…" },
+  everySemester: { de: "jedes Semester", en: "every semester" },
+  irregular: { de: "unregelmäßig", en: "irregular" },
+} as const;
+
+export type StringKey = keyof typeof STRINGS;
+
+export function tr(lang: Lang, key: StringKey, vars: Record<string, string | number> = {}): string {
+  return Object.entries(vars).reduce<string>(
+    (s, [k, v]) => s.replace(`{${k}}`, String(v)),
+    STRINGS[key][lang],
+  );
+}

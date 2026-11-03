@@ -1,0 +1,29 @@
+name: Refresh eKVV data
+
+# Manual only: the scraper is polite (one request at a time) and takes ~20 minutes.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run scrape
+      - run: npx prettier --write data
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: chore/refresh-ekvv-data
+          title: "Refresh eKVV module data"
+          commit-message: "Refresh eKVV module data"
+          body: "Automated re-run of `npm run scrape`. Review the diff for removed or renamed modules before merging."

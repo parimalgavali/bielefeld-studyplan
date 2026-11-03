@@ -1,0 +1,6 @@
+.next
+out
+.cache
+node_modules
+tests/fixtures
+package-lock.json

@@ -1,0 +1,341 @@
+{
+  "id": "189447354",
+  "name": {
+    "de": "Genome Based Systems Biology",
+    "en": "Genome Based Systems Biology"
+  },
+  "variant": "",
+  "degree": "Master of Science",
+  "semesters": 4,
+  "lp": 120,
+  "startTerms": ["WiSe"],
+  "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/189447354",
+  "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/gbsb/pdf",
+  "scrapedAt": "2026-11-03",
+  "modules": [
+    {
+      "code": "20-GBSB-MM-I_a",
+      "ekvvId": "210825544",
+      "name": {
+        "de": "Methoden und Beispiele der funktionellen Genomforschung",
+        "en": "Methods and examples of functional Genome Research"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Andrea Bräutigam PD Dr. Marion Eisenhut",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-MM-II_a",
+      "ekvvId": "210826284",
+      "name": {
+        "de": "Physiologie und Genetik der Prokaryotenzelle",
+        "en": "Physiology and Genetics of Prokaryotic Cells"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Volker F. Wendisch",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-MM-III_a",
+      "ekvvId": "210826679",
+      "name": {
+        "de": "Mathematische Methoden in der Systembiologie",
+        "en": "Mathematical Methods in Systems Biology"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Lutter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-MM-VI_a",
+      "ekvvId": "210826987",
+      "name": {
+        "de": "Angewandte Bioinformatik",
+        "en": "Applied Bioinformatics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Stefan Albaum",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-MM-IV_a",
+      "ekvvId": "210826772",
+      "name": {
+        "de": "Stoffwechselkompetenz der Eukaryotenzelle",
+        "en": "Physiological competence of Eucaryotic Cells"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Karl-Josef Dietz",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-MM-V_a",
+      "ekvvId": "210826885",
+      "name": {
+        "de": "Regulatorische Netzwerke der Eukaryotenzelle",
+        "en": "Regulatory Networks of Eukaryotic Cells"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Andrea Bräutigam Prof. Dr. Bernd Weisshaar",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-FM-II_a",
+      "ekvvId": "210825059",
+      "name": {
+        "de": "Forschungsmodul I",
+        "en": "Research Module I"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Lutter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-FM-III_a",
+      "ekvvId": "210825160",
+      "name": {
+        "de": "Forschungsmodul II",
+        "en": "Research Module II"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Lutter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-MT_a",
+      "ekvvId": "210827106",
+      "name": {
+        "de": "Masterarbeit",
+        "en": "Master Thesis"
+      },
+      "lp": 30,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Lutter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-EM_a",
+      "ekvvId": "210824908",
+      "name": {
+        "de": "Ergänzungsmodul",
+        "en": "Supplementary Module"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Lutter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-FM-Int",
+      "ekvvId": "210825301",
+      "name": {
+        "de": "Interdisziplinäres Labor",
+        "en": "Interdisciplinary Lab Course"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Lutter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-GBSB-FM-Rev",
+      "ekvvId": "210825456",
+      "name": {
+        "de": "Review Artikel",
+        "en": "Review Article"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Lutter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    }
+  ]
+}

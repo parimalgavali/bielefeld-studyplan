@@ -1,0 +1,983 @@
+{
+  "id": "366747897",
+  "name": {
+    "de": "Intelligente Interaktive Systeme",
+    "en": "Intelligent Interactive Systems"
+  },
+  "variant": "",
+  "degree": "Master of Science",
+  "semesters": 4,
+  "lp": 120,
+  "startTerms": ["WiSe"],
+  "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/366747897",
+  "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/intsys/pdf",
+  "scrapedAt": "2026-11-03",
+  "modules": [
+    {
+      "code": "39-M-Inf-SRM",
+      "ekvvId": "420159902",
+      "name": {
+        "de": "Scientific Research Methods",
+        "en": "Scientific Research Methods"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-P",
+      "ekvvId": "543932760",
+      "name": {
+        "de": "Projekt",
+        "en": "Project"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-M-Inf-GP - Grundlagenprojekt Intelligente Systeme oder 39-M-Inf-Prak - Praktikum Intelligente SystemeODERerfolgreicher Abschluss von Modulen des Profilbereichs (Kürzelkennung -adv/-adv_a, -adv-foc, -app, -app-foc/-app-foc_a) im Umfang von 15 LP.",
+        "en": "Erfolgreicher Abschluss des Moduls 39-M-Inf-GP - Grundlagenprojekt Intelligente Systeme oder 39-M-Inf-Prak - Praktikum Intelligente SystemeODERerfolgreicher Abschluss von Modulen des Profilbereichs (Kürzelkennung -adv/-adv_a, -adv-foc, -app, -app-foc/-app-foc_a) im Umfang von 15 LP."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-MA_IISY_a",
+      "ekvvId": "420160763",
+      "name": {
+        "de": "Masterarbeit",
+        "en": "Master's Thesis"
+      },
+      "lp": 30,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Empfohlen ist der Abschluss der Module, die für die ersten 2 Semester vorgesehen sind.",
+        "en": "Empfohlen ist der Abschluss der Module, die für die ersten 2 Semester vorgesehen sind."
+      }
+    },
+    {
+      "code": "20-NB",
+      "ekvvId": "26796159",
+      "name": {
+        "de": "Neuro- und Verhaltensbiologie",
+        "en": "Neurobiology and Behaviour"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Christoph Kayser",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "23-LIN-BaLinSK1",
+      "ekvvId": "288426279",
+      "name": {
+        "de": "Grundlagenmodul Profil Sprache und Kognition",
+        "en": "Profile Language and Cognition, Basic Module"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Linguistik und Literaturwissenschaft",
+        "en": "Fakultät für Linguistik und Literaturwissenschaft"
+      },
+      "responsible": "Prof. Dr. Joana Cholin",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für psycholinguistische Anwendungsbereiche und die dementsprechenden Berufsfelder sind umfassende methodische Kenntnisse von hoher Bedeutung. Deshalb wird zur Vorbereitung/Ergänzung der Besuch der folgenden Module bzw. deren Veranstaltungen empfohlen:Modul 23-LIN-BaLin4.1 Formale MethodenModul 23-LIN-BaLin4.2 TranskriptionModul 23-LIN-BaLin4.3 Quantitative Methoden",
+        "en": "Für psycholinguistische Anwendungsbereiche und die dementsprechenden Berufsfelder sind umfassende methodische Kenntnisse von hoher Bedeutung. Deshalb wird zur Vorbereitung/Ergänzung der Besuch der folgenden Module bzw. deren Veranstaltungen empfohlen:Modul 23-LIN-BaLin4.1 Formale MethodenModul 23-LIN-BaLin4.2 TranskriptionModul 23-LIN-BaLin4.3 Quantitative Methoden"
+      }
+    },
+    {
+      "code": "23-LIN-Inf",
+      "ekvvId": "27460924",
+      "name": {
+        "de": "Computerlinguistische Grundlagen für Informatik-Studierende",
+        "en": "Foundations of Computational Linguistics for Students of Informatics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Linguistik und Literaturwissenschaft",
+        "en": "Fakultät für Linguistik und Literaturwissenschaft"
+      },
+      "responsible": "Prof. Dr. Jens Michaelis",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "27-WKP",
+      "ekvvId": "26796150",
+      "name": {
+        "de": "Wahrnehmungs- und Kognitionspsychologie",
+        "en": "Psychology of Perception and Cognition"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Psychologie und Sportwissenschaft/Abteilung Psychologie",
+        "en": "Fakultät für Psychologie und Sportwissenschaft/Abteilung Psychologie"
+      },
+      "responsible": "Prof. Dr. Gernot Horstmann",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-bas",
+      "ekvvId": "420160864",
+      "name": {
+        "de": "Basics of Artificial Intelligence",
+        "en": "Basics of Artificial Intelligence"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer Dr. rer. nat. Robert Haschke",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-bas",
+      "ekvvId": "420160962",
+      "name": {
+        "de": "Basics of Autonomous Systems Engineering",
+        "en": "Basics of Autonomous Systems Engineering"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-bas",
+      "ekvvId": "420161136",
+      "name": {
+        "de": "Basics of Interaction Technology",
+        "en": "Basics of Interaction Technology"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-AM7_a",
+      "ekvvId": "61040283",
+      "name": {
+        "de": "Verhalten / neuronale Mechanismen",
+        "en": "Advanced Course Behaviour / Neurobiology"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Roland Kern",
+      "prerequisites": {
+        "de": "20-BM4(_a/_b) und eines der Module 20-BM1, 20-BM2(_a/_b), 20-BM3 oder 20-NB.In den Masterstudiengängen \"Intelligenz und Bewegung\" und \"Intelligente Systeme\" bzw. \"Intelligente Interaktive Systeme\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht.",
+        "en": "20-BM4(_a/_b) und eines der Module 20-BM1, 20-BM2(_a/_b), 20-BM3 oder 20-NB.In den Masterstudiengängen \"Intelligenz und Bewegung\" und \"Intelligente Systeme\" bzw. \"Intelligente Interaktive Systeme\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "23-CL-BaCL5",
+      "ekvvId": "288445952",
+      "name": {
+        "de": "Vertiefungsmodul",
+        "en": "Advanced Module"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Linguistik und Literaturwissenschaft",
+        "en": "Fakultät für Linguistik und Literaturwissenschaft"
+      },
+      "responsible": "Prof. Dr. Jens Michaelis",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Empfohlen ist der vorherige Abschluss der Module 23-CL-BaCL1, 23-LIN-BaLin4.1 und 23-CL-BaCL3 sowie der vorherige oder gleichzeitige Abschluss des Moduls 23-CL-BaCL2.2.",
+        "en": "Empfohlen ist der vorherige Abschluss der Module 23-CL-BaCL1, 23-LIN-BaLin4.1 und 23-CL-BaCL3 sowie der vorherige oder gleichzeitige Abschluss des Moduls 23-CL-BaCL2.2."
+      }
+    },
+    {
+      "code": "39-M-Inf-AI-adv_a",
+      "ekvvId": "544082149",
+      "name": {
+        "de": "Advanced Artificial Intelligence",
+        "en": "Advanced Artificial Intelligence"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer Dr. rer. nat. Robert Haschke",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-adv-foc",
+      "ekvvId": "543938933",
+      "name": {
+        "de": "Advanced Artificial Intelligence (focus)",
+        "en": "Advanced Artificial Intelligence (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer Dr. rer. nat. Robert Haschke",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-app",
+      "ekvvId": "420164915",
+      "name": {
+        "de": "Applied Artificial Intelligence",
+        "en": "Applied Artificial Intelligence"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-app-foc_a",
+      "ekvvId": "544067512",
+      "name": {
+        "de": "Applied Artificial Intelligence (focus)",
+        "en": "Applied Artificial Intelligence (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-adv_a",
+      "ekvvId": "544088073",
+      "name": {
+        "de": "Advanced Autonomous Systems Engineering",
+        "en": "Advanced Autonomous Systems Engineering"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-adv-foc",
+      "ekvvId": "543976539",
+      "name": {
+        "de": "Advanced Autonomous Systems Engineering (focus)",
+        "en": "Advanced Autonomous Systems Engineering (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-app",
+      "ekvvId": "420166623",
+      "name": {
+        "de": "Applied Autonomous Systems Engineering",
+        "en": "Applied Autonomous Systems Engineering"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-app-foc_a",
+      "ekvvId": "544072581",
+      "name": {
+        "de": "Applied Autonomous Systems Engineering (focus)",
+        "en": "Applied Autonomous Systems Engineering (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-adv_a",
+      "ekvvId": "544093118",
+      "name": {
+        "de": "Advanced Interaction Technology",
+        "en": "Advanced Interaction Technology"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-adv-foc",
+      "ekvvId": "543982456",
+      "name": {
+        "de": "Advanced Interaction Technology (focus)",
+        "en": "Advanced Interaction Technology (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-app",
+      "ekvvId": "420168424",
+      "name": {
+        "de": "Applied Interaction Technology",
+        "en": "Applied Interaction Technology"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-app-foc_a",
+      "ekvvId": "544074581",
+      "name": {
+        "de": "Applied Interaction Technology (focus)",
+        "en": "Applied Interaction Technology (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-P_ver1",
+      "ekvvId": "27461563",
+      "name": {
+        "de": "Projekt",
+        "en": "Project"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-M-Inf-GP - Grundlagenprojekt Intelligente Systeme oder 39-M-Inf-Prak - Praktikum Intelligente SystemeODERerfolgreicher Abschluss von Modulen des Profilbereichs (Kürzelkennung -adv, -adv-foc, -app, -app-foc) im Umfang von 15 LP.",
+        "en": "Erfolgreicher Abschluss des Moduls 39-M-Inf-GP - Grundlagenprojekt Intelligente Systeme oder 39-M-Inf-Prak - Praktikum Intelligente SystemeODERerfolgreicher Abschluss von Modulen des Profilbereichs (Kürzelkennung -adv, -adv-foc, -app, -app-foc) im Umfang von 15 LP."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-adv",
+      "ekvvId": "420161544",
+      "name": {
+        "de": "Advanced Artificial Intelligence",
+        "en": "Advanced Artificial Intelligence"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer Dr. rer. nat. Robert Haschke",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-adv-foc_ver1",
+      "ekvvId": "420161659",
+      "name": {
+        "de": "Advanced Artificial Intelligence (focus)",
+        "en": "Advanced Artificial Intelligence (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer Dr. rer. nat. Robert Haschke",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-app-foc",
+      "ekvvId": "420166175",
+      "name": {
+        "de": "Applied Artificial Intelligence (focus)",
+        "en": "Applied Artificial Intelligence (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-adv",
+      "ekvvId": "420166445",
+      "name": {
+        "de": "Advanced Autonomous Systems Engineering",
+        "en": "Advanced Autonomous Systems Engineering"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-adv-foc_ver1",
+      "ekvvId": "420166511",
+      "name": {
+        "de": "Advanced Autonomous Systems Engineering (focus)",
+        "en": "Advanced Autonomous Systems Engineering (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ASE-app-foc",
+      "ekvvId": "420166777",
+      "name": {
+        "de": "Applied Autonomous Systems Engineering (focus)",
+        "en": "Applied Autonomous Systems Engineering (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-adv",
+      "ekvvId": "420166901",
+      "name": {
+        "de": "Advanced Interaction Technology",
+        "en": "Advanced Interaction Technology"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-adv-foc_ver1",
+      "ekvvId": "420170025",
+      "name": {
+        "de": "Advanced Interaction Technology (focus)",
+        "en": "Advanced Interaction Technology (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-INT-app-foc",
+      "ekvvId": "420168770",
+      "name": {
+        "de": "Applied Interaction Technology (focus)",
+        "en": "Applied Interaction Technology (focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-MIKE",
+      "ekvvId": "36794179",
+      "name": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularized Individual Addition"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularisierter individueller Kompetenz-Erwerb (MiKE)"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Daniel Merkle Prof. Dr. Jens Stoye",
+      "prerequisites": {
+        "de": "Einschreibung in einen Masterstudiengang der Informatik (M.Sc. Intelligente Interaktive Systeme, M.Sc. Bioinformatik und Genomforschung oder M.Sc. Naturwissenschaftliche Informatik)",
+        "en": "Einschreibung in einen Masterstudiengang der Informatik (M.Sc. Intelligente Interaktive Systeme, M.Sc. Bioinformatik und Genomforschung oder M.Sc. Naturwissenschaftliche Informatik)"
+      },
+      "recommendedKnowledge": null
+    }
+  ]
+}
