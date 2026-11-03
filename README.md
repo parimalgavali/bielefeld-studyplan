@@ -4,11 +4,13 @@ Unofficial drag-and-drop semester planner for degree programmes at Universität 
 inspired by [UCI 4 Year Planner](https://github.com/calebvergene/uci4yearplan).
 
 - Pick your programme and start semester (WiSe/SoSe); drag modules from the eKVV module list into semesters.
+- Expand a module (▸) to see its courses (Vorlesung, Übung, Seminar …) per semester since WiSe 24/25, and drag a
+  concrete course into a semester: its module is planned there (LP counted once) and the course is shown under it.
 - Live checks: total LP vs. the programme target, missing Pflicht modules, modules placed in a semester
   they are not offered in (Turnus), and prerequisites from the module description that are not planned earlier.
 - Current focus: M.Sc. Naturwissenschaftliche Informatik in both FsB versions — 2025 (variante 462589642) and the expiring
   2016 version (variante 81435339) — with every Wahlpflicht area from the respective FsB checked. Other programmes are
-  scraped but hidden in the picker (`LISTED` in `lib/programs.ts`) until their FsB rules are written.
+  scraped but hidden in the picker (`LISTED_PROGRAM_IDS` in `lib/listed.ts`) until their FsB rules are written.
 - Custom modules for anything not in the list (e.g. Individueller Ergänzungsbereich).
 - German / English, light / dark theme, plan saved in your browser, share a plan as a link. No account, no server.
 
@@ -23,7 +25,12 @@ one request at a time, and writes `data/programs/*.json`. The programmes are lis
 ```bash
 npm run scrape                 # all programmes (~20 min, cached in .cache/ekvv)
 npm run scrape -- 462589642    # one programme
+npm run scrape:courses         # courses of the listed programmes' modules per semester (~45 min)
 ```
+
+`scripts/scrape-courses.ts` reads `kvv_publ/publ/ModulDetail.jsp?id=<module>` for every semester from WiSe 2024 on.
+The eKVV keeps the selected semester in the session, so it selects each semester via `semester_AuswahlAct` first and
+checks that every page shows the expected one. Exams (Art `Kl`) are skipped. Output: `data/courses.json`.
 
 Wahlpflicht area rules are not machine-readable in the eKVV; they are hand-written from the FsB PDF in
 `lib/rules.ts`.
