@@ -46,13 +46,13 @@ export default function ModuleChip(props: Props) {
           className="min-w-0 flex-1 text-left"
         >
           <div className="truncate font-medium text-neutral-100">{item.name[lang] || item.name.de}</div>
-          <div className="flex items-center gap-2 text-xs text-neutral-500">
-            {item.code && <span className="font-mono">{item.code}</span>}
-            {warning && <span className="truncate text-amber-400/90">{warning}</span>}
+          <div className="flex min-w-0 items-center gap-2 text-xs text-neutral-500">
+            {item.code && <span className="shrink-0 font-mono">{item.code}</span>}
+            {warning && <span className="min-w-0 truncate text-amber-400/90">{warning}</span>}
           </div>
         </button>
         {badge && (
-          <span className="rounded-md bg-brand-500/10 px-1.5 py-0.5 text-[11px] font-medium text-brand-400">
+          <span className="shrink-0 rounded-md bg-brand-500/10 px-1.5 py-0.5 text-[11px] font-medium text-brand-400">
             {badge}
           </span>
         )}
