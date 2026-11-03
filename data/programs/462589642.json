@@ -1,0 +1,2279 @@
+{
+  "id": "462589642",
+  "name": {
+    "de": "Naturwissenschaftliche Informatik",
+    "en": "Informatics for the Natural Sciences"
+  },
+  "variant": "",
+  "degree": "Master of Science",
+  "semesters": 4,
+  "lp": 120,
+  "startTerms": ["WiSe", "SoSe"],
+  "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/462589642",
+  "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/naturwissenschaftlicheinformatik/pdf",
+  "scrapedAt": "2026-11-03",
+  "modules": [
+    {
+      "code": "39-M-Inf-P_NWI_a",
+      "ekvvId": "544369486",
+      "name": {
+        "de": "Projekt",
+        "en": "Project"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-MA_NWI",
+      "ekvvId": "27461554",
+      "name": {
+        "de": "Masterarbeit",
+        "en": "Master's Thesis"
+      },
+      "lp": 30,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Empfohlen für die Ausgabe der Masterarbeit ist der Abschluss der Module, die für die ersten 2 Semester vorgesehen sind.",
+        "en": "Empfohlen für die Ausgabe der Masterarbeit ist der Abschluss der Module, die für die ersten 2 Semester vorgesehen sind."
+      }
+    },
+    {
+      "code": "28-GP_a",
+      "ekvvId": "365795304",
+      "name": {
+        "de": "Grundpraktikum",
+        "en": "Basic Practical Course"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Dr. Armin Brechling",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Einführung in die Physik IDigitale Methoden",
+        "en": "Einführung in die Physik IDigitale Methoden"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP",
+      "ekvvId": "420723299",
+      "name": {
+        "de": "Algorithmen & Programmierung (Basis)",
+        "en": "Algorithms & Programming (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC",
+      "ekvvId": "420723962",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Basis)",
+        "en": "Advanced Parallel and Distributed Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC-x",
+      "ekvvId": "420579500",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Schwerpunkt)",
+        "en": "Advanced Parallel and Distributed Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP-x",
+      "ekvvId": "420579931",
+      "name": {
+        "de": "Algorithmen & Programmierung (Schwerpunkt)",
+        "en": "Algorithms & Programming (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD",
+      "ekvvId": "466164359",
+      "name": {
+        "de": "Computing Devices (Basis)",
+        "en": "Computing Devices (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD-x",
+      "ekvvId": "466165261",
+      "name": {
+        "de": "Computing Devices (Schwerpunkt)",
+        "en": "Computing Devices (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT",
+      "ekvvId": "420724116",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Basis)",
+        "en": "Cognitive Interaction Technology (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CIT-x",
+      "ekvvId": "420580124",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Schwerpunkt)",
+        "en": "Cognitive Interaction Technology (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS",
+      "ekvvId": "420724298",
+      "name": {
+        "de": "Computational Life Sciences (Basis)",
+        "en": "Computational Life Sciences (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS-x",
+      "ekvvId": "420580459",
+      "name": {
+        "de": "Computational Life Sciences (Schwerpunkt)",
+        "en": "Computational Life Sciences (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS",
+      "ekvvId": "420724449",
+      "name": {
+        "de": "Data Science (Basis)",
+        "en": "Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS-x",
+      "ekvvId": "420581012",
+      "name": {
+        "de": "Data Science (Schwerpunkt)",
+        "en": "Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG",
+      "ekvvId": "420724818",
+      "name": {
+        "de": "Informatik & Gesellschaft (Basis)",
+        "en": "Computer Science & Society (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG-x",
+      "ekvvId": "420582630",
+      "name": {
+        "de": "Informatik & Gesellschaft (Schwerpunkt)",
+        "en": "Computer Science & Society (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS",
+      "ekvvId": "420724998",
+      "name": {
+        "de": "Informationssysteme (Basis)",
+        "en": "Information Systems (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-IS-x",
+      "ekvvId": "420582778",
+      "name": {
+        "de": "Informationssysteme (Schwerpunkt)",
+        "en": "Information Systems (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI",
+      "ekvvId": "420725220",
+      "name": {
+        "de": "Künstliche Intelligenz (Basis)",
+        "en": "Artificial Intelligence (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-KI-x",
+      "ekvvId": "420582928",
+      "name": {
+        "de": "Künstliche Intelligenz (Schwerpunkt)",
+        "en": "Artificial Intelligence (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC",
+      "ekvvId": "420725334",
+      "name": {
+        "de": "Media Computing (Basis)",
+        "en": "Media Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC-x",
+      "ekvvId": "420583656",
+      "name": {
+        "de": "Media Computing (Schwerpunkt)",
+        "en": "Media Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI",
+      "ekvvId": "420725516",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Basis)",
+        "en": "Human-Technology Interaction (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI-x",
+      "ekvvId": "420583949",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Schwerpunkt)",
+        "en": "Human-Technology Interaction (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS",
+      "ekvvId": "420725600",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Basis)",
+        "en": "Networks & Security (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS-x",
+      "ekvvId": "420584783",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Schwerpunkt)",
+        "en": "Networks & Security (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R",
+      "ekvvId": "420725756",
+      "name": {
+        "de": "Robotik (Basis)",
+        "en": "Robotics (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R-x",
+      "ekvvId": "420584927",
+      "name": {
+        "de": "Robotik (Schwerpunkt)",
+        "en": "Robotics (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE",
+      "ekvvId": "420725907",
+      "name": {
+        "de": "Systems Engineering (Basis)",
+        "en": "Systems Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE-x",
+      "ekvvId": "420585291",
+      "name": {
+        "de": "Systems Engineering (Schwerpunkt)",
+        "en": "Systems Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR",
+      "ekvvId": "420726043",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Basis)",
+        "en": "Signal Processing & Control Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR-x",
+      "ekvvId": "420585113",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Schwerpunkt)",
+        "en": "Signal Processing and Control Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SSC",
+      "ekvvId": "411656238",
+      "name": {
+        "de": "Scientific and Soft-Computing (Basis)",
+        "en": "Scientific and Soft-Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-Inf-WP-SSC-x",
+      "ekvvId": "420585432",
+      "name": {
+        "de": "Scientific and Soft-Computing (Schwerpunkt)",
+        "en": "Scientific and Soft-Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-M-Inf-IMDA-x",
+      "ekvvId": "544399690",
+      "name": {
+        "de": "Informatische Methoden der Datenanalyse (Schwerpunkt)",
+        "en": "Computer Science Methods in Data Analysis (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI",
+      "ekvvId": "544404773",
+      "name": {
+        "de": "Artificial Intelligence (Basis)",
+        "en": "Artificial Intelligence (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Benjamin Paaßen",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-AI-x",
+      "ekvvId": "544404997",
+      "name": {
+        "de": "Artificial Intelligence (Schwerpunkt)",
+        "en": "Artificial Intelligence (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Benjamin Paaßen",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ANWI",
+      "ekvvId": "544401263",
+      "name": {
+        "de": "Anwendungen der Naturwissenschaftlichen Informatik (Basis)",
+        "en": "Applications of Informatics in the Natural Sciences (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Robert Heyer",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ANWI-x",
+      "ekvvId": "544401547",
+      "name": {
+        "de": "Anwendungen der Naturwissenschaftlichen Informatik (Schwerpunkt)",
+        "en": "Applications of Informatics in the Natural Sciences (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Robert Heyer",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-ERT_NWI",
+      "ekvvId": "544402147",
+      "name": {
+        "de": "Neue Forschungsthemen der Naturwissenschaftlichen Informatik",
+        "en": "Emerging Research Topics in Informatics for the Natural Sciences"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-NWI",
+      "ekvvId": "544400254",
+      "name": {
+        "de": "Methoden der Naturwissenschaftlichen Informatik (Basis)",
+        "en": "Methods for Informatics in the Natural Sciences (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-NWI-x",
+      "ekvvId": "544400708",
+      "name": {
+        "de": "Methoden der Naturwissenschaftlichen Informatik (Schwerpunkt)",
+        "en": "Methods for Informatics for the Natural Sciences (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-RAT",
+      "ekvvId": "544403475",
+      "name": {
+        "de": "Robotik, Automatisierung und Technische Informatik (Basis)",
+        "en": "Robotics, Automation and Technical Informatics (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. rer. nat. Klaus Neumann",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-RAT-x",
+      "ekvvId": "544403594",
+      "name": {
+        "de": "Robotik, Automatisierung und Technische Informatik (Schwerpunkt)",
+        "en": "Robotics, Automation and Technical Informatics (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. rer. nat. Klaus Neumann",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-TA",
+      "ekvvId": "544402462",
+      "name": {
+        "de": "Theorie und Algorithmen (Basis)",
+        "en": "Theory and Algorithms (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-M-Inf-TA-x",
+      "ekvvId": "544402923",
+      "name": {
+        "de": "Theorie und Algorithmen (Schwerpunkt)",
+        "en": "Theory and Algorithms (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-PM",
+      "ekvvId": "26787669",
+      "name": {
+        "de": "Projektmodul",
+        "en": "Research Project"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Caroline Müller Prof. Dr. Klaus Reinhold",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für das Thema des gewählten Projektes relevante Vorkenntnisse sind erforderlich, diese werden dokumentiert über den erfolgreichen Abschluss entsprechender Module.",
+        "en": "Für das Thema des gewählten Projektes relevante Vorkenntnisse sind erforderlich, diese werden dokumentiert über den erfolgreichen Abschluss entsprechender Module."
+      }
+    },
+    {
+      "code": "20-SM6",
+      "ekvvId": "26788247",
+      "name": {
+        "de": "Biotechnologie und Molekularbiologie mit Grünalgen",
+        "en": "Biotechnology and Molecular Biology with Green Algae"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Olaf Kruse",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)",
+        "en": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-AM5_a",
+      "ekvvId": "61040249",
+      "name": {
+        "de": "Genetik / Zellbiologie / Physiologie",
+        "en": "Advanced Course Genetics / Cell Biology / Physiology"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Andrea Viehhauser",
+      "prerequisites": {
+        "de": "20-BM2(_a/_b) und eines der Module 20-BM1, 20-BM3, 20-BM4(_a/_b), 20-M2",
+        "en": "20-BM2(_a/_b) und eines der Module 20-BM1, 20-BM3, 20-BM4(_a/_b), 20-M2"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-AM7_a",
+      "ekvvId": "61040283",
+      "name": {
+        "de": "Verhalten / neuronale Mechanismen",
+        "en": "Advanced Course Behaviour / Neurobiology"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Roland Kern",
+      "prerequisites": {
+        "de": "20-BM4(_a/_b) und eines der Module 20-BM1, 20-BM2(_a/_b), 20-BM3 oder 20-NB.In den Masterstudiengängen \"Intelligenz und Bewegung\" und \"Intelligente Systeme\" bzw. \"Intelligente Interaktive Systeme\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht.",
+        "en": "20-BM4(_a/_b) und eines der Module 20-BM1, 20-BM2(_a/_b), 20-BM3 oder 20-NB.In den Masterstudiengängen \"Intelligenz und Bewegung\" und \"Intelligente Systeme\" bzw. \"Intelligente Interaktive Systeme\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-BM2_b",
+      "ekvvId": "120190431",
+      "name": {
+        "de": "Basis Praxis I",
+        "en": "Introduction to Biology - Lab Course I"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Bernd Weisshaar",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-NB",
+      "ekvvId": "26796159",
+      "name": {
+        "de": "Neuro- und Verhaltensbiologie",
+        "en": "Neurobiology and Behaviour"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Christoph Kayser",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "21-M16",
+      "ekvvId": "26787464",
+      "name": {
+        "de": "Physikalische Chemie - Vertiefung, Theorie",
+        "en": "Physical Chemistry - Advanced, Theory"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Chemie",
+        "en": "Fakultät für Chemie"
+      },
+      "responsible": "apl. Prof. Dr. Andreas Brockhinke Prof. Dr. Thomas Hellweg Prof. Dr. Thomas Koop Prof. Dr. Angelika Kühnle",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Modul 21-M3 - Mathematik oder gleichwertige VeranstaltungBasismodule Anorganische, Organische und Physikalische Chemie",
+        "en": "Modul 21-M3 - Mathematik oder gleichwertige VeranstaltungBasismodule Anorganische, Organische und Physikalische Chemie"
+      }
+    },
+    {
+      "code": "21-M33",
+      "ekvvId": "26793738",
+      "name": {
+        "de": "Physikalische Chemie - Spezialisierung (5 LP)",
+        "en": "Physical Chemistry - Specialisation (5 CP)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Chemie",
+        "en": "Fakultät für Chemie"
+      },
+      "responsible": "Prof. Dr. Thomas Hellweg Prof. Dr. Thomas Koop Prof. Dr. Angelika Kühnle",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Vertiefungsmodule Anorganische, Organische und Physikalische Chemie",
+        "en": "Vertiefungsmodule Anorganische, Organische und Physikalische Chemie"
+      }
+    },
+    {
+      "code": "21-M34",
+      "ekvvId": "26792713",
+      "name": {
+        "de": "Theoretische Chemie - Vertiefung",
+        "en": "Theoretical Chemistry - Advanced"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Chemie",
+        "en": "Fakultät für Chemie"
+      },
+      "responsible": "apl. Prof. Dr. Wolfgang Eisfeld Prof. Dr. Uwe Manthe",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:21-M23: Theoretische ChemieIm Masterstudiengang \"Naturwissenschaftliche Informatik\" gilt diese Voraussetzung mit dem erfolgreichen Masterzugang als erbracht.",
+        "en": "Vorausgesetzte Module:21-M23: Theoretische ChemieIm Masterstudiengang \"Naturwissenschaftliche Informatik\" gilt diese Voraussetzung mit dem erfolgreichen Masterzugang als erbracht."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "24-B-NDGL",
+      "ekvvId": "544369889",
+      "name": {
+        "de": "Numerik gewöhnlicher Differentialgleichungen",
+        "en": "Numerics of Ordinary Differential Equations"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Prof. Dr. Lubomir Banas Prof. Dr. Lars Diening",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse der Analysis und Linearen Algebra",
+        "en": "Kenntnisse der Analysis und Linearen Algebra"
+      }
+    },
+    {
+      "code": "28-EP2",
+      "ekvvId": "26799816",
+      "name": {
+        "de": "Einführung in die Physik III/IV",
+        "en": "Introduction to Physics III/IV"
+      },
+      "lp": 15,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Prof. Dr. Armin Gölzhäuser",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Einführung in die Physik I/IIRechenmethoden der Physik",
+        "en": "Einführung in die Physik I/IIRechenmethoden der Physik"
+      }
+    },
+    {
+      "code": "28-SP_ub",
+      "ekvvId": "407057653",
+      "name": {
+        "de": "Statistische Physik (unbenotet)",
+        "en": "Statistical physics (ungraded)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Prof. Dr. Jürgen Schnack",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "28-Q_ub",
+        "en": "28-Q_ub"
+      }
+    },
+    {
+      "code": "28-VKME_ub",
+      "ekvvId": "407057826",
+      "name": {
+        "de": "Vertiefung der klassischen Mechanik und Elektrodynamik (unbenotet)",
+        "en": "Advanced classical mechanics and electrodynamics (ungraded)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Prof. Dr. Dietrich Bödeker",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "28-EKME_ub",
+        "en": "28-EKME_ub"
+      }
+    },
+    {
+      "code": "28-KME",
+      "ekvvId": "365796162",
+      "name": {
+        "de": "Klassische Mechanik und Elektrodynamik",
+        "en": "Classical Mechanics and Electrodynamics"
+      },
+      "lp": 15,
+      "recommendedSemesters": [2],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Prof. Dr. Dietrich Bödeker",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Rechenmethoden der Physik I und Einführung in die Physik I",
+        "en": "Rechenmethoden der Physik I und Einführung in die Physik I"
+      }
+    },
+    {
+      "code": "20-BM3",
+      "ekvvId": "26787918",
+      "name": {
+        "de": "Basis Theorie II",
+        "en": "Introduction to Biology - Theory II"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Oliver Krüger",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Basismodul Theorie I",
+        "en": "Basismodul Theorie I"
+      }
+    },
+    {
+      "code": "20-BM4_b",
+      "ekvvId": "120190452",
+      "name": {
+        "de": "Basis Praxis II",
+        "en": "Introduction to Biology - Lab Course II"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Stephan Unger",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-SM1",
+      "ekvvId": "26788217",
+      "name": {
+        "de": "Funktionelle Genomanalyse",
+        "en": "Functional Genome Analysis"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Martin Sagasser Prof. Dr. Bernd Weisshaar",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)",
+        "en": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-SM4",
+      "ekvvId": "26788242",
+      "name": {
+        "de": "Grundlagen der Molekulargenetik",
+        "en": "Molecular Genetics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Petra Peters-Wendisch Prof. Dr. Volker F. Wendisch",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)",
+        "en": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-SM5",
+      "ekvvId": "26788245",
+      "name": {
+        "de": "Methoden der pflanzlichen Molekularbiologie",
+        "en": "Methods of Plant Molecular Biology"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Thorsten Seidel",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)",
+        "en": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-SM13",
+      "ekvvId": "26788257",
+      "name": {
+        "de": "Grundlagen der molekularen Mikrobiologie",
+        "en": "Molecular Microbiology"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Andrea Bräutigam Dr. Lutz Wobbe",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)",
+        "en": "Eines der beiden Module:20-AM5_a - Genetik / Zellbiologie / Physiologie20-AM5 - Genetik / Zellbiologie / PhysiologieStattdessen gilt für Studierende des 1-Fach-Bachelor Bioinformatische Genomforschung:Teilnahme am Praktikum \"Genomforschung II\" (Modul 20-VG)"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-SM41",
+      "ekvvId": "26788277",
+      "name": {
+        "de": "Bewegung und Verhalten",
+        "en": "Movement and Behaviour"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Volker Dürr",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM7_a - Verhalten / neuronale Mechanismen20-AM7 - Verhalten / neuronale Mechanismen",
+        "en": "Eines der beiden Module:20-AM7_a - Verhalten / neuronale Mechanismen20-AM7 - Verhalten / neuronale Mechanismen"
+      },
+      "recommendedKnowledge": {
+        "de": "Grundkenntnisse in der Neurobiologie",
+        "en": "Grundkenntnisse in der Neurobiologie"
+      }
+    },
+    {
+      "code": "20-SM42",
+      "ekvvId": "26788278",
+      "name": {
+        "de": "Von der Wahrnehmung zum Verhalten",
+        "en": "From Perception to Behaviour"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Dr. Roland Kern",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM7_a - Verhalten / neuronale Mechanismen20-AM7 - Verhalten / neuronale Mechanismen",
+        "en": "Eines der beiden Module:20-AM7_a - Verhalten / neuronale Mechanismen20-AM7 - Verhalten / neuronale Mechanismen"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "20-SM43",
+      "ekvvId": "26788282",
+      "name": {
+        "de": "Mechanismen des Verhaltens",
+        "en": "Mechanisms of Behaviour"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Biologie",
+        "en": "Fakultät für Biologie"
+      },
+      "responsible": "Prof. Dr. Oliver Krüger",
+      "prerequisites": {
+        "de": "Eines der beiden Module:20-AM7_a - Verhalten / neuronale Mechanismen20-AM7 - Verhalten / neuronale Mechanismen",
+        "en": "Eines der beiden Module:20-AM7_a - Verhalten / neuronale Mechanismen20-AM7 - Verhalten / neuronale Mechanismen"
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "21-M35",
+      "ekvvId": "26792714",
+      "name": {
+        "de": "Theoretische Chemie - Spezialisierung",
+        "en": "Theoretical Chemistry - Specialisation"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Chemie",
+        "en": "Fakultät für Chemie"
+      },
+      "responsible": "apl. Prof. Dr. Wolfgang Eisfeld Prof. Dr. Uwe Manthe",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:21-M23: Theoretische ChemieIm Masterstudiengang \"Naturwissenschaftliche Informatik\" gilt diese Voraussetzung mit dem erfolgreichen Masterzugang als erbracht.",
+        "en": "Vorausgesetzte Module:21-M23: Theoretische ChemieIm Masterstudiengang \"Naturwissenschaftliche Informatik\" gilt diese Voraussetzung mit dem erfolgreichen Masterzugang als erbracht."
+      },
+      "recommendedKnowledge": {
+        "de": "Die Kenntnisse aus Modul Theoretische Chemie - Vertiefung (Modul 21-M34) werden erwartet.",
+        "en": "Die Kenntnisse aus Modul Theoretische Chemie - Vertiefung (Modul 21-M34) werden erwartet."
+      }
+    },
+    {
+      "code": "24-B-EZT",
+      "ekvvId": "544371890",
+      "name": {
+        "de": "Elementare Zahlentheorie",
+        "en": "Elementary Number Theory"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Dr. Guido Elsner PD Dr. Walter Hoh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse der Analysis und Linearen Algebra",
+        "en": "Kenntnisse der Analysis und Linearen Algebra"
+      }
+    },
+    {
+      "code": "24-B-NU",
+      "ekvvId": "526173694",
+      "name": {
+        "de": "Numerik",
+        "en": "Numerical Analysis"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Prof. Dr. Lubomir Banas Prof. Dr. Lars Diening",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Kenntnisse der Analysis und Linearen Algebra",
+        "en": "Kenntnisse der Analysis und Linearen Algebra"
+      }
+    },
+    {
+      "code": "28-AA1",
+      "ekvvId": "275544995",
+      "name": {
+        "de": "Astronomie und Astrophysik",
+        "en": "Astronomy and Astrophysics"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "JProf. Dr. Alessandro Ridolfi",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Einführung in die Physik I/IIEinführung in die Physik IIITheoretische Physik I",
+        "en": "Einführung in die Physik I/IIEinführung in die Physik IIITheoretische Physik I"
+      }
+    },
+    {
+      "code": "28-EKME_ub",
+      "ekvvId": "407057406",
+      "name": {
+        "de": "Einführung in die klassische Mechanik und Elektrodynamik (unbenotet)",
+        "en": "Introduction to classical mechanics and electrodynamics (ungraded)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Prof. Dr. Dietrich Bödeker",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Rechenmethoden der Physik I und Einführung in die Physik I",
+        "en": "Rechenmethoden der Physik I und Einführung in die Physik I"
+      }
+    },
+    {
+      "code": "28-FO1",
+      "ekvvId": "26799892",
+      "name": {
+        "de": "Festkörper- und Oberflächenphysik I",
+        "en": "Solid State and Surface Physics I"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Sen. Prof. Dr. Günter Reiss",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Einführung in die Physik I/IIEinführung in die Physik III",
+        "en": "Einführung in die Physik I/IIEinführung in die Physik III"
+      }
+    },
+    {
+      "code": "28-Q_ub",
+      "ekvvId": "407057513",
+      "name": {
+        "de": "Quantenmechanik (unbenotet)",
+        "en": "Quantum mechanics (ungraded)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2, 4],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Physik",
+        "en": "Fakultät für Physik"
+      },
+      "responsible": "Prof. Dr. Jürgen Schnack",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "28-EKME_ub",
+        "en": "28-EKME_ub"
+      }
+    },
+    {
+      "code": "21-M-C7.1",
+      "ekvvId": "27675931",
+      "name": {
+        "de": "Fortgeschrittene Theoretische Chemie A",
+        "en": "Advanced Theoretical Chemistry A"
+      },
+      "lp": 10,
+      "recommendedSemesters": [3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "",
+        "en": ""
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Chemie",
+        "en": "Fakultät für Chemie"
+      },
+      "responsible": "Prof. Dr. Uwe Manthe",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Voraussetzung für die Teilnahme sind Kenntnisse, die dem Modul 21-M34 \"Theoretische Chemie - Vertiefung\" im Bachelor-Studiengang Chemie der Universität Bielefeld entsprechen.",
+        "en": "Voraussetzung für die Teilnahme sind Kenntnisse, die dem Modul 21-M34 \"Theoretische Chemie - Vertiefung\" im Bachelor-Studiengang Chemie der Universität Bielefeld entsprechen."
+      }
+    },
+    {
+      "code": "39-M-Inf-MIKE",
+      "ekvvId": "36794179",
+      "name": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularized Individual Addition"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularisierter individueller Kompetenz-Erwerb (MiKE)"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Daniel Merkle Prof. Dr. Jens Stoye",
+      "prerequisites": {
+        "de": "Einschreibung in einen Masterstudiengang der Informatik (M.Sc. Intelligente Interaktive Systeme, M.Sc. Bioinformatik und Genomforschung oder M.Sc. Naturwissenschaftliche Informatik)",
+        "en": "Einschreibung in einen Masterstudiengang der Informatik (M.Sc. Intelligente Interaktive Systeme, M.Sc. Bioinformatik und Genomforschung oder M.Sc. Naturwissenschaftliche Informatik)"
+      },
+      "recommendedKnowledge": null
+    }
+  ]
+}

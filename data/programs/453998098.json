@@ -1,0 +1,3431 @@
+{
+  "id": "453998098",
+  "name": {
+    "de": "Informatik",
+    "en": "Informatics"
+  },
+  "variant": "Kernfach (fw)",
+  "degree": "Bachelor of Science",
+  "semesters": 6,
+  "lp": 120,
+  "startTerms": ["WiSe"],
+  "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/453998098",
+  "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/bachelor/informatik/pdf",
+  "scrapedAt": "2026-11-03",
+  "modules": [
+    {
+      "code": "24-M-INF1_a_ub",
+      "ekvvId": "543614156",
+      "name": {
+        "de": "Mathematik für Informatik 1 (unbenotet)",
+        "en": "Mathematics for Computer Science 1 (ungraded)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Prof. Dr. Eike Lau Prof. Dr. Michael Spieß",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-PP",
+      "ekvvId": "420520482",
+      "name": {
+        "de": "Prinzipien der Programmierung",
+        "en": "Principles of Programming"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "24-M-INF2_a",
+      "ekvvId": "420520712",
+      "name": {
+        "de": "Mathematik für Informatik 2",
+        "en": "Mathematics for Computer Science 2"
+      },
+      "lp": 10,
+      "recommendedSemesters": [2],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Prof. Dr. Eike Lau Prof. Dr. Michael Spieß",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1_a bzw. 24-M-Inf1_a_ub (Mathematik für Informatik 1)",
+        "en": "24-M-INF1_a bzw. 24-M-Inf1_a_ub (Mathematik für Informatik 1)"
+      }
+    },
+    {
+      "code": "39-Inf-6",
+      "ekvvId": "420521085",
+      "name": {
+        "de": "Grundlagen Theoretischer Informatik",
+        "en": "Introduction to Theoretical Computer Science"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-Inf-PP (Prinzipien der Programmierung) bzw. 39-Inf-1 (Algorithmen und Datenstrukturen).",
+        "en": "Erfolgreicher Abschluss des Moduls 39-Inf-PP (Prinzipien der Programmierung) bzw. 39-Inf-1 (Algorithmen und Datenstrukturen)."
+      }
+    },
+    {
+      "code": "39-Inf-AD",
+      "ekvvId": "420521742",
+      "name": {
+        "de": "Grundlagen der Algorithmen und Datenstrukturen",
+        "en": "Introduction to Algorithms and Data Structures"
+      },
+      "lp": 5,
+      "recommendedSemesters": [2],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-Inf-PP.",
+        "en": "Erfolgreicher Abschluss des Moduls 39-Inf-PP."
+      },
+      "recommendedKnowledge": {
+        "de": "24-M-INF1_a /24-M-INF1_a_ub Mathematik für Informatik 1 oder ähnliche mathematische Grundkenntnisse",
+        "en": "24-M-INF1_a /24-M-INF1_a_ub Mathematik für Informatik 1 oder ähnliche mathematische Grundkenntnisse"
+      }
+    },
+    {
+      "code": "24-M-INF3",
+      "ekvvId": "420523059",
+      "name": {
+        "de": "Mathematik für Informatik 3",
+        "en": "Mathematics for Computer Science 3"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Prof. Dr. Lubomir Banas",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss des Moduls 24-M-INF1_a bzw. 24-M-Inf1_a_ub.",
+        "en": "Erfolgreicher Abschluss des Moduls 24-M-INF1_a bzw. 24-M-Inf1_a_ub."
+      },
+      "recommendedKnowledge": {
+        "de": "Erfolgreicher Abschluss des Moduls 24-M-INF2_a.",
+        "en": "Erfolgreicher Abschluss des Moduls 24-M-INF2_a."
+      }
+    },
+    {
+      "code": "39-Inf-10_a",
+      "ekvvId": "420523238",
+      "name": {
+        "de": "Datenbanken und Informationssysteme",
+        "en": "Database and Information Systems"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-Inf-PP.Grundkenntnisse Mengentheorie und PHP Kenntnisse sind ebenfalls von Vorteil.",
+        "en": "Erfolgreicher Abschluss des Moduls 39-Inf-PP.Grundkenntnisse Mengentheorie und PHP Kenntnisse sind ebenfalls von Vorteil."
+      }
+    },
+    {
+      "code": "39-Inf-SE_a",
+      "ekvvId": "70750995",
+      "name": {
+        "de": "Software Engineering",
+        "en": "Software Engineering"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr.-Ing. Sebastian Wrede",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-Inf-2_a oder 39-Inf-PP.",
+        "en": "Erfolgreicher Abschluss des Moduls 39-Inf-2_a oder 39-Inf-PP."
+      },
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "24-M-INF4",
+      "ekvvId": "420557284",
+      "name": {
+        "de": "Mathematik für Informatik 4",
+        "en": "Mathematics for Computer Science 4"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Fakultät für Mathematik",
+        "en": "Fakultät für Mathematik"
+      },
+      "responsible": "Prof. Dr. Michael Baake Prof. Dr. Vitali Wachtel",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss der Module 24-M-INF1_a bzw. 24-M-INF1_a_ub und 24-M-INF2_a.",
+        "en": "Erfolgreicher Abschluss der Module 24-M-INF1_a bzw. 24-M-INF1_a_ub und 24-M-INF2_a."
+      },
+      "recommendedKnowledge": {
+        "de": "Erfolgreicher Abschluss des Moduls 24-M-INF3 oder vergleichbare mathematische Grundkenntnisse.",
+        "en": "Erfolgreicher Abschluss des Moduls 24-M-INF3 oder vergleichbare mathematische Grundkenntnisse."
+      }
+    },
+    {
+      "code": "39-Inf-18",
+      "ekvvId": "70750959",
+      "name": {
+        "de": "Software-Gruppen-Projekt",
+        "en": "Software Group Project"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth",
+      "prerequisites": {
+        "de": "Erfolgreicher Abschluss der Module 39-Inf-PP oder 39-Inf-2_a 39-Inf-SE_a: Software Engineering",
+        "en": "Erfolgreicher Abschluss der Module 39-Inf-PP oder 39-Inf-2_a 39-Inf-SE_a: Software Engineering"
+      },
+      "recommendedKnowledge": {
+        "de": "Erfolgreicher Abschluss des Moduls 39-Inf-AD",
+        "en": "Erfolgreicher Abschluss des Moduls 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-17-Ba_A",
+      "ekvvId": "26787779",
+      "name": {
+        "de": "Bachelorarbeit",
+        "en": "Bachelor's Thesis"
+      },
+      "lp": 10,
+      "recommendedSemesters": [6],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profilübergreifende Pflichtmodule",
+        "en": "Cross-profile mandatory modules"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Es sollen mindestens die Module der ersten vier Fachsemester erbracht sein (ca. 100 LP)",
+        "en": "Es sollen mindestens die Module der ersten vier Fachsemester erbracht sein (ca. 100 LP)"
+      }
+    },
+    {
+      "code": "39-Inf-8_a",
+      "ekvvId": "420556013",
+      "name": {
+        "de": "Rechnerarchitektur",
+        "en": "Computer Architecture"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Technische Informatik",
+        "en": "Profile Technical Informatics"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Erfolgreicher Abschluss der Module 39-Inf-PP und 39-Inf-AD bzw. 39-Inf-1",
+        "en": "Erfolgreicher Abschluss der Module 39-Inf-PP und 39-Inf-AD bzw. 39-Inf-1"
+      }
+    },
+    {
+      "code": "39-Inf-17_b",
+      "ekvvId": "420557783",
+      "name": {
+        "de": "Betriebssysteme",
+        "en": "Operating Systems"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Technische Informatik",
+        "en": "Profile Technical Informatics"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Rechnerarchitektur (39-Inf-8_a)",
+        "en": "Rechnerarchitektur (39-Inf-8_a)"
+      }
+    },
+    {
+      "code": "39-Inf-PDC",
+      "ekvvId": "770311355",
+      "name": {
+        "de": "Parallel and Distributed Computing",
+        "en": "Parallel and Distributed Computing"
+      },
+      "lp": 5,
+      "recommendedSemesters": [5],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Technische Informatik",
+        "en": "Profile Technical Informatics"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-PP Prinzipien der Programmierung",
+        "en": "39-Inf-PP Prinzipien der Programmierung"
+      }
+    },
+    {
+      "code": "39-Inf-PDC_ver1",
+      "ekvvId": "420559953",
+      "name": {
+        "de": "Parallel and Distributed Computing",
+        "en": "Parallel and Distributed Computing"
+      },
+      "lp": 5,
+      "recommendedSemesters": [5],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Technische Informatik",
+        "en": "Profile Technical Informatics"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-PP Prinzipien der Programmierung",
+        "en": "39-Inf-PP Prinzipien der Programmierung"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC-x",
+      "ekvvId": "420579500",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Schwerpunkt)",
+        "en": "Advanced Parallel and Distributed Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP-x",
+      "ekvvId": "420579931",
+      "name": {
+        "de": "Algorithmen & Programmierung (Schwerpunkt)",
+        "en": "Algorithms & Programming (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD-x",
+      "ekvvId": "466165261",
+      "name": {
+        "de": "Computing Devices (Schwerpunkt)",
+        "en": "Computing Devices (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT-x",
+      "ekvvId": "420580124",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Schwerpunkt)",
+        "en": "Cognitive Interaction Technology (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS-x",
+      "ekvvId": "420580459",
+      "name": {
+        "de": "Computational Life Sciences (Schwerpunkt)",
+        "en": "Computational Life Sciences (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS-x",
+      "ekvvId": "420581012",
+      "name": {
+        "de": "Data Science (Schwerpunkt)",
+        "en": "Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG-x",
+      "ekvvId": "420582630",
+      "name": {
+        "de": "Informatik & Gesellschaft (Schwerpunkt)",
+        "en": "Computer Science & Society (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS-x",
+      "ekvvId": "420582778",
+      "name": {
+        "de": "Informationssysteme (Schwerpunkt)",
+        "en": "Information Systems (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI-x",
+      "ekvvId": "420582928",
+      "name": {
+        "de": "Künstliche Intelligenz (Schwerpunkt)",
+        "en": "Artificial Intelligence (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC-x",
+      "ekvvId": "420583656",
+      "name": {
+        "de": "Media Computing (Schwerpunkt)",
+        "en": "Media Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI-x",
+      "ekvvId": "420583949",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Schwerpunkt)",
+        "en": "Human-Technology Interaction (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS-x",
+      "ekvvId": "420584783",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Schwerpunkt)",
+        "en": "Networks & Security (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R-x",
+      "ekvvId": "420584927",
+      "name": {
+        "de": "Robotik (Schwerpunkt)",
+        "en": "Robotics (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE-x",
+      "ekvvId": "420585291",
+      "name": {
+        "de": "Systems Engineering (Schwerpunkt)",
+        "en": "Systems Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR-x",
+      "ekvvId": "420585113",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Schwerpunkt)",
+        "en": "Signal Processing and Control Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SSC-x",
+      "ekvvId": "420585432",
+      "name": {
+        "de": "Scientific and Soft-Computing (Schwerpunkt)",
+        "en": "Scientific and Soft-Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP",
+      "ekvvId": "420723299",
+      "name": {
+        "de": "Algorithmen & Programmierung (Basis)",
+        "en": "Algorithms & Programming (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC",
+      "ekvvId": "420723962",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Basis)",
+        "en": "Advanced Parallel and Distributed Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD",
+      "ekvvId": "466164359",
+      "name": {
+        "de": "Computing Devices (Basis)",
+        "en": "Computing Devices (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT",
+      "ekvvId": "420724116",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Basis)",
+        "en": "Cognitive Interaction Technology (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS",
+      "ekvvId": "420724298",
+      "name": {
+        "de": "Computational Life Sciences (Basis)",
+        "en": "Computational Life Sciences (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS",
+      "ekvvId": "420724449",
+      "name": {
+        "de": "Data Science (Basis)",
+        "en": "Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG",
+      "ekvvId": "420724818",
+      "name": {
+        "de": "Informatik & Gesellschaft (Basis)",
+        "en": "Computer Science & Society (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS",
+      "ekvvId": "420724998",
+      "name": {
+        "de": "Informationssysteme (Basis)",
+        "en": "Information Systems (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI",
+      "ekvvId": "420725220",
+      "name": {
+        "de": "Künstliche Intelligenz (Basis)",
+        "en": "Artificial Intelligence (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC",
+      "ekvvId": "420725334",
+      "name": {
+        "de": "Media Computing (Basis)",
+        "en": "Media Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI",
+      "ekvvId": "420725516",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Basis)",
+        "en": "Human-Technology Interaction (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS",
+      "ekvvId": "420725600",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Basis)",
+        "en": "Networks & Security (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R",
+      "ekvvId": "420725756",
+      "name": {
+        "de": "Robotik (Basis)",
+        "en": "Robotics (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE",
+      "ekvvId": "420725907",
+      "name": {
+        "de": "Systems Engineering (Basis)",
+        "en": "Systems Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR",
+      "ekvvId": "420726043",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Basis)",
+        "en": "Signal Processing & Control Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SSC",
+      "ekvvId": "411656238",
+      "name": {
+        "de": "Scientific and Soft-Computing (Basis)",
+        "en": "Scientific and Soft-Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Technische Informatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-Inf-SeqA1",
+      "ekvvId": "467052073",
+      "name": {
+        "de": "Sequenzanalyse 1",
+        "en": "Sequence Analysis 1"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Bioinformatik",
+        "en": "Profile Bioinformatics"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundlagen in der Programmierung, z.B. 39-MBT6a oder 39-Inf-PP",
+        "en": "Grundlagen in der Programmierung, z.B. 39-MBT6a oder 39-Inf-PP"
+      }
+    },
+    {
+      "code": "39-Inf-ACI",
+      "ekvvId": "543618437",
+      "name": {
+        "de": "Algorithmische Chemieinformatik",
+        "en": "Algorithmic Cheminformatics"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Bioinformatik",
+        "en": "Profile Bioinformatics"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Daniel Merkle",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Grundlagen in der Programmierung, z.B. 39-MBT6a oder 39-Inf-PP",
+        "en": "Grundlagen in der Programmierung, z.B. 39-MBT6a oder 39-Inf-PP"
+      }
+    },
+    {
+      "code": "39-Inf-SeqA2",
+      "ekvvId": "467052203",
+      "name": {
+        "de": "Sequenzanalyse 2",
+        "en": "Sequence Analysis 2"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Bioinformatik",
+        "en": "Profile Bioinformatics"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Sequenzanalyse 1",
+        "en": "Sequenzanalyse 1"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC-x",
+      "ekvvId": "420579500",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Schwerpunkt)",
+        "en": "Advanced Parallel and Distributed Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP-x",
+      "ekvvId": "420579931",
+      "name": {
+        "de": "Algorithmen & Programmierung (Schwerpunkt)",
+        "en": "Algorithms & Programming (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD-x",
+      "ekvvId": "466165261",
+      "name": {
+        "de": "Computing Devices (Schwerpunkt)",
+        "en": "Computing Devices (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT-x",
+      "ekvvId": "420580124",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Schwerpunkt)",
+        "en": "Cognitive Interaction Technology (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS-x",
+      "ekvvId": "420580459",
+      "name": {
+        "de": "Computational Life Sciences (Schwerpunkt)",
+        "en": "Computational Life Sciences (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS-x",
+      "ekvvId": "420581012",
+      "name": {
+        "de": "Data Science (Schwerpunkt)",
+        "en": "Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG-x",
+      "ekvvId": "420582630",
+      "name": {
+        "de": "Informatik & Gesellschaft (Schwerpunkt)",
+        "en": "Computer Science & Society (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS-x",
+      "ekvvId": "420582778",
+      "name": {
+        "de": "Informationssysteme (Schwerpunkt)",
+        "en": "Information Systems (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI-x",
+      "ekvvId": "420582928",
+      "name": {
+        "de": "Künstliche Intelligenz (Schwerpunkt)",
+        "en": "Artificial Intelligence (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC-x",
+      "ekvvId": "420583656",
+      "name": {
+        "de": "Media Computing (Schwerpunkt)",
+        "en": "Media Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI-x",
+      "ekvvId": "420583949",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Schwerpunkt)",
+        "en": "Human-Technology Interaction (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS-x",
+      "ekvvId": "420584783",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Schwerpunkt)",
+        "en": "Networks & Security (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R-x",
+      "ekvvId": "420584927",
+      "name": {
+        "de": "Robotik (Schwerpunkt)",
+        "en": "Robotics (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE-x",
+      "ekvvId": "420585291",
+      "name": {
+        "de": "Systems Engineering (Schwerpunkt)",
+        "en": "Systems Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR-x",
+      "ekvvId": "420585113",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Schwerpunkt)",
+        "en": "Signal Processing and Control Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SSC-x",
+      "ekvvId": "420585432",
+      "name": {
+        "de": "Scientific and Soft-Computing (Schwerpunkt)",
+        "en": "Scientific and Soft-Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-Inf-PDC",
+      "ekvvId": "770311355",
+      "name": {
+        "de": "Parallel and Distributed Computing",
+        "en": "Parallel and Distributed Computing"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-PP Prinzipien der Programmierung",
+        "en": "39-Inf-PP Prinzipien der Programmierung"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP",
+      "ekvvId": "420723299",
+      "name": {
+        "de": "Algorithmen & Programmierung (Basis)",
+        "en": "Algorithms & Programming (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC",
+      "ekvvId": "420723962",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Basis)",
+        "en": "Advanced Parallel and Distributed Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD",
+      "ekvvId": "466164359",
+      "name": {
+        "de": "Computing Devices (Basis)",
+        "en": "Computing Devices (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT",
+      "ekvvId": "420724116",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Basis)",
+        "en": "Cognitive Interaction Technology (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS",
+      "ekvvId": "420724298",
+      "name": {
+        "de": "Computational Life Sciences (Basis)",
+        "en": "Computational Life Sciences (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS",
+      "ekvvId": "420724449",
+      "name": {
+        "de": "Data Science (Basis)",
+        "en": "Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG",
+      "ekvvId": "420724818",
+      "name": {
+        "de": "Informatik & Gesellschaft (Basis)",
+        "en": "Computer Science & Society (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS",
+      "ekvvId": "420724998",
+      "name": {
+        "de": "Informationssysteme (Basis)",
+        "en": "Information Systems (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI",
+      "ekvvId": "420725220",
+      "name": {
+        "de": "Künstliche Intelligenz (Basis)",
+        "en": "Artificial Intelligence (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC",
+      "ekvvId": "420725334",
+      "name": {
+        "de": "Media Computing (Basis)",
+        "en": "Media Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI",
+      "ekvvId": "420725516",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Basis)",
+        "en": "Human-Technology Interaction (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS",
+      "ekvvId": "420725600",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Basis)",
+        "en": "Networks & Security (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R",
+      "ekvvId": "420725756",
+      "name": {
+        "de": "Robotik (Basis)",
+        "en": "Robotics (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE",
+      "ekvvId": "420725907",
+      "name": {
+        "de": "Systems Engineering (Basis)",
+        "en": "Systems Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR",
+      "ekvvId": "420726043",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Basis)",
+        "en": "Signal Processing & Control Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SSC",
+      "ekvvId": "411656238",
+      "name": {
+        "de": "Scientific and Soft-Computing (Basis)",
+        "en": "Scientific and Soft-Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-Inf-PDC_ver1",
+      "ekvvId": "420559953",
+      "name": {
+        "de": "Parallel and Distributed Computing",
+        "en": "Parallel and Distributed Computing"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Bioinformatik KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "Wird nicht mehr angeboten",
+        "en": "No longer offered"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-PP Prinzipien der Programmierung",
+        "en": "39-Inf-PP Prinzipien der Programmierung"
+      }
+    },
+    {
+      "code": "39-Inf-FL_a",
+      "ekvvId": "420564257",
+      "name": {
+        "de": "Formale Logik",
+        "en": "Formal Logic"
+      },
+      "lp": 5,
+      "recommendedSemesters": [3],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Modellbildung",
+        "en": "Profile Modelling"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD und 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD und 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-VC",
+      "ekvvId": "420564409",
+      "name": {
+        "de": "Visual Computing",
+        "en": "Visual Computing"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Modellbildung",
+        "en": "Profile Modelling"
+      },
+      "turnus": "SoSe",
+      "turnusText": {
+        "de": "Jedes Sommersemester",
+        "en": "Every summer semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Helge Rhodin",
+      "prerequisites": {
+        "de": "39-Inf-PP",
+        "en": "39-Inf-PP"
+      },
+      "recommendedKnowledge": {
+        "de": "24-M-INF1_a bzw. 24-M-INF1_a_ub und 24-M-INF2_a und 39-Inf-AD",
+        "en": "24-M-INF1_a bzw. 24-M-INF1_a_ub und 24-M-INF2_a und 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-ML",
+      "ekvvId": "420564638",
+      "name": {
+        "de": "Grundlagen Maschinelles Lernen",
+        "en": "Introduction to Machine Learning"
+      },
+      "lp": 5,
+      "recommendedSemesters": [5],
+      "binding": "Pflicht",
+      "group": {
+        "de": "Profil Modellbildung",
+        "en": "Profile Modelling"
+      },
+      "turnus": "WiSe",
+      "turnusText": {
+        "de": "Jedes Wintersemester",
+        "en": "Every winter semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Barbara Hammer",
+      "prerequisites": {
+        "de": "Vorausgesetzte Module:Der erfolgreiche Abschluss der Module 39-Inf-1 Algorithmen und Datenstrukturen, 24-M-INF1 Mathematik für Informatik I und 24-M-INF2 Mathematik für Informatik IIODERder erfolgreiche Abschluss der Module 39-Inf-PP Prinzipien der Programmierung, 24-M-INF1_a Mathematik für Informatik I bzw. 24-M-INF1_a_ub und 24-M-INF2_a Mathematik für Informatik II.In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht.",
+        "en": "Vorausgesetzte Module:Der erfolgreiche Abschluss der Module 39-Inf-1 Algorithmen und Datenstrukturen, 24-M-INF1 Mathematik für Informatik I und 24-M-INF2 Mathematik für Informatik IIODERder erfolgreiche Abschluss der Module 39-Inf-PP Prinzipien der Programmierung, 24-M-INF1_a Mathematik für Informatik I bzw. 24-M-INF1_a_ub und 24-M-INF2_a Mathematik für Informatik II.In den Masterstudiengängen \"Data Science\" und \"BioMechatronik\" gelten diese Voraussetzungen mit dem erfolgreichen Masterzugang als erbracht."
+      },
+      "recommendedKnowledge": {
+        "de": "39-Inf-13 Grundlagen künstlicher Kognition",
+        "en": "39-Inf-13 Grundlagen künstlicher Kognition"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC-x",
+      "ekvvId": "420579500",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Schwerpunkt)",
+        "en": "Advanced Parallel and Distributed Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP-x",
+      "ekvvId": "420579931",
+      "name": {
+        "de": "Algorithmen & Programmierung (Schwerpunkt)",
+        "en": "Algorithms & Programming (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1, bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD-x",
+      "ekvvId": "466165261",
+      "name": {
+        "de": "Computing Devices (Schwerpunkt)",
+        "en": "Computing Devices (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT-x",
+      "ekvvId": "420580124",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Schwerpunkt)",
+        "en": "Cognitive Interaction Technology (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS-x",
+      "ekvvId": "420580459",
+      "name": {
+        "de": "Computational Life Sciences (Schwerpunkt)",
+        "en": "Computational Life Sciences (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS-x",
+      "ekvvId": "420581012",
+      "name": {
+        "de": "Data Science (Schwerpunkt)",
+        "en": "Data Science (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG-x",
+      "ekvvId": "420582630",
+      "name": {
+        "de": "Informatik & Gesellschaft (Schwerpunkt)",
+        "en": "Computer Science & Society (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS-x",
+      "ekvvId": "420582778",
+      "name": {
+        "de": "Informationssysteme (Schwerpunkt)",
+        "en": "Information Systems (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI-x",
+      "ekvvId": "420582928",
+      "name": {
+        "de": "Künstliche Intelligenz (Schwerpunkt)",
+        "en": "Artificial Intelligence (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC-x",
+      "ekvvId": "420583656",
+      "name": {
+        "de": "Media Computing (Schwerpunkt)",
+        "en": "Media Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI-x",
+      "ekvvId": "420583949",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Schwerpunkt)",
+        "en": "Human-Technology Interaction (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS-x",
+      "ekvvId": "420584783",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Schwerpunkt)",
+        "en": "Networks & Security (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R-x",
+      "ekvvId": "420584927",
+      "name": {
+        "de": "Robotik (Schwerpunkt)",
+        "en": "Robotics (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE-x",
+      "ekvvId": "420585291",
+      "name": {
+        "de": "Systems Engineering (Schwerpunkt)",
+        "en": "Systems Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR-x",
+      "ekvvId": "420585113",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Schwerpunkt)",
+        "en": "Signal Processing and Control Engineering (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SSC-x",
+      "ekvvId": "420585432",
+      "name": {
+        "de": "Scientific and Soft-Computing (Schwerpunkt)",
+        "en": "Scientific and Soft-Computing (Focus)"
+      },
+      "lp": 10,
+      "recommendedSemesters": [4, 5],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-Inf-WP-AP",
+      "ekvvId": "420723299",
+      "name": {
+        "de": "Algorithmen & Programmierung (Basis)",
+        "en": "Algorithms & Programming (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-PP, 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-APDC",
+      "ekvvId": "420723962",
+      "name": {
+        "de": "Advanced Parallel and Distributed Computing (Basis)",
+        "en": "Advanced Parallel and Distributed Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr. Alexander Sczyrba",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6",
+        "en": "39-Inf-1 bzw. 39-Inf-AD, 39-Inf-6"
+      }
+    },
+    {
+      "code": "39-Inf-WP-CD",
+      "ekvvId": "466164359",
+      "name": {
+        "de": "Computing Devices (Basis)",
+        "en": "Computing Devices (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein.",
+        "en": "Für die verschiedenen Lehrveranstaltungen dieses Moduls können bestimmte Vorkenntnisse (z.B. Algorithmen und Programmierung, Rechnerarchitektur, Mathematik) empfehlenswert sein."
+      }
+    },
+    {
+      "code": "39-Inf-WP-CIT",
+      "ekvvId": "420724116",
+      "name": {
+        "de": "Kognitive Interaktionstechnologie (Basis)",
+        "en": "Cognitive Interaction Technology (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp Prof. Dr. Helge Ritter",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-CLS",
+      "ekvvId": "420724298",
+      "name": {
+        "de": "Computational Life Sciences (Basis)",
+        "en": "Computational Life Sciences (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth Prof. Dr. Jens Stoye",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-DS",
+      "ekvvId": "420724449",
+      "name": {
+        "de": "Data Science (Basis)",
+        "en": "Data Science (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Alexander Schönhuth",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IG",
+      "ekvvId": "420724818",
+      "name": {
+        "de": "Informatik & Gesellschaft (Basis)",
+        "en": "Computer Science & Society (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Philipp Cimiano",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-IS",
+      "ekvvId": "420724998",
+      "name": {
+        "de": "Informationssysteme (Basis)",
+        "en": "Information Systems (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Ralf Hofestädt Prof. Dr.-Ing. Tim Wilhelm Nattkemper",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "39-Inf-1 bzw. 39-Inf-AD",
+        "en": "39-Inf-1 bzw. 39-Inf-AD"
+      }
+    },
+    {
+      "code": "39-Inf-WP-KI",
+      "ekvvId": "420725220",
+      "name": {
+        "de": "Künstliche Intelligenz (Basis)",
+        "en": "Artificial Intelligence (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla Prof'in Dr. Barbara Hammer Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MC",
+      "ekvvId": "420725334",
+      "name": {
+        "de": "Media Computing (Basis)",
+        "en": "Media Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Hanna Drimalla",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-MTI",
+      "ekvvId": "420725516",
+      "name": {
+        "de": "Mensch-Technik-Interaktion (Basis)",
+        "en": "Human-Technology Interaction (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Stefan Kopp",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-NWS",
+      "ekvvId": "420725600",
+      "name": {
+        "de": "Netzwerke & Sicherheit (Basis)",
+        "en": "Networks & Security (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr. Markus Nebel",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-R",
+      "ekvvId": "420725756",
+      "name": {
+        "de": "Robotik (Basis)",
+        "en": "Robotics (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SE",
+      "ekvvId": "420725907",
+      "name": {
+        "de": "Systems Engineering (Basis)",
+        "en": "Systems Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "PD Dr.-Ing. Sven Wachsmuth Dr.-Ing. Sebastian Wrede",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SR",
+      "ekvvId": "420726043",
+      "name": {
+        "de": "Signalverarbeitung & Regelungstechnik (Basis)",
+        "en": "Signal Processing & Control Engineering (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof. Dr.-Ing. Ralf Möller",
+      "prerequisites": null,
+      "recommendedKnowledge": null
+    },
+    {
+      "code": "39-Inf-WP-SSC",
+      "ekvvId": "411656238",
+      "name": {
+        "de": "Scientific and Soft-Computing (Basis)",
+        "en": "Scientific and Soft-Computing (Basis)"
+      },
+      "lp": 5,
+      "recommendedSemesters": [4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)",
+        "en": "Strukturierte Ergänzung des Profils Modellbildung KF (fw)"
+      },
+      "turnus": "irregular",
+      "turnusText": {
+        "de": "mindestens jährlich angeboten",
+        "en": "At least once a year"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Prof'in Dr. Ellen Baake Dr. Dirk Frettlöh",
+      "prerequisites": null,
+      "recommendedKnowledge": {
+        "de": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a",
+        "en": "24-M-INF1, 24-M-INF2 bzw. 24-M-INF1_a/24-M-INF1_a_ub, 24-M-INF2_a"
+      }
+    },
+    {
+      "code": "39-Inf-MIKE",
+      "ekvvId": "36794176",
+      "name": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularized Individual Addition"
+      },
+      "lp": 10,
+      "recommendedSemesters": [1, 2, 3, 4, 5, 6],
+      "binding": "Wahlpflicht",
+      "group": {
+        "de": "Modularisierter individueller Kompetenz-Erwerb (MiKE)",
+        "en": "Modularisierter individueller Kompetenz-Erwerb (MiKE)"
+      },
+      "turnus": "both",
+      "turnusText": {
+        "de": "Jedes Semester",
+        "en": "Every semester"
+      },
+      "faculty": {
+        "de": "Technische Fakultät",
+        "en": "Technische Fakultät"
+      },
+      "responsible": "Dr. rer. nat. Thomas Hermann",
+      "prerequisites": {
+        "de": "Einschreibung in einer Bachelorstudiengangsvariante der Informatik",
+        "en": "Einschreibung in einer Bachelorstudiengangsvariante der Informatik"
+      },
+      "recommendedKnowledge": null
+    }
+  ]
+}

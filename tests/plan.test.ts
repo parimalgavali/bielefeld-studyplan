@@ -1,0 +1,137 @@
+import { describe, expect, it } from "vitest";
+import {
+  addToSemester,
+  areaProgress,
+  decodePlan,
+  emptyPlan,
+  encodePlan,
+  missingPflicht,
+  prerequisiteCodes,
+  semesterLabel,
+  semesterTerm,
+  totalLp,
+  warnings,
+} from "../lib/plan";
+import { RULES } from "../lib/rules";
+import type { Module, Program } from "../lib/types";
+
+const mod = (code: string, lp: number, extra: Partial<Module> = {}): Module => ({
+  code,
+  ekvvId: code,
+  name: { de: code, en: code },
+  lp,
+  recommendedSemesters: [1],
+  binding: "Wahlpflicht",
+  group: { de: "", en: "" },
+  turnus: "both",
+  turnusText: { de: "", en: "" },
+  faculty: { de: "", en: "" },
+  responsible: "",
+  prerequisites: null,
+  recommendedKnowledge: null,
+  ...extra,
+});
+
+const program: Program = {
+  id: "462589642",
+  name: { de: "NWI", en: "NWI" },
+  variant: "",
+  degree: "Master of Science",
+  semesters: 4,
+  lp: 120,
+  startTerms: ["WiSe", "SoSe"],
+  ekvvUrl: "",
+  fsbUrl: null,
+  scrapedAt: "2026-11-03",
+  modules: [
+    mod("39-M-Inf-P_NWI_a", 10, { binding: "Pflicht" }),
+    mod("39-M-Inf-MA_NWI", 30, { binding: "Pflicht" }),
+    mod("39-M-Inf-AI-x", 10),
+    mod("39-M-Inf-TA", 5),
+    mod("39-M-Inf-RAT", 5),
+    mod("20-BM2_b", 10, { turnus: "WiSe" }),
+    mod("20-SM1", 10, { prerequisites: { de: "20-AM5(_a)", en: "20-AM5(_a)" } }),
+    mod("20-AM5_a", 10, {
+      prerequisites: { de: "20-BM2(_a/_b) und eines der Module 20-BM1, 20-BM3", en: "" },
+    }),
+  ],
+};
+
+describe("semesters", () => {
+  it("alternates WiSe and SoSe from the start term", () => {
+    const p = emptyPlan(program, 2025, "WiSe");
+    expect([0, 1, 2, 3].map((i) => semesterTerm(p, i))).toEqual(["WiSe", "SoSe", "WiSe", "SoSe"]);
+    expect([0, 1, 2, 3].map((i) => semesterLabel(p, i))).toEqual([
+      "WiSe 25/26",
+      "SoSe 26",
+      "WiSe 26/27",
+      "SoSe 27",
+    ]);
+    const s = emptyPlan(program, 2026, "SoSe");
+    expect([0, 1, 2].map((i) => semesterLabel(s, i))).toEqual(["SoSe 26", "WiSe 26/27", "SoSe 27"]);
+  });
+});
+
+describe("checks", () => {
+  it("sums LP and lists missing Pflicht modules", () => {
+    let p = emptyPlan(program, 2025);
+    p = addToSemester(p, "39-M-Inf-P_NWI_a", 2);
+    p = addToSemester(p, "39-M-Inf-AI-x", 0);
+    expect(totalLp(program, p)).toBe(20);
+    expect(missingPflicht(program, p).map((m) => m.code)).toEqual(["39-M-Inf-MA_NWI"]);
+  });
+
+  it("moves a module instead of duplicating it", () => {
+    let p = addToSemester(emptyPlan(program, 2025), "39-M-Inf-TA", 0);
+    p = addToSemester(p, "39-M-Inf-TA", 1);
+    expect(p.semesters[0]).toEqual([]);
+    expect(p.semesters[1]).toEqual(["39-M-Inf-TA"]);
+  });
+
+  it("warns about Turnus and prerequisites", () => {
+    let p = emptyPlan(program, 2025);
+    p = addToSemester(p, "20-BM2_b", 1);
+    p = addToSemester(p, "20-SM1", 1);
+    const w = warnings(program, p);
+    expect(w).toContainEqual({ kind: "turnus", key: "20-BM2_b", semester: 1, offered: "WiSe" });
+    expect(w).toContainEqual({ kind: "prerequisite", key: "20-SM1", semester: 1, missing: ["20-AM5_a"] });
+    p = addToSemester(p, "20-AM5_a", 0);
+    expect(warnings(program, p).some((x) => x.kind === "prerequisite" && x.key === "20-SM1")).toBe(false);
+  });
+
+  it("extracts module codes from prerequisite text", () => {
+    const known = new Set(["20-BM2_b", "20-BM1", "20-BM3"]);
+    expect(prerequisiteCodes("20-BM2(_a/_b) und eines der Module 20-BM1, 20-BM3", known)).toEqual([
+      "20-BM2",
+      "20-BM1",
+      "20-BM3",
+    ]);
+  });
+});
+
+describe("NWI area rules", () => {
+  it("fills areas from the FsB pools, preferring an area the module fits into", () => {
+    let p = emptyPlan(program, 2025);
+    for (const c of ["39-M-Inf-AI-x", "39-M-Inf-TA", "39-M-Inf-RAT", "20-BM2_b", "20-AM5_a"]) {
+      p = addToSemester(p, c, 0);
+    }
+    const byId = Object.fromEntries(areaProgress(program, p, RULES["462589642"]).map((a) => [a.id, a]));
+    expect(byId.vinf.planned).toBe(20);
+    expect(byId.vnat.planned).toBe(10);
+    expect(byId.grundlagen.planned).toBe(10);
+    p = { ...p, areaOverrides: { "20-AM5_a": "vnat" } };
+    const again = Object.fromEntries(areaProgress(program, p, RULES["462589642"]).map((a) => [a.id, a]));
+    expect(again.vnat.planned).toBe(20);
+    expect(again.grundlagen.planned).toBe(0);
+  });
+});
+
+describe("share link", () => {
+  it("round-trips a plan including umlauts", () => {
+    let p = emptyPlan(program, 2025);
+    p = addToSemester(p, "39-M-Inf-TA", 0);
+    p = { ...p, custom: [{ id: "a", name: "Übung Ökologie", lp: 3 }] };
+    expect(decodePlan(encodePlan(p))).toEqual(p);
+    expect(decodePlan("not-valid")).toBeNull();
+  });
+});

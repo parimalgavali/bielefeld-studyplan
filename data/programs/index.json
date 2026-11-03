@@ -1,0 +1,79 @@
+[
+  {
+    "id": "462589642",
+    "name": {
+      "de": "Naturwissenschaftliche Informatik",
+      "en": "Informatics for the Natural Sciences"
+    },
+    "variant": "",
+    "degree": "Master of Science",
+    "semesters": 4,
+    "lp": 120
+  },
+  {
+    "id": "453996665",
+    "name": {
+      "de": "Naturwissenschaftliche Informatik",
+      "en": "Informatics for the Natural Sciences"
+    },
+    "variant": "1-Fach (fw)",
+    "degree": "Bachelor of Science",
+    "semesters": 6,
+    "lp": 180
+  },
+  {
+    "id": "453998098",
+    "name": {
+      "de": "Informatik",
+      "en": "Informatics"
+    },
+    "variant": "Kernfach (fw)",
+    "degree": "Bachelor of Science",
+    "semesters": 6,
+    "lp": 120
+  },
+  {
+    "id": "405818172",
+    "name": {
+      "de": "Künstliche Intelligenz und Kognitive Informatik",
+      "en": "Artificial Intelligence and Cognitive Informatics"
+    },
+    "variant": "1-Fach (fw)",
+    "degree": "Bachelor of Science",
+    "semesters": 6,
+    "lp": 180
+  },
+  {
+    "id": "569518710",
+    "name": {
+      "de": "Data Science",
+      "en": "Data Science"
+    },
+    "variant": "",
+    "degree": "Master of Science",
+    "semesters": 4,
+    "lp": 120
+  },
+  {
+    "id": "366747897",
+    "name": {
+      "de": "Intelligente Interaktive Systeme",
+      "en": "Intelligent Interactive Systems"
+    },
+    "variant": "",
+    "degree": "Master of Science",
+    "semesters": 4,
+    "lp": 120
+  },
+  {
+    "id": "189447354",
+    "name": {
+      "de": "Genome Based Systems Biology",
+      "en": "Genome Based Systems Biology"
+    },
+    "variant": "",
+    "degree": "Master of Science",
+    "semesters": 4,
+    "lp": 120
+  }
+]
