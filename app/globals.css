@@ -5,28 +5,56 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --color-brand-300: oklch(82% 0.08 268);
+  --color-brand-400: oklch(73% 0.13 268);
+  --color-brand-500: oklch(60% 0.19 268);
+  --color-brand-600: oklch(54% 0.2 268);
+}
+
 :root {
   color-scheme: dark;
-  --app-bg: #0a0a0a;
-  --app-fg: #e5e5e5;
+  --app-bg: oklch(14.8% 0.012 265);
+  --app-fg: oklch(92% 0.008 265);
+  /* Cool, slightly blue-tinted neutrals instead of flat grey. The UI is written dark-first. */
+  --color-neutral-50: oklch(98.4% 0.003 265);
+  --color-neutral-100: oklch(96.5% 0.005 265);
+  --color-neutral-200: oklch(92% 0.008 265);
+  --color-neutral-300: oklch(85% 0.012 265);
+  --color-neutral-400: oklch(71% 0.016 265);
+  --color-neutral-500: oklch(57% 0.018 265);
+  --color-neutral-600: oklch(46% 0.018 265);
+  --color-neutral-700: oklch(37% 0.017 265);
+  --color-neutral-800: oklch(29% 0.016 265);
+  --color-neutral-900: oklch(22.5% 0.014 265);
+  --color-neutral-950: oklch(18% 0.013 265);
+  /* One accent: a confident indigo blue. */
+  --color-brand-300: oklch(82% 0.08 268);
+  --color-brand-400: oklch(73% 0.13 268);
+  --color-brand-500: oklch(60% 0.19 268);
+  --color-brand-600: oklch(54% 0.2 268);
 }
 
 :root[data-theme="light"] {
   color-scheme: light;
-  --app-bg: #ffffff;
-  --app-fg: #171717;
-  /* The UI is written dark-first; light mode mirrors the neutral scale and darkens accents. */
-  --color-neutral-50: oklch(14.5% 0 none);
-  --color-neutral-100: oklch(20.5% 0 none);
-  --color-neutral-200: oklch(26.9% 0 none);
-  --color-neutral-300: oklch(37.1% 0 none);
-  --color-neutral-400: oklch(43.9% 0 none);
-  --color-neutral-600: oklch(70.8% 0 none);
-  --color-neutral-700: oklch(87% 0 none);
-  --color-neutral-800: oklch(92.2% 0 none);
-  --color-neutral-900: oklch(97% 0 none);
-  --color-neutral-950: oklch(98.5% 0 none);
-  --color-sky-400: oklch(58.8% 0.158 241.966);
+  --app-bg: oklch(97.4% 0.005 265);
+  --app-fg: oklch(20% 0.02 265);
+  /* Light mode mirrors the neutral scale and darkens accents. */
+  --color-neutral-50: oklch(19% 0.022 265);
+  --color-neutral-100: oklch(24% 0.022 265);
+  --color-neutral-200: oklch(30% 0.02 265);
+  --color-neutral-300: oklch(39% 0.02 265);
+  --color-neutral-400: oklch(48% 0.018 265);
+  --color-neutral-500: oklch(56% 0.016 265);
+  --color-neutral-600: oklch(68% 0.013 265);
+  --color-neutral-700: oklch(84% 0.01 265);
+  --color-neutral-800: oklch(91% 0.008 265);
+  --color-neutral-900: oklch(95.8% 0.006 265);
+  --color-neutral-950: oklch(99.5% 0.002 265);
+  --color-brand-300: oklch(45% 0.19 268);
+  --color-brand-400: oklch(50% 0.2 268);
+  --color-brand-500: oklch(52% 0.21 268);
+  --color-brand-600: oklch(46% 0.2 268);
   --color-amber-200: oklch(47.3% 0.137 46.201);
   --color-amber-300: oklch(55.5% 0.163 48.998);
   --color-amber-400: oklch(66.6% 0.179 58.318);
@@ -39,4 +67,9 @@ body {
   background: var(--app-bg);
   color: var(--app-fg);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
 }

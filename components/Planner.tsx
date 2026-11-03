@@ -23,12 +23,15 @@ import {
   emptyPlan,
   encodePlan,
   findModule,
+  missingPflicht,
   profileGroups,
   removeCourse,
   removeFromPlan,
   resolveItem,
   semesterLabel,
   semesterLp,
+  semestersAfter,
+  totalLp,
   warnings,
   type Plan,
   type PlannedCourse,
@@ -150,7 +153,13 @@ export default function Planner() {
 
   const rules = RULES[program.id] ?? null;
   const warnByKey = new Map<string, string>();
-  for (const w of warnings(program, plan)) {
+  const allWarnings = warnings(program, plan);
+  const warnCount =
+    allWarnings.length + (rules?.validUntil ? semestersAfter(plan, rules.validUntil).length : 0);
+  const missingCount = missingPflicht(program, plan).length;
+  const total = totalLp(program, plan);
+  const planEmpty = plan.semesters.every((s) => s.length === 0);
+  for (const w of allWarnings) {
     if (w.kind === "turnus") warnByKey.set(w.key, tr(lang, "turnusWarning", { term: w.offered }));
     if (w.kind === "course-term") warnByKey.set(w.key, tr(lang, "courseTermWarning", { term: w.offered }));
     if (w.kind === "prerequisite")
@@ -193,111 +202,210 @@ export default function Planner() {
   };
 
   const select =
-    "rounded-md border border-neutral-800 bg-neutral-900 px-2 py-1.5 text-sm text-neutral-200 outline-none focus:border-neutral-600";
+    "h-9 rounded-lg border border-neutral-800 bg-neutral-950 px-2.5 text-sm text-neutral-100 outline-none hover:border-neutral-700 focus:border-brand-500";
+  const iconBtn =
+    "grid size-9 place-items-center rounded-lg border border-neutral-800 bg-neutral-950 text-neutral-300 hover:border-neutral-700 hover:text-neutral-50";
   const years = Array.from({ length: 7 }, (_, i) => currentStartYear() - 4 + i);
 
   return (
     <DndContext sensors={sensors} onDragStart={onDragStart} onDragEnd={onDragEnd}>
       <div className="flex min-h-screen flex-col lg:h-screen">
-        <header className="flex flex-wrap items-center gap-x-4 gap-y-2 border-b border-neutral-900 px-4 py-3 lg:px-6">
-          <div className="mr-auto">
-            <h1 className="text-base font-medium text-neutral-50">{tr(lang, "title")}</h1>
-            <p className="text-xs text-neutral-500">{tr(lang, "tagline")}</p>
-          </div>
-          <select
-            aria-label={tr(lang, "program")}
-            value={program.id}
-            onChange={(e) => setProgramId(e.target.value)}
-            className={`${select} max-w-[32rem]`}
-          >
-            {PROGRAMS.map((p) => (
-              <option key={p.id} value={p.id}>
-                {degreeShort(p.degree)} {p.name[lang] || p.name.de}
-                {p.variant ? ` – ${p.variant}` : ""}
-                {p.edition ? ` · ${p.edition[lang]}` : ""}
-              </option>
-            ))}
-          </select>
-          <div className="flex items-center gap-1.5">
+        <header className="border-b border-neutral-800 bg-neutral-950">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2 px-4 py-3 lg:px-6">
+            <div className="mr-auto flex items-center gap-3">
+              <span
+                aria-hidden
+                className="grid size-9 place-items-center rounded-lg bg-brand-500 text-base font-bold text-white"
+              >
+                B
+              </span>
+              <div>
+                <h1 className="text-base font-semibold tracking-tight text-neutral-50">
+                  {tr(lang, "title")}
+                </h1>
+                <p className="hidden text-xs text-neutral-500 xl:block">{tr(lang, "tagline")}</p>
+              </div>
+            </div>
             <select
-              aria-label={tr(lang, "start")}
-              value={plan.startTerm}
-              onChange={(e) => update((p) => ({ ...p, startTerm: e.target.value as SemesterType }))}
-              className={select}
+              aria-label={tr(lang, "program")}
+              value={program.id}
+              onChange={(e) => setProgramId(e.target.value)}
+              className={`${select} min-w-0 max-w-[24rem] font-medium xl:max-w-[30rem]`}
             >
-              <option value="WiSe">WiSe</option>
-              <option value="SoSe">SoSe</option>
-            </select>
-            <select
-              aria-label={`${tr(lang, "start")} year`}
-              value={plan.startYear}
-              onChange={(e) => update((p) => ({ ...p, startYear: Number(e.target.value) }))}
-              className={select}
-            >
-              {years.map((y) => (
-                <option key={y} value={y}>
-                  {y}
+              {PROGRAMS.map((p) => (
+                <option key={p.id} value={p.id}>
+                  {degreeShort(p.degree)} {p.name[lang] || p.name.de}
+                  {p.variant ? ` – ${p.variant}` : ""}
+                  {p.edition ? ` · ${p.edition[lang]}` : ""}
                 </option>
               ))}
             </select>
+            <div className="flex items-center gap-1.5">
+              <span className="text-xs text-neutral-500">{tr(lang, "start")}</span>
+              <select
+                aria-label={tr(lang, "start")}
+                value={plan.startTerm}
+                onChange={(e) => update((p) => ({ ...p, startTerm: e.target.value as SemesterType }))}
+                className={select}
+              >
+                <option value="WiSe">WiSe</option>
+                <option value="SoSe">SoSe</option>
+              </select>
+              <select
+                aria-label={`${tr(lang, "start")} year`}
+                value={plan.startYear}
+                onChange={(e) => update((p) => ({ ...p, startYear: Number(e.target.value) }))}
+                className={select}
+              >
+                {years.map((y) => (
+                  <option key={y} value={y}>
+                    {y}
+                  </option>
+                ))}
+              </select>
+            </div>
+            {profiles.length > 1 && (
+              <select
+                aria-label={tr(lang, "profile")}
+                value={plan.profile ?? ""}
+                onChange={(e) => update((p) => ({ ...p, profile: e.target.value || null }))}
+                className={select}
+              >
+                <option value="">{tr(lang, "chooseProfile")}</option>
+                {profiles.map((g) => (
+                  <option key={g} value={g}>
+                    {program.modules.find((m) => m.group.de === g)?.group[lang] || g}
+                  </option>
+                ))}
+              </select>
+            )}
+            <div className="flex items-center gap-1.5">
+              <button
+                type="button"
+                onClick={toggleTheme}
+                className={iconBtn}
+                aria-label={tr(lang, "theme")}
+                title={tr(lang, "theme")}
+              >
+                {theme === "dark" ? (
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="size-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  >
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+                  </svg>
+                ) : (
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="size-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z" />
+                  </svg>
+                )}
+              </button>
+              <button
+                type="button"
+                onClick={() => setLang(lang === "de" ? "en" : "de")}
+                className={`${iconBtn} text-xs font-semibold`}
+                aria-label="Sprache / language"
+              >
+                {lang === "de" ? "EN" : "DE"}
+              </button>
+              <button
+                type="button"
+                onClick={share}
+                className="flex h-9 items-center gap-1.5 rounded-lg bg-brand-500 px-3.5 text-sm font-medium text-white shadow-sm hover:bg-brand-600"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  className="size-4"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7" />
+                </svg>
+                {tr(lang, "share")}
+              </button>
+            </div>
           </div>
-          {profiles.length > 1 && (
-            <select
-              aria-label={tr(lang, "profile")}
-              value={plan.profile ?? ""}
-              onChange={(e) => update((p) => ({ ...p, profile: e.target.value || null }))}
-              className={select}
+
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-neutral-800/70 px-4 py-2.5 lg:px-6">
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-2xl font-bold tabular-nums tracking-tight text-neutral-50">{total}</span>
+              <span className="text-sm text-neutral-500">/ {program.lp} LP</span>
+            </div>
+            <div
+              className="h-2 min-w-32 flex-1 overflow-hidden rounded-full bg-neutral-800"
+              role="progressbar"
+              aria-label={tr(lang, "total")}
+              aria-valuenow={total}
+              aria-valuemax={program.lp}
             >
-              <option value="">{tr(lang, "chooseProfile")}</option>
-              {profiles.map((g) => (
-                <option key={g} value={g}>
-                  {program.modules.find((m) => m.group.de === g)?.group[lang] || g}
-                </option>
-              ))}
-            </select>
-          )}
-          <div className="flex items-center gap-1 text-sm">
+              <div
+                className={`h-full rounded-full transition-[width] duration-500 ${total >= program.lp ? "bg-emerald-400" : "bg-brand-500"}`}
+                style={{ width: `${Math.min(100, (total / program.lp) * 100)}%` }}
+              />
+            </div>
             <button
               type="button"
-              onClick={share}
-              className="rounded-md px-2.5 py-1.5 text-neutral-300 hover:bg-neutral-900"
+              onClick={() => setTab("progress")}
+              className={`rounded-full px-2.5 py-1 text-xs font-medium ${
+                missingCount
+                  ? "bg-neutral-900 text-neutral-300 hover:text-neutral-50"
+                  : "bg-emerald-400/10 text-emerald-400"
+              }`}
             >
-              {tr(lang, "share")}
+              {missingCount ? tr(lang, "missingShort", { n: missingCount }) : tr(lang, "allPflicht")}
             </button>
-            <button
-              type="button"
-              onClick={() =>
-                window.confirm(tr(lang, "resetConfirm")) &&
-                update(() => emptyPlan(program, plan.startYear, plan.startTerm))
-              }
-              className="rounded-md px-2.5 py-1.5 text-neutral-500 hover:bg-neutral-900 hover:text-neutral-300"
-            >
-              {tr(lang, "reset")}
-            </button>
-            <button
-              type="button"
-              onClick={toggleTheme}
-              className="rounded-md border border-neutral-800 px-2.5 py-1.5 text-xs text-neutral-300 hover:bg-neutral-900"
-              aria-label={tr(lang, "theme")}
-              title={tr(lang, "theme")}
-            >
-              {theme === "dark" ? "☀" : "☾"}
-            </button>
-            <button
-              type="button"
-              onClick={() => setLang(lang === "de" ? "en" : "de")}
-              className="rounded-md border border-neutral-800 px-2.5 py-1.5 text-xs text-neutral-300 hover:bg-neutral-900"
-              aria-label="Sprache / language"
-            >
-              {lang === "de" ? "EN" : "DE"}
-            </button>
+            {warnCount > 0 && (
+              <button
+                type="button"
+                onClick={() => setTab("progress")}
+                className="rounded-full bg-amber-400/10 px-2.5 py-1 text-xs font-medium text-amber-400 hover:text-amber-300"
+              >
+                {tr(lang, warnCount === 1 ? "warningOne" : "warningsShort", { n: warnCount })}
+              </button>
+            )}
           </div>
         </header>
 
         <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
           <main className="min-h-0 flex-1 overflow-y-auto p-4 lg:p-6">
-            {rules?.notice && <p className="mb-3 text-xs text-amber-300/90">{rules.notice[lang]}</p>}
-            <div className="grid gap-3 sm:grid-cols-2">
+            {rules?.notice && (
+              <p className="mb-4 rounded-lg border border-amber-400/30 bg-amber-400/5 px-3 py-2 text-xs text-amber-300">
+                {rules.notice[lang]}
+              </p>
+            )}
+            {planEmpty && (
+              <section className="mb-4 rounded-xl border border-neutral-800 bg-neutral-950 p-4">
+                <h2 className="mb-3 text-sm font-semibold tracking-tight text-neutral-50">
+                  {tr(lang, "startTitle")}
+                </h2>
+                <ol className="grid gap-3 text-sm text-neutral-400 sm:grid-cols-3">
+                  {(["step1", "step2", "step3"] as const).map((k, n) => (
+                    <li key={k} className="flex gap-2.5">
+                      <span className="grid size-5 shrink-0 place-items-center rounded-full bg-brand-500/15 text-[11px] font-semibold text-brand-400">
+                        {n + 1}
+                      </span>
+                      {tr(lang, k)}
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+            <div className="grid gap-4 sm:grid-cols-2">
               {plan.semesters.map((keys, i) => (
                 <SemesterCard
                   key={i}
@@ -335,11 +443,11 @@ export default function Planner() {
                 </SemesterCard>
               ))}
             </div>
-            <div className="mt-3 flex gap-2 text-sm">
+            <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
               <button
                 type="button"
                 onClick={() => update((p) => ({ ...p, semesters: [...p.semesters, []] }))}
-                className="rounded-md border border-dashed border-neutral-800 px-3 py-1.5 text-neutral-400 hover:border-neutral-600 hover:text-neutral-200"
+                className="rounded-lg border border-dashed border-neutral-700 px-3 py-1.5 font-medium text-neutral-400 hover:border-brand-500 hover:text-brand-400"
               >
                 + {tr(lang, "addSemester")}
               </button>
@@ -352,6 +460,17 @@ export default function Planner() {
                   {tr(lang, "removeSemester")}
                 </button>
               )}
+              <span className="ml-auto text-xs text-neutral-500">{tr(lang, "saved")}</span>
+              <button
+                type="button"
+                onClick={() =>
+                  window.confirm(tr(lang, "resetConfirm")) &&
+                  update(() => emptyPlan(program, plan.startYear, plan.startTerm))
+                }
+                className="rounded-lg px-2.5 py-1.5 text-xs text-neutral-500 hover:bg-neutral-900 hover:text-red-400"
+              >
+                {tr(lang, "reset")}
+              </button>
             </div>
             <footer className="mt-8 max-w-3xl text-xs leading-relaxed text-neutral-600">
               {tr(lang, "disclaimer", { date: program.scrapedAt })}{" "}
@@ -388,8 +507,8 @@ export default function Planner() {
             </footer>
           </main>
 
-          <aside className="flex min-h-[28rem] flex-col border-t border-neutral-900 p-4 lg:h-full lg:w-[24rem] lg:border-l lg:border-t-0">
-            <div className="mb-3 flex gap-1 rounded-md bg-neutral-900 p-1 text-sm" role="tablist">
+          <aside className="flex min-h-[28rem] flex-col border-t border-neutral-800 bg-neutral-950 p-4 lg:h-full lg:w-[25rem] lg:border-l lg:border-t-0">
+            <div className="mb-3 flex gap-1 rounded-lg bg-neutral-900 p-1 text-sm" role="tablist">
               {(["modules", "progress"] as const).map((k) => (
                 <button
                   key={k}
@@ -397,7 +516,7 @@ export default function Planner() {
                   role="tab"
                   aria-selected={tab === k}
                   onClick={() => setTab(k)}
-                  className={`flex-1 rounded px-3 py-1 ${tab === k ? "bg-neutral-800 text-neutral-50" : "text-neutral-400 hover:text-neutral-200"}`}
+                  className={`flex-1 rounded-md px-3 py-1.5 font-medium ${tab === k ? "bg-neutral-950 text-neutral-50 shadow-sm shadow-black/10" : "text-neutral-400 hover:text-neutral-200"}`}
                 >
                   {tr(lang, k)}
                 </button>

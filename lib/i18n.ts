@@ -77,6 +77,24 @@ const STRINGS = {
   everySemester: { de: "jedes Semester", en: "every semester" },
   irregular: { de: "unregelmäßig", en: "irregular" },
   courses: { de: "Lehrveranstaltungen", en: "Courses" },
+  missingShort: { de: "{n} Pflichtmodule fehlen", en: "{n} compulsory missing" },
+  allPflicht: { de: "Alle Pflichtmodule geplant", en: "All compulsory planned" },
+  warningsShort: { de: "{n} Hinweise", en: "{n} warnings" },
+  warningOne: { de: "1 Hinweis", en: "1 warning" },
+  saved: { de: "Automatisch in diesem Browser gespeichert", en: "Saved automatically in this browser" },
+  startTitle: { de: "In drei Schritten zum Plan", en: "Your plan in three steps" },
+  step1: {
+    de: "Wähle oben Studiengang und Studienbeginn.",
+    en: "Pick your programme and start semester above.",
+  },
+  step2: {
+    de: "Ziehe Module aus der Liste in ein Semester – über ▸ auch einzelne Veranstaltungen.",
+    en: "Drag modules from the list into a semester – or open ▸ for single courses.",
+  },
+  step3: {
+    de: "Behalte oben deine LP im Blick und teile den Plan per Link.",
+    en: "Watch your LP at the top and share the plan as a link.",
+  },
   showCourses: { de: "Lehrveranstaltungen anzeigen", en: "Show courses" },
   noCourses: { de: "Im eKVV keine Veranstaltungen seit {from}.", en: "No courses in the eKVV since {from}." },
   dragCourse: {

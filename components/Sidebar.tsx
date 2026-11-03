@@ -55,7 +55,7 @@ export default function Sidebar({ program, plan, lang, courses, onOpen, onAddCus
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={tr(lang, "search")}
-        className="w-full rounded-md border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none placeholder:text-neutral-600 focus:border-neutral-600"
+        className="w-full rounded-md border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none placeholder:text-neutral-600 focus:border-brand-500"
       />
       <div className="flex flex-wrap items-center gap-1.5">
         {(["all", "Pflicht", "Wahlpflicht"] as Filter[]).map((f) => (
@@ -63,7 +63,7 @@ export default function Sidebar({ program, plan, lang, courses, onOpen, onAddCus
             key={f}
             type="button"
             onClick={() => setFilter(f)}
-            className={`${chip} ${filter === f ? "bg-neutral-100 text-neutral-900" : "bg-neutral-900 text-neutral-400 hover:text-neutral-200"}`}
+            className={`${chip} ${filter === f ? "bg-brand-500 text-white" : "bg-neutral-900 text-neutral-400 hover:text-neutral-200"}`}
           >
             {f === "all" ? tr(lang, "all") : f === "Pflicht" ? tr(lang, "pflicht") : tr(lang, "wahlpflicht")}
           </button>
@@ -140,7 +140,7 @@ export default function Sidebar({ program, plan, lang, courses, onOpen, onAddCus
               onChange={(e) => setCustomName(e.target.value)}
               placeholder={tr(lang, "customName")}
               aria-label={tr(lang, "customName")}
-              className="min-w-0 flex-1 rounded-md border border-neutral-800 bg-neutral-900 px-2 py-1.5 text-sm outline-none focus:border-neutral-600"
+              className="min-w-0 flex-1 rounded-md border border-neutral-800 bg-neutral-900 px-2 py-1.5 text-sm outline-none focus:border-brand-500"
             />
             <input
               type="number"
@@ -153,7 +153,7 @@ export default function Sidebar({ program, plan, lang, courses, onOpen, onAddCus
             />
             <button
               type="submit"
-              className="rounded-md bg-neutral-100 px-3 text-sm text-neutral-900 hover:bg-white"
+              className="rounded-md bg-brand-500 px-3 text-sm font-medium text-white hover:bg-brand-600"
             >
               {tr(lang, "add")}
             </button>
