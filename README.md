@@ -28,15 +28,16 @@ npm run scrape -- 462589642    # one programme
 Wahlpflicht area rules are not machine-readable in the eKVV; they are hand-written from the FsB PDF in
 `lib/rules.ts`.
 
-| Programme                                             | eKVV variante |
-| ----------------------------------------------------- | ------------- |
-| M.Sc. Naturwissenschaftliche Informatik (area rules)  | 462589642     |
-| B.Sc. Naturwissenschaftliche Informatik               | 453996665     |
-| B.Sc. Informatik (Kernfach)                           | 453998098     |
-| B.Sc. Künstliche Intelligenz und Kognitive Informatik | 405818172     |
-| M.Sc. Data Science                                    | 569518710     |
-| M.Sc. Intelligente Interaktive Systeme                | 366747897     |
-| M.Sc. Genome Based Systems Biology                    | 189447354     |
+| Programme                                                                | eKVV variante |
+| ------------------------------------------------------------------------ | ------------- |
+| M.Sc. Naturwissenschaftliche Informatik, FsB 2025 (area rules)           | 462589642     |
+| M.Sc. Naturwissenschaftliche Informatik, FsB 2016, expiring (area rules) | 81435339      |
+| B.Sc. Naturwissenschaftliche Informatik                                  | 453996665     |
+| B.Sc. Informatik (Kernfach)                                              | 453998098     |
+| B.Sc. Künstliche Intelligenz und Kognitive Informatik                    | 405818172     |
+| M.Sc. Data Science                                                       | 569518710     |
+| M.Sc. Intelligente Interaktive Systeme                                   | 366747897     |
+| M.Sc. Genome Based Systems Biology                                       | 189447354     |
 
 ## Development
 
