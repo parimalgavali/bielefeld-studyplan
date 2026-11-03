@@ -1,4 +1,4 @@
-import type { Text } from "./types";
+import type { SemesterType, Text } from "./types";
 
 export interface Area {
   id: string;
@@ -9,12 +9,17 @@ export interface Area {
   codes?: string[];
   codePrefixes?: string[];
   note?: Text;
+  /** Badge shown on planned modules. */
+  short?: Text;
 }
 
 export interface ProgramRules {
   source: Text;
   sourceUrl: string;
   areas: Area[];
+  /** Last semester in which this FsB version applies. */
+  validUntil?: { term: SemesterType; year: number };
+  notice?: Text;
 }
 
 const WP_INF = [
@@ -139,10 +144,104 @@ export const RULES: Record<string, ProgramRules> = {
       },
     ],
   },
+  "81435339": {
+    source: {
+      de: "FsB Naturwissenschaftliche Informatik (M.Sc.) vom 30.09.2016 i. d. F. vom 31.03.2023, Ziffer 6",
+      en: "FsB Naturwissenschaftliche Informatik (M.Sc.), 30 Sept 2016 as amended 31 March 2023, section 6",
+    },
+    sourceUrl: "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/81435334/pdf",
+    validUntil: { term: "WiSe", year: 2027 },
+    notice: {
+      de: "Auslaufende Version: für Einschreibungen von WiSe 16/17 bis SoSe 25 mit Abschluss bis Ende WiSe 27/28. Ab SoSe 28 gilt die FsB 2025 (früherer Wechsel auf Antrag möglich).",
+      en: "Expiring version: for students enrolled from WiSe 16/17 to SoSe 25 who finish by the end of WiSe 27/28. From SoSe 28 the FsB 2025 applies (switching earlier is possible on request).",
+    },
+    areas: [
+      {
+        id: "pflicht",
+        name: { de: "Projekt und Masterarbeit", en: "Project and Master's thesis" },
+        lp: 40,
+        codes: ["39-M-Inf-P1_NWI", "39-M-Inf-MA_NWI"],
+      },
+      {
+        id: "grundlagen",
+        name: { de: "Grundlagen Ergänzung", en: "Foundations supplement" },
+        lp: 20,
+        codes: [
+          ...["10", "11", "12", "13_b", "AAE", "AB", "AGAE", "AIAI", "AKS", "AR", "ART", "BMI", "BV", "CG"]
+            .concat(["CV", "DB2", "DKI", "DM", "EAA", "EMS", "FL", "FL_a", "IR", "IV", "KR", "KRY", "MK"])
+            .concat(["ML", "MR_a", "NE1", "NN", "NP", "RM", "RT_a", "RT2_a", "SE_a", "SNLP", "VHM", "VR"])
+            .map((k) => `39-Inf-${k}`),
+          "39-M-Inf-PS",
+        ],
+        note: {
+          de: "Mindestens 10 LP davon benotet; 10 LP zählen nicht zur Gesamtnote.",
+          en: "At least 10 LP of these graded; 10 LP do not count towards the final grade.",
+        },
+      },
+      {
+        id: "vinf",
+        name: { de: "Vertiefung Informatik", en: "Specialisation Computer Science" },
+        lp: 20,
+        codes: [
+          "39-Inf-IZV",
+          "39-Inf-SAB_a",
+          ...["ABI", "ADA", "ADS", "AG", "AIS", "AMN", "ASE", "BM", "CA", "CS", "DL", "ES", "FA", "GMP"]
+            .concat(["IMD", "ISB", "IT_S", "K", "KR", "KR_P", "LEA", "MI", "MWV", "NE2", "PDV", "RNA"])
+            .concat(["RPRS", "S", "SSV", "SW", "TMKD", "VBD", "VDM", "VHC_a", "VKI", "VML", "VNN"])
+            // MBP is not in the FsB pool; its eKVV module page assigns it to "Vertiefung Informatik".
+            .concat(["MBP"])
+            .map((k) => `39-M-Inf-${k}`),
+        ],
+      },
+      {
+        id: "vnat",
+        name: { de: "Vertiefung Naturwissenschaften", en: "Specialisation Natural Sciences" },
+        lp: 20,
+        codes: ["39-M-Inf-RDM", "39-VN", "39-VN_5b", "39-VN_10b", "39-VN_10u", "39-VN_15u"],
+        codePrefixes: ["20-", "21-", "24-", "28-"],
+        note: {
+          de: "Auch Bachelor- oder Mastermodule aus Biologie, Chemie, Physik, Mathematik oder Molekularer Biotechnologie (39-VN).",
+          en: "Also Bachelor's or Master's modules from biology, chemistry, physics, mathematics or Molecular Biotechnology (39-VN).",
+        },
+      },
+      {
+        id: "vmath",
+        name: { de: "Vertiefung Mathematik für Naturwissenschaften", en: "Mathematics for Natural Sciences" },
+        lp: 10,
+        codes: ["39-M-Inf-VMNT", "39-M-Inf-MB", "39-Inf-ASB", "39-Inf-WR"],
+      },
+      {
+        id: "ierg",
+        name: { de: "Individueller Ergänzungsbereich", en: "Individual supplementary area" },
+        lp: 10,
+        codes: ["39-M-Inf-MIKE"],
+        note: {
+          de: "10 LP aus beliebigen Lehrveranstaltungen (als eigenes Modul hinzufügen).",
+          en: "10 LP from any courses (add them as a custom module).",
+        },
+      },
+    ],
+  },
 };
 
+const SHORT: Record<string, Text> = {
+  pflicht: { de: "Pflicht", en: "core" },
+  vnwi: { de: "V-NWI", en: "NWI" },
+  vinf: { de: "V-Inf", en: "CS" },
+  vnat: { de: "V-Nat", en: "science" },
+  mathe: { de: "Mathe", en: "maths" },
+  vmath: { de: "Mathe", en: "maths" },
+  grundlagen: { de: "Grundl.", en: "found." },
+  ierg: { de: "IEB", en: "indiv." },
+};
+for (const r of Object.values(RULES)) for (const a of r.areas) a.short ??= SHORT[a.id];
+
 export function areaCandidates(rules: ProgramRules, code: string): string[] {
-  const exact = rules.areas.filter((a) => a.codes?.includes(code)).map((a) => a.id);
+  // eKVV lists re-versioned modules as e.g. 39-Inf-NN_ver1; the FsB pools name only 39-Inf-NN.
+  const base = code.replace(/_ver\d+$/, "");
+  const exact = rules.areas
+    .filter((a) => a.codes?.includes(code) || a.codes?.includes(base))
+    .map((a) => a.id);
   const prefix = rules.areas
     .filter((a) => !exact.includes(a.id) && a.codePrefixes?.some((p) => code.startsWith(p)))
     .map((a) => a.id);

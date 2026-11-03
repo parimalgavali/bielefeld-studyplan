@@ -7,10 +7,36 @@
 
 :root {
   color-scheme: dark;
+  --app-bg: #0a0a0a;
+  --app-fg: #e5e5e5;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --app-bg: #ffffff;
+  --app-fg: #171717;
+  /* The UI is written dark-first; light mode mirrors the neutral scale and darkens accents. */
+  --color-neutral-50: oklch(14.5% 0 none);
+  --color-neutral-100: oklch(20.5% 0 none);
+  --color-neutral-200: oklch(26.9% 0 none);
+  --color-neutral-300: oklch(37.1% 0 none);
+  --color-neutral-400: oklch(43.9% 0 none);
+  --color-neutral-600: oklch(70.8% 0 none);
+  --color-neutral-700: oklch(87% 0 none);
+  --color-neutral-800: oklch(92.2% 0 none);
+  --color-neutral-900: oklch(97% 0 none);
+  --color-neutral-950: oklch(98.5% 0 none);
+  --color-sky-400: oklch(58.8% 0.158 241.966);
+  --color-amber-200: oklch(47.3% 0.137 46.201);
+  --color-amber-300: oklch(55.5% 0.163 48.998);
+  --color-amber-400: oklch(66.6% 0.179 58.318);
+  --color-emerald-400: oklch(59.6% 0.145 163.225);
+  --color-red-300: oklch(50.5% 0.213 27.518);
+  --color-red-400: oklch(57.7% 0.245 27.325);
 }
 
 body {
-  background: #0a0a0a;
-  color: #e5e5e5;
+  background: var(--app-bg);
+  color: var(--app-fg);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }

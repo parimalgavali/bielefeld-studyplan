@@ -9,6 +9,8 @@
   "semesters": 4,
   "lp": 120,
   "startTerms": ["WiSe"],
+  "edition": null,
+  "expiring": false,
   "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/569518710",
   "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/master-as/datascience/pdf",
   "scrapedAt": "2026-11-03",

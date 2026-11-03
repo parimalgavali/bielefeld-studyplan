@@ -7,7 +7,7 @@ import {
   parseTurnus,
 } from "../lib/ekvv/parse";
 import type { Module, Program, ProgramSummary } from "../lib/types";
-import { PROGRAM_IDS } from "./programs";
+import { PROGRAM_IDS, PROGRAMS } from "./programs";
 
 const USER_AGENT =
   "bielefeld-studyplan/0.1 (+https://github.com/parimalgavali/bielefeld-studyplan; unofficial student project)";
@@ -110,6 +110,8 @@ async function scrapeProgram(id: string): Promise<Program> {
     semesters: overview.semesters,
     lp: overview.lp,
     startTerms: overview.startTerms,
+    edition: PROGRAMS.find((p) => p.id === id)?.edition ?? null,
+    expiring: overview.expiring,
     ekvvUrl: `${EKVV_BASE}variante/${id}`,
     fsbUrl: overview.fsbPath ? `https://ekvv.uni-bielefeld.de${overview.fsbPath}` : null,
     scrapedAt: new Date().toISOString().slice(0, 10),
@@ -137,6 +139,8 @@ async function main() {
       degree: p.degree,
       semesters: p.semesters,
       lp: p.lp,
+      edition: p.edition ?? null,
+      expiring: p.expiring ?? false,
     });
   }
   writeFileSync("data/programs/index.json", JSON.stringify(index, null, 2) + "\n");

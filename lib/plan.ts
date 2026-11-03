@@ -52,6 +52,17 @@ export function semesterLabel(plan: Pick<Plan, "startTerm" | "startYear">, index
   return half % 2 === 1 ? `WiSe ${yy(year)}/${yy(year + 1)}` : `SoSe ${yy(year)}`;
 }
 
+function termIndex(term: SemesterType, year: number): number {
+  return year * 2 + (term === "WiSe" ? 1 : 0);
+}
+
+/** Indices of non-empty semesters that fall after the given last semester. */
+export function semestersAfter(plan: Plan, until: { term: SemesterType; year: number }): number[] {
+  const start = termIndex(plan.startTerm, plan.startYear);
+  const last = termIndex(until.term, until.year);
+  return plan.semesters.flatMap((s, i) => (s.length && start + i > last ? [i] : []));
+}
+
 export function resolveItem(program: Program, plan: Plan, key: string): PlanItem | null {
   if (key.startsWith(CUSTOM_PREFIX)) {
     const c = plan.custom.find((m) => CUSTOM_PREFIX + m.id === key);

@@ -9,6 +9,8 @@
   "semesters": 6,
   "lp": 120,
   "startTerms": ["WiSe"],
+  "edition": null,
+  "expiring": false,
   "ekvvUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/variante/453998098",
   "fsbUrl": "https://ekvv.uni-bielefeld.de/sinfo/publ/bachelor/informatik/pdf",
   "scrapedAt": "2026-11-03",
