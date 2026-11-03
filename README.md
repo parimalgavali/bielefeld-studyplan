@@ -4,7 +4,7 @@ Unofficial drag-and-drop semester planner for degree programmes at Universität 
 inspired by [UCI 4 Year Planner](https://github.com/calebvergene/uci4yearplan).
 
 - Pick your programme and start semester (WiSe/SoSe); drag modules from the eKVV module list into semesters.
-- Expand a module (▸) to see its courses (Vorlesung, Übung, Seminar …) per semester since WiSe 24/25, and drag a
+- Expand a module (▸) to see its courses (Vorlesung, Übung, Seminar …) per semester since SoSe 24, and drag a
   concrete course into a semester: its module is planned there (LP counted once) and the course is shown under it.
 - Live checks: total LP vs. the programme target, missing Pflicht modules, modules placed in a semester
   they are not offered in (Turnus), and prerequisites from the module description that are not planned earlier.
@@ -28,7 +28,7 @@ npm run scrape -- 462589642    # one programme
 npm run scrape:courses         # courses of the listed programmes' modules per semester (~45 min)
 ```
 
-`scripts/scrape-courses.ts` reads `kvv_publ/publ/ModulDetail.jsp?id=<module>` for every semester from WiSe 2024 on.
+`scripts/scrape-courses.ts` reads `kvv_publ/publ/ModulDetail.jsp?id=<module>` for every semester from SoSe 2024 on.
 The eKVV keeps the selected semester in the session, so it selects each semester via `semester_AuswahlAct` first and
 checks that every page shows the expected one. Exams (Art `Kl`) are skipped. Output: `data/courses.json`.
 

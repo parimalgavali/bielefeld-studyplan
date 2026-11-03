@@ -5,7 +5,7 @@ import type { CourseData, Program } from "../lib/types";
 import { dropCache, fetchHtml, isCached } from "./http";
 
 /** First semester whose courses are collected. */
-const FROM = "WiSe 2024";
+const FROM = "SoSe 2024";
 
 const order = (key: string) => {
   const [term, year] = key.split(" ");
