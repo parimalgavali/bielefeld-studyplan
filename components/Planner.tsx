@@ -25,7 +25,9 @@ import {
   emptyPlan,
   encodePlan,
   findModule,
+  isEmptyPlan,
   missingPflicht,
+  parsePlan,
   profileGroups,
   removeCourse,
   removeFromPlan,
@@ -57,11 +59,19 @@ function currentStartYear(): number {
   return now.getMonth() >= 9 ? now.getFullYear() : now.getFullYear() - 1;
 }
 
-function loadStored(): Record<string, Plan> {
+function loadStored(): { active: unknown; plans: Record<string, Plan> } {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}").plans ?? {};
+    const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}");
+    const plans: Record<string, Plan> = {};
+    if (raw && typeof raw.plans === "object" && raw.plans !== null) {
+      for (const [id, value] of Object.entries(raw.plans)) {
+        const plan = parsePlan(value);
+        if (plan && plan.programId === id) plans[id] = plan;
+      }
+    }
+    return { active: raw?.active, plans };
   } catch {
-    return {};
+    return { active: null, plans: {} };
   }
 }
 
@@ -82,24 +92,27 @@ export default function Planner() {
   }, []);
 
   useEffect(() => {
-    const stored = loadStored();
-    const shared = new URLSearchParams(window.location.hash.slice(1)).get("plan");
-    const sharedPlan = shared ? decodePlan(shared) : null;
-    let active = (JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}").active as string) ?? DEFAULT_PROGRAM;
-    if (sharedPlan && PROGRAMS.some((p) => p.id === sharedPlan.programId)) {
-      stored[sharedPlan.programId] = sharedPlan;
-      active = sharedPlan.programId;
-      history.replaceState(null, "", window.location.pathname);
-    }
-    if (!PROGRAMS.some((p) => p.id === active)) active = DEFAULT_PROGRAM;
+    const { active: storedActive, plans: stored } = loadStored();
     const savedLang = localStorage.getItem(LANG_KEY);
-    setLang(
+    const initialLang: Lang =
       savedLang === "de" || savedLang === "en"
         ? savedLang
         : navigator.language.startsWith("de")
           ? "de"
-          : "en",
-    );
+          : "en";
+    const shared = new URLSearchParams(window.location.hash.slice(1)).get("plan");
+    const sharedPlan = shared ? decodePlan(shared) : null;
+    let active = typeof storedActive === "string" ? storedActive : DEFAULT_PROGRAM;
+    if (shared) history.replaceState(null, "", window.location.pathname);
+    if (sharedPlan && PROGRAMS.some((p) => p.id === sharedPlan.programId)) {
+      const existing = stored[sharedPlan.programId];
+      if (!existing || isEmptyPlan(existing) || window.confirm(tr(initialLang, "importConfirm"))) {
+        stored[sharedPlan.programId] = sharedPlan;
+        active = sharedPlan.programId;
+      }
+    }
+    if (!PROGRAMS.some((p) => p.id === active)) active = DEFAULT_PROGRAM;
+    setLang(initialLang);
     setTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
     setPlans(stored);
     setProgramId(active);

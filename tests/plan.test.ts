@@ -7,6 +7,7 @@ import {
   emptyPlan,
   encodePlan,
   missingPflicht,
+  parsePlan,
   prerequisiteCodes,
   removeCourse,
   removeFromPlan,
@@ -171,6 +172,30 @@ describe("share link", () => {
     const old: Partial<typeof p> = emptyPlan(program, 2025);
     delete old.courses;
     expect(decodePlan(encodePlan(old as typeof p))?.courses).toEqual({});
+  });
+
+  it("rejects links whose plan fields have the wrong shape", () => {
+    const base = emptyPlan(program, 2025);
+    const bad: unknown[] = [
+      { ...base, semesters: [5] },
+      { ...base, semesters: [[1]] },
+      { ...base, startTerm: "Summer" },
+      { ...base, startYear: "2025" },
+      { ...base, custom: [{ id: "a", name: "x", lp: "3" }] },
+      { ...base, custom: {} },
+      { ...base, areaOverrides: { a: 1 } },
+      { ...base, profile: 7 },
+      { ...base, courses: { a: [{ term: "WiSe 2025" }] } },
+      { ...base, courses: [] },
+      [],
+      null,
+    ];
+    for (const value of bad) expect(decodePlan(encodePlan(value as typeof base))).toBeNull();
+  });
+
+  it("drops unknown fields from untrusted plans", () => {
+    const p = emptyPlan(program, 2025);
+    expect(parsePlan({ ...p, extra: "x" })).toEqual(p);
   });
 });
 
