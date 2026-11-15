@@ -254,19 +254,66 @@ export function encodePlan(plan: Plan): string {
   return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
+const isRecord = (v: unknown): v is Record<string, unknown> =>
+  typeof v === "object" && v !== null && !Array.isArray(v);
+
+const isStringArray = (v: unknown): v is string[] =>
+  Array.isArray(v) && v.every((x) => typeof x === "string");
+
+const isCustom = (v: unknown): v is CustomModule =>
+  isRecord(v) &&
+  typeof v.id === "string" &&
+  typeof v.name === "string" &&
+  typeof v.lp === "number" &&
+  Number.isFinite(v.lp);
+
+const isCourse = (v: unknown): v is PlannedCourse =>
+  isRecord(v) && typeof v.term === "string" && typeof v.id === "string";
+
+/** Returns the plan only if every field has the expected shape (data from links or storage is untrusted). */
+export function parsePlan(value: unknown): Plan | null {
+  if (!isRecord(value)) return null;
+  const { programId, startTerm, startYear, semesters } = value;
+  const custom = value.custom ?? [];
+  const areaOverrides = value.areaOverrides ?? {};
+  const profile = value.profile ?? null;
+  const courses = value.courses ?? {};
+  if (typeof programId !== "string") return null;
+  if (startTerm !== "WiSe" && startTerm !== "SoSe") return null;
+  if (typeof startYear !== "number" || !Number.isInteger(startYear)) return null;
+  if (!Array.isArray(semesters) || !semesters.every(isStringArray)) return null;
+  if (!Array.isArray(custom) || !custom.every(isCustom)) return null;
+  if (!isRecord(areaOverrides) || !Object.values(areaOverrides).every((v) => typeof v === "string"))
+    return null;
+  if (profile !== null && typeof profile !== "string") return null;
+  if (!isRecord(courses) || !Object.values(courses).every((v) => Array.isArray(v) && v.every(isCourse)))
+    return null;
+  return {
+    programId,
+    startTerm,
+    startYear,
+    semesters: semesters.map((s) => [...s]),
+    custom: custom.map(({ id, name, lp }) => ({ id, name, lp })),
+    areaOverrides: { ...(areaOverrides as Record<string, string>) },
+    profile,
+    courses: Object.fromEntries(
+      Object.entries(courses as Record<string, PlannedCourse[]>).map(([k, list]) => [
+        k,
+        list.map(({ term, id }) => ({ term, id })),
+      ]),
+    ),
+  };
+}
+
+export function isEmptyPlan(plan: Plan): boolean {
+  return plan.semesters.every((s) => s.length === 0) && plan.custom.length === 0;
+}
+
 export function decodePlan(encoded: string): Plan | null {
   try {
     const bin = atob(encoded.replace(/-/g, "+").replace(/_/g, "/"));
     const bytes = Uint8Array.from(bin, (c) => c.charCodeAt(0));
-    const plan = JSON.parse(new TextDecoder().decode(bytes)) as Plan;
-    if (!plan || typeof plan.programId !== "string" || !Array.isArray(plan.semesters)) return null;
-    return {
-      ...plan,
-      custom: plan.custom ?? [],
-      areaOverrides: plan.areaOverrides ?? {},
-      profile: plan.profile ?? null,
-      courses: plan.courses ?? {},
-    };
+    return parsePlan(JSON.parse(new TextDecoder().decode(bytes)));
   } catch {
     return null;
   }

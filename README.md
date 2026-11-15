@@ -12,7 +12,7 @@ inspired by [UCI 4 Year Planner](https://github.com/calebvergene/uci4yearplan).
   2016 version (variante 81435339) — with every Wahlpflicht area from the respective FsB checked. Other programmes are
   scraped but hidden in the picker (`LISTED_PROGRAM_IDS` in `lib/listed.ts`) until their FsB rules are written.
 - Custom modules for anything not in the list (e.g. Individueller Ergänzungsbereich).
-- German / English, light / dark theme, plan saved in your browser, share a plan as a link. No account, no server.
+- German / English, light / dark theme, plan saved in your browser, share a plan as a link (links are validated, and replacing a saved plan asks first). No account, no server.
 
 > Not affiliated with Bielefeld University. The Fächerspezifische Bestimmungen (FsB) of your programme are binding.
 

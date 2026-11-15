@@ -40,6 +40,10 @@ const STRINGS = {
     de: "liegt nach {last} – dann gilt diese FsB nicht mehr",
     en: "is after {last} – this FsB no longer applies then",
   },
+  importConfirm: {
+    de: "Dieser Link ersetzt deinen gespeicherten Plan für diesen Studiengang. Fortfahren?",
+    en: "This link replaces your saved plan for this programme. Continue?",
+  },
   resetConfirm: { de: "Den ganzen Plan leeren?", en: "Clear the whole plan?" },
   details: { de: "Details", en: "Details" },
   close: { de: "Schließen", en: "Close" },
